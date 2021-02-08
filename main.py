@@ -4,7 +4,15 @@ from itertools import groupby
 from collections import Counter
 from sys import exit
 import firebase_colecao
+import leitura_csv
 import urllib.request
+
+"""
+necessario instalar 
+pip3 install unidecode
+pip3 install pyrebase
+sudo apt install python3-tk
+"""
 
 def limpa_lista(lista):
     '''Limpa a lista retirando os acentos e demais caracteres especiais'''
@@ -76,7 +84,7 @@ try:
 except FileNotFoundError:
     print('Baixando o CSV "Android", aguarde um momento...')
     firebase_colecao.baixar_CSV_android()
-    reload()
+
     
 try:
     n_lista_total = pais_csv('bancoNotas.csv')[1:]
@@ -92,7 +100,9 @@ while True:
           f'Digite 1 para exibir totais de moedas da Ucoin\n'
           f'Digite 2 para exibir totais de moedas do Celular\n'
           f'Digite 3 para exibir divergencias em moedas\n'
-          f'Digite 4 para totais em notas')
+          f'Digite 4 para totais em notas\n'
+          f'Digite 5 para Pesquisar\n'
+          f'Sair')
     valor = input('Opção: ')
     if valor == '1':
         exibe_totais(u_lista_unica, u_lista_total)
@@ -102,5 +112,9 @@ while True:
         exibe_divergencias()
     elif valor == '4':
         exibe_totais(n_lista_unica,n_lista_total)
+    elif valor == '5':
+        leitura_csv.pesquisar()
+    elif valor == 'sair':
+        exit()
     else:
         break

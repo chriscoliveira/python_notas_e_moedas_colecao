@@ -24,53 +24,43 @@ def atualizar():
     storage.child("Y2hyaXN0aWFuLmNvbGl2ZWlyYUBnbWFpbC5jb20=/bancodados/bancoNotas.csv").download("bancoNotas.csv")
     print("Download concluido bancoNotas")
 
-
-number = ""
-contador = 0
-
-escolha = input("Escolha o que deseja buscar\nAtualizar, Nota, Moeda :  ")
-if(escolha == 'Atualizar' or escolha == 'atualizar'):
-    atualizar()
-if(escolha == 'Nota' or escolha == 'Notas' or escolha == 'nota' or escolha == 'notas'):
-    arquivo = 'bancoNotas.csv'
-if(escolha == 'Moedas' or escolha == 'moedas' or escolha == 'Moeda' or escolha == 'moeda'):
-    arquivo = 'bancoMoedas.csv'
-lista = []    
-while (number != "sair"):
-    #input number you want to search
-    if contador != 0:
-        print("Encontrado "+str(contador)+" resultados\n\n\n\n\n")
-    if number == "nota" or  number == "Nota" or number == "notas" or  number == "Notas" :
-        arquivo = 'bancoNotas.csv'
-    if number == "moeda" or  number == "moedas" or number == "Moeda" or  number == "Moedas" :
-        arquivo = 'bancoMoedas.csv'        
+def pesquisar():
+    number = ""
     contador = 0
-    number = input("Pesquisar em "+escolha+": ")
-    #read csv, and split on "," the line
-    with open(arquivo, "rt") as f:
-        reader = csv.reader(f, delimiter=",") 
-        for row in reader:
-            for field in row:
-                if field == number:
-                    #print(row[0] + " - Ano " + row[1] + " - Cat " + row[2] + " - $" + row[3] + " " + row[4] + " " + row[5] + " " + row[6])
-                    lista = [row[1], row[2], row[3], row[4], row[5], row[6]]
-                    print(lista)
-                    contador = contador + 1
+
+    escolha = input("Escolha o que deseja buscar\nAtualizar, Nota, Moeda :  ")
+    if(escolha == 'Atualizar' or escolha == 'atualizar'):
+        atualizar()
+        return
+    if(escolha == 'Nota' or escolha == 'Notas' or escolha == 'nota' or escolha == 'notas'):
+        arquivo = 'bancoNotas.csv'
+    if(escolha == 'Moedas' or escolha == 'moedas' or escolha == 'Moeda' or escolha == 'moeda'):
+        arquivo = 'bancoMoedas.csv'
+    lista = []
+    while (number != "sair"):
+        #input number you want to search
+        if contador != 0:
+            print("Encontrado "+str(contador)+" resultados\n\n\n\n\n")
+        if number == "nota" or  number == "Nota" or number == "notas" or  number == "Notas" :
+            arquivo = 'bancoNotas.csv'
+        if number == "moeda" or  number == "moedas" or number == "Moeda" or  number == "Moedas" :
+            arquivo = 'bancoMoedas.csv'
+        contador = 0
+        number = input("para sair digite 'sair'\nPesquisar em "+escolha+": ")
+        #read csv, and split on "," the line
+        if number == 'sair':
+            exit()
+        with open(arquivo, "rt") as f:
+            reader = csv.reader(f, delimiter=",")
+            for row in reader:
+                for field in row:
+                    if field.upper() == number.upper():
+                        print(f'>{row[0]}\tAno:{row[1]}\tKrause:{row[2]}\tValor:{row[3]}\t{row[4]}\tTipo:{row[5]}\tQualidade:{row[6]}')
+                        contador = contador + 1
 
 
 
+if __name__ == '__main__':
+    while True:
+        pesquisar()
 
-
-
-
-'''
-with open('bancoNotas.csv','rb') as file:
-    leitor = csv.reader(file)
-    for coluna in leitor:
-	print(coluna[2], coluna[0], coluna[1], coluna[3], coluna[4] )
-
-	if krause in coluna:
-		print "Ja tenho"
-	else:
-		print "Nao tenho"
-'''
