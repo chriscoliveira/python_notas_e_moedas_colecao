@@ -1,120 +1,60 @@
 import collections
-import csv, unidecode
-from itertools import groupby
-from collections import Counter
+import csv
+import unidecode
 from sys import exit
-import firebase_colecao
-import leitura_csv
-import urllib.request
+from lib import *
+
+# from docs import firebase_colecao, leitura_csv
+
 
 """
 necessario instalar 
 pip3 install unidecode
-pip3 install pyrebase
+pip3 install pyrebase4
 sudo apt install python3-tk
 """
 
-def limpa_lista(lista):
-    '''Limpa a lista retirando os acentos e demais caracteres especiais'''
-    lista = ['ESTADOS UNIDOS' if v == 'EUA' else v for v in lista]
-    lista = ['IRAN' if v == 'IRAO' else v for v in lista]
-    lista = ['AFRICA OCIDENTAL' if v == 'AFRICA OCCIDENTAL' else v for v in lista]
-    lista = ['ALEMANHA TERCEIRO REICH' if v == 'ALEMANHA - TERCEIRO REICH' else v for v in lista]
+'''
+MOEDAS verifica se existe o csv baixado da ucoin
+'''
+u_lista_total = abrecsv_ucoin()
+u_lista_unica = lista_unica(u_lista_total)
 
-    try:
-        lista.remove('IMPERIO ROMANO')
-    except:
-        pass
-    return lista
+'''
+MOEDAS verifica se existe o csv do firebase do google, senao faz o download
+'''
+a_lista_total = abrecsv_google_moedas()
+a_lista_unica = lista_unica(a_lista_total)
 
+'''
+NOTAS verifica se existe o csv do firebase do google, senao faz o download
+'''
+n_lista_total = abrecsv_google_notas()
+n_lista_unica = lista_unica(n_lista_total)
 
-def lista_unica(lista_total):
-    '''funcao que retira os itens repetidos'''
-    lista = list(dict.fromkeys(lista_total))
-    lista = limpa_lista(lista)
-    return lista
-
-
-def pais_csv(arquivo, delimitador=','):
-    """ funcao que le o arquivo csv e retorna uma lista em UPPER() """
-    pais = []
-    with open(arquivo, newline='', encoding='utf8') as file:
-        lines = csv.reader(file, delimiter=delimitador)
-        next(file)
-        pais.append([row[0].rstrip().upper] for row in lines)
-        for row in lines:
-            pais.append(unidecode.unidecode(row[0].rstrip().upper()))
-
-    pais = limpa_lista(pais)
-    return pais
-
-
-def exibe_totais(unica, total):
-    resultado = collections.Counter(total)
-    ucoin = collections.Counter(u_lista_total)
-
-    for pais in range(len(resultado)):
-        print(f'{unica[pais]}: {resultado[unica[pais]]}')
-    print(f'Total Paises {pais}')
-
-
-def exibe_divergencias():
-    android_resultado = collections.Counter(a_lista_total)
-    ucoin_resultado = collections.Counter(u_lista_total)
-    print(f'\n{"*" * 65}\n  Verica se foi encontrado divergencias entre os 2 arquivos CSV\n{"*" * 65}\n')
-    for v in range(len(a_lista_unica)):
-        if not android_resultado[a_lista_unica[v]] == ucoin_resultado[a_lista_unica[v]]:
-            print(
-                f'\t{a_lista_unica[v]}\tAndroid:{android_resultado[a_lista_unica[v]]}\tUcoin:{ucoin_resultado[u_lista_unica[v]]}')
-
-    print(f'\nTotal Ucoin: {len(u_lista_total)}\nTotal Android: {len(a_lista_total)}')
-
-
-try:
-    u_lista_total = pais_csv('ucoin.csv')[1:]
-    u_lista_unica = lista_unica(u_lista_total)
-except FileNotFoundError:
-    print('Esta Faltando algum Arquivo CSV da Ucoin acesse\nhttps://pt.ucoin.net/uid26638?export=csv\n verifique\nSaindo...')
-    exit()
-
-
-try:
-    a_lista_total = pais_csv('bancoMoedas.csv')[1:]
-    a_lista_unica = lista_unica(a_lista_total)
-except FileNotFoundError:
-    print('Baixando o CSV "Android", aguarde um momento...')
-    firebase_colecao.baixar_CSV_android()
-
-    
-try:
-    n_lista_total = pais_csv('bancoNotas.csv')[1:]
-    n_lista_unica = lista_unica(n_lista_total)
-except FileNotFoundError:
-    print('Baixando o CSV "Android", aguarde um momento...')
-    firebase_colecao.baixar_CSV_android()
-    exit()
 # exibe_totais()
 
 while True:
-    print(f'\n{"#" * 65}\nConfere Moedas e Notas\n{"#" * 65}\n'
-          f'Digite 1 para exibir totais de moedas da Ucoin\n'
-          f'Digite 2 para exibir totais de moedas do Celular\n'
-          f'Digite 3 para exibir divergencias em moedas\n'
-          f'Digite 4 para totais em notas\n'
-          f'Digite 5 para Pesquisar\n'
-          f'Sair')
-    valor = input('Opção: ')
+    opcao = ['exibir totais de moedas da Ucoin', 'exibir totais de moedas do Celular', 'exibir divergencias em moedas',
+             'totais em notas', 'Pesquisar']
+    valor = menu('Confere Moedas e Notas',opcao)
+
+
     if valor == '1':
-        exibe_totais(u_lista_unica, u_lista_total)
+        exibe_totais(u_lista_unica, u_lista_total,'TOTAL_MOEDA_UCOIN')
+        continua = input('continue...')
     elif valor == '2':
-        exibe_totais(a_lista_unica, a_lista_total)
+        exibe_totais(a_lista_unica, a_lista_total,'TOTAL_MOEDA_ANDROID_APP')
+        continua = input('continue...')
     elif valor == '3':
-        exibe_divergencias()
+        exibe_divergencias(a_lista_unica, a_lista_total, u_lista_unica, u_lista_total)
+        continua = input('continue...')
     elif valor == '4':
-        exibe_totais(n_lista_unica,n_lista_total)
+        exibe_totais(n_lista_unica, n_lista_total,'TOTAL_NOTAS_ANDROID_APP')
+        continua = input('continue...')
     elif valor == '5':
-        leitura_csv.pesquisar()
-    elif valor == 'sair':
+        pesquisar()
+    elif valor == '6':
         exit()
     else:
-        break
+        print('Opção inválida!')
