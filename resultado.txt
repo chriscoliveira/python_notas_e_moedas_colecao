@@ -1,0 +1,5 @@
+>Brasil, ano 2020, KM# 652A, valor 1 REAL, qualidade  , material BIMETALICA: CENTRO DE ACO INOXIDAVEL  ANEL DE ACO COM REVESTIMENTO DE BRONZE, diametro 27MM, Valor venda 2.9;  
+>Brasil, ano 2020, KM# 651A, valor 50 CENTAVOS, qualidade  , material ACO INOXIDAVEL, diametro 23MM, Valor venda 1.28;  
+>Brasil, ano 2020, KM# 648, valor 5 CENTAVOS, qualidade  , material ACO COM REVESTIMENTO DE COBRE, diametro 21.9MM, Valor venda 1.48;  
+>Brasil, ano 2020, KM# 650, valor 25 CENTAVOS, qualidade  , material ACO COM REVESTIMENTO DE LATAO, diametro 25MM, Valor venda 2.09;  
+>Brasil, ano 2020, KM# 649.2, valor 10 CENTAVOS, qualidade  , material ACO COM REVESTIMENTO DE LATAO, diametro 20MM, Valor venda 1.55;  

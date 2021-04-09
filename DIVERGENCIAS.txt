@@ -1,0 +1,25 @@
+
+*****************************************************************
+  Verica se foi encontrado divergencias entre os 2 arquivos CSV
+*****************************************************************
+	JAPAO	Android:39	Ucoin:12
+	ESPANHA	Android:31	Ucoin:1
+	ALEMANHA	Android:29	Ucoin:1
+	ESTADOS UNIDOS DA AMERICA	Android:127	Ucoin:1
+	COLOMBIA	Android:6	Ucoin:5
+	REINO UNIDO	Android:35	Ucoin:1
+	BAHAMAS	Android:2	Ucoin:10
+	CHILE	Android:14	Ucoin:3
+	PARAGUAI	Android:7	Ucoin:4
+	PERU	Android:11	Ucoin:1
+	ARGENTINA	Android:27	Ucoin:46
+	MEXICO	Android:6	Ucoin:15
+	CANADA	Android:7	Ucoin:4
+	URUGUAI	Android:22	Ucoin:3
+	JUGOSLAVIA	Android:4	Ucoin:1
+	CUBA	Android:2	Ucoin:8
+	CHECOSLOVAQUIA	Android:1	Ucoin:11
+	ALEMANHA TERCEIRO REICH	Android:5	Ucoin:1
+
+Total Ucoin: 1292
+Total Android: 1187

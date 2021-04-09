@@ -1,9 +1,11 @@
 import collections
 import csv
-import unidecode
-import pyrebase
-from sys import exit
 import os
+from sys import exit
+
+import pandas as pd
+import pyrebase
+import unidecode
 
 
 def menu(msg, opcao):
@@ -43,36 +45,28 @@ def baixar_CSV_android():
     print("Download concluido bancoNotas")
 
 
-def pesquisar():
-    number = ""
+def pesquisar(arquivo, termo):
+    print(arquivo, termo)
     contador = 0
-    opcao = ['Nota', 'Moeda']
-    escolha = menu('Deseja pesquisar em:', opcao)
-
-    if (escolha == '1'):
-        arquivo = 'bancoNotas.csv'
-    if (escolha == '2'):
-        arquivo = 'bancoMoedas.csv'
-    lista = []
-    saida = str(len(opcao)+1)
-    while not escolha == saida:
-        print()
-        if contador != 0:
-            print("Encontrado " + str(contador) + " resultados\n")
-
-        contador = 0
-        termo = input("Para retornar digite 'voltar'\nPesquisar em " + opcao[int(escolha) - 1] + ": ")
-
-        if termo.upper() == 'VOLTAR':
-            break
+    saida = []
+    with open('resultado.txt', "w", encoding="utf8") as resultado:
         with open(arquivo, "rt", encoding="utf8") as f:
             reader = csv.reader(f, delimiter=",")
             for row in reader:
                 for field in row:
                     if field.upper() == termo.upper():
-                        print(
-                            f'>{row[0]}\tAno:{row[1]}\tKrause:{row[2]}\tValor:{row[3]}\t{row[4]}\tTipo:{row[5]}\tQualidade:{row[6]}')
+                        # print(row)
+                        # print(
+                        #     f'>{row[0]}, ano {row[1]}, {row[2]}, valor {row[3]}, moeda {row[4]}, '
+                        #     f'tipo {row[5]}, qualidade {row[6]}, material {row[7]}, diametro {row[8]}, '
+                        #     f'Valor venda {row[12]} ')
+                        saida.append([row[0], row[1], row[2], row[3], row[4], row[6], row[7], row[8], row[12]])
                         contador = contador + 1
+                        resultado.write(
+                            f'>{row[0]}, ano {row[1]}, {row[2]}, valor {row[3]} {row[4]}, '
+                            f'qualidade {row[6]}, material {row[7]}, diametro {row[8]}, '
+                            f'Valor venda {row[12]} \n')
+    print(pd.DataFrame(saida))
 
 
 def abrecsv_ucoin():
@@ -138,10 +132,10 @@ def pais_csv(arquivo, delimitador=','):
     return pais
 
 
-def exibe_totais(unica, total,tipo):
+def exibe_totais(unica, total, tipo):
     resultado = collections.Counter(total)
     # ucoin = collections.Counter(u_lista_total)
-    with open(f'{tipo.upper()}.txt','w') as file:
+    with open(f'{tipo.upper()}.txt', 'w') as file:
         file.write(f'{tipo.replace("_", " ")}\n\n')
         for pais in range(len(resultado)):
             print(f'{unica[pais]}: {resultado[unica[pais]]}')
@@ -150,17 +144,21 @@ def exibe_totais(unica, total,tipo):
         file.write(f'Total Paises {pais}\n')
 
 
-
 def exibe_divergencias(a_lista_unica, a_lista_total, u_lista_unica, u_lista_total):
     android_resultado = collections.Counter(a_lista_total)
     ucoin_resultado = collections.Counter(u_lista_total)
-    print(f'\n{"*" * 65}\n  Verica se foi encontrado divergencias entre os 2 arquivos CSV\n{"*" * 65}\n')
-    for v in range(len(a_lista_unica)):
-        if not android_resultado[a_lista_unica[v]] == ucoin_resultado[a_lista_unica[v]]:
-            print(
-                f'\t{a_lista_unica[v]}\tAndroid:{android_resultado[a_lista_unica[v]]}\tUcoin:{ucoin_resultado[u_lista_unica[v]]}')
+    with open(f'DIVERGENCIAS.txt', 'w') as file:
+        print(f'\n{"*" * 65}\n  Verica se foi encontrado divergencias entre os 2 arquivos CSV\n{"*" * 65}\n')
+        file.write(f'\n{"*" * 65}\n  Verica se foi encontrado divergencias entre os 2 arquivos CSV\n{"*" * 65}\n')
+        for v in range(len(a_lista_unica)):
+            if not android_resultado[a_lista_unica[v]] == ucoin_resultado[a_lista_unica[v]]:
+                print(
+                    f'\t{a_lista_unica[v]}\tAndroid:{android_resultado[a_lista_unica[v]]}\tUcoin:{ucoin_resultado[u_lista_unica[v]]}')
+                file.write(
+                    f'\t{a_lista_unica[v]}\tAndroid:{android_resultado[a_lista_unica[v]]}\tUcoin:{ucoin_resultado[u_lista_unica[v]]}\n')
 
-    print(f'\nTotal Ucoin: {len(u_lista_total)}\nTotal Android: {len(a_lista_total)}')
+        print(f'\nTotal Ucoin: {len(u_lista_total)}\nTotal Android: {len(a_lista_total)}')
+        file.write(f'\nTotal Ucoin: {len(u_lista_total)}\nTotal Android: {len(a_lista_total)}')
 
 
 if __name__ == '__main__':

@@ -53,7 +53,26 @@ while True:
         exibe_totais(n_lista_unica, n_lista_total,'TOTAL_NOTAS_ANDROID_APP')
         continua = input('continue...')
     elif valor == '5':
-        pesquisar()
+
+        contador = 0
+        opcao = ['Nota', 'Moeda']
+        escolha = menu('Deseja pesquisar em:', opcao)
+
+        if (escolha == '1'):
+            arquivo = 'bancoNotas.csv'
+        if (escolha == '2'):
+            arquivo = 'bancoMoedas.csv'
+        lista = []
+        saida = str(len(opcao) + 1)
+        while not escolha == saida:
+            print()
+            if contador != 0:
+                print("Encontrado " + str(contador) + " resultados\n")
+
+            termo = input("Para retornar digite 'voltar'\nPesquisar em " + opcao[int(escolha) - 1] + ": ")
+            if termo.upper() == 'VOLTAR':
+                break
+            pesquisar(arquivo,termo)
     elif valor == '6':
         exit()
     else:
