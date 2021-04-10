@@ -1,5 +1,0 @@
-                           0        1      2
-0                       PAIS  ANDROID  UCOIN
-1  ESTADOS UNIDOS DA AMERICA      127      1
-2                    URUGUAI       36     35
-3                     TOTAL      1293   1292

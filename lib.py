@@ -1,16 +1,17 @@
 import collections
 import csv
 import os
+from sys import exit
+
 import pandas as pd
 import pyrebase
 import unidecode
-from sys import exit
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 pd.set_option('max_colwidth', 100)
 pd.set_option('display.width', None)
-
+arquivo_txt = 'RESULTADO'
 
 def menu(msg, opcao):
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -54,14 +55,14 @@ def pesquisar(arquivo, termo):
     contador = 0
     saida = []
     lista = ''
-    with open('_resultado.txt', "w", encoding="utf8") as resultado1:
+    with open('_'+arquivo_txt+'.txt', "w", encoding="utf8") as resultado1:
         lista += 'PAIS, ANO, #, VALOR, MOEDA, QUALIDADE, MATERIAL, DIAMETRO, VENDA\n'
-        with open('resultado.txt', "w", encoding="utf8") as resultado:
+        with open(arquivo_txt+'.txt', "w", encoding="utf8") as resultado:
             with open(arquivo, "rt", encoding="utf8") as f:
                 reader = csv.reader(f, delimiter=",")
                 for row in reader:
                     for field in row:
-                        if field.upper() == termo.upper():
+                        if termo.upper() in field.upper() :
                             saida.append([row[0], row[1], row[2], row[3], row[4], row[6], row[7], row[8], row[12]])
                             lista += f'{row[0]}, {row[1]}, {row[2]}, {row[3]}, {row[4]}, {row[6]}, {row[7]}, {row[8]}, {row[12]}\n'
                             contador = contador + 1
@@ -98,6 +99,11 @@ def abrecsv_google_notas():
         print('Baixando o CSV "Android", aguarde um momento...')
         baixar_CSV_android()
         exit()
+def remove_txt():
+    os.remove('_RESULTADO.txt')
+    os.remove('RESULTADO.txt')
+    file = open('RESULTADO.txt','w+')
+    file1 = open('_RESULTADO.txt', 'w+')
 
 
 def limpa_lista(lista):
@@ -116,8 +122,9 @@ def limpa_lista(lista):
 
 def lista_unica(lista_total):
     '''funcao que retira os itens repetidos'''
-    lista = list(dict.fromkeys(lista_total))
+    lista = list(dict.fromkeys((lista_total)))
     lista = limpa_lista(lista)
+    lista = sorted(lista)
     return lista
 
 
@@ -135,20 +142,45 @@ def pais_csv(arquivo, delimitador=','):
     return pais
 
 
-def exibe_totais(unica, total, tipo):
+def quantidade_moedas(unica_ucoin, unica_android, total_ucoin, total_android, tipo):
+    remove_txt()
     saida = []
     lista = ''
-    resultado = collections.Counter(total)
+    resultado_u = collections.Counter(total_ucoin)
+    resultado_a = collections.Counter(total_android)
     # ucoin = collections.Counter(u_lista_total)
     with open(f'{tipo.upper()}.txt', 'w') as file:
         with open(f'_{tipo.upper()}.txt', 'w') as file1:
-            saida.append(['PAIS', 'QUANTIDADE'])
-            lista += f'PAIS, QUANTIDADE\n'
-            for pais in range(len(resultado)):
-                print(f'{unica[pais]}: {resultado[unica[pais]]}')
-                saida.append([unica[pais], resultado[unica[pais]]])
-                lista += f'{unica[pais]}, {resultado[unica[pais]]}\n'
+            saida.append(['PAIS', 'QTD UCOIN','PAIS','QTD ANDROID'])
+            lista += f'PAIS, QTD UCOIN, PAIS, QTD ANDROID\n'
+            for pais in range(len(resultado_a)):
+                print(f'{unica_ucoin[pais]}: {resultado_u[unica_ucoin[pais]]} \t {unica_android[pais]}: {resultado_a[unica_android[pais]]}')
+                saida.append([unica_ucoin[pais], resultado_u[unica_ucoin[pais]], unica_android[pais], resultado_a[unica_android[pais]]])
+                lista += f'{unica_ucoin[pais]}, {resultado_u[unica_ucoin[pais]]},{unica_android[pais]},{resultado_a[unica_android[pais]]}\n'
             print(f'Total Paises {pais}')
+            lista += f'Total Paises, {pais},0,0'
+            saida.append(['TOTAL', pais])
+            final = pd.DataFrame(saida)
+            file.write(str(final))
+            file1.write(str(lista))
+
+def quantidade_notas(unica, total,  tipo):
+    remove_txt()
+    saida = []
+    lista = ''
+    resultado_a = collections.Counter(total)
+
+    # ucoin = collections.Counter(u_lista_total)
+    with open(f'{tipo.upper()}.txt', 'w') as file:
+        with open(f'_{tipo.upper()}.txt', 'w') as file1:
+            saida.append(['PAIS', 'QTD UCOIN','PAIS','QTD ANDROID'])
+            lista += f'PAIS, QTD UCOIN, PAIS, QTD ANDROID\n'
+            for pais in range(len(resultado_a)):
+                print(f'{unica[pais]}: {resultado_a[unica[pais]]} ')
+                saida.append([unica[pais], resultado_a[unica[pais]]])
+                lista += f'{unica[pais]}, {resultado_a[unica[pais]]}\n'
+            print(f'Total Paises {pais}')
+            lista += f'Total Paises, {pais},0,0'
             saida.append(['TOTAL', pais])
             final = pd.DataFrame(saida)
             file.write(str(final))
@@ -156,19 +188,21 @@ def exibe_totais(unica, total, tipo):
 
 
 def exibe_divergencias(a_lista_unica, a_lista_total, u_lista_unica, u_lista_total):
+    remove_txt()
     android_resultado = collections.Counter(a_lista_total)
     ucoin_resultado = collections.Counter(u_lista_total)
     saida = []
     lista = ''
-    with open(f'DIVERGENCIAS.txt', 'w') as file:
-        with open(f'_DIVERGENCIAS.txt', 'w') as file1:
+    with open(arquivo_txt+'.txt', 'w') as file:
+        with open('_'+arquivo_txt+'.txt', 'w') as file1:
             print(f'\n{"*" * 65}\n  Verica se foi encontrado divergencias entre os 2 arquivos CSV\n{"*" * 65}\n')
             saida.append(['PAIS', 'ANDROID', 'UCOIN'])
             lista += 'PAIS, ANDROID, UCOIN\n'
             for v in range(len(a_lista_unica)):
                 if not android_resultado[a_lista_unica[v]] == ucoin_resultado[a_lista_unica[v]]:
                     print([a_lista_unica[v], android_resultado[a_lista_unica[v]], ucoin_resultado[u_lista_unica[v]]])
-                    saida.append([a_lista_unica[v], android_resultado[a_lista_unica[v]], ucoin_resultado[u_lista_unica[v]]])
+                    saida.append(
+                        [a_lista_unica[v], android_resultado[a_lista_unica[v]], ucoin_resultado[u_lista_unica[v]]])
                     lista += f'{a_lista_unica[v]}, {android_resultado[a_lista_unica[v]]}, {ucoin_resultado[u_lista_unica[v]]}\n'
             print([len(u_lista_total), len(a_lista_total)])
             saida.append(['TOTAL ', str(len(a_lista_total)), str(len(u_lista_total))])
@@ -178,18 +212,17 @@ def exibe_divergencias(a_lista_unica, a_lista_total, u_lista_unica, u_lista_tota
 
 
 def total(arquivo):
-    # print(arquivo, termo)
+    remove_txt()
     contador = 0
     saida = []
     lista = ''
-    with open('_resultado.txt', "w", encoding="utf8") as resultado1:
-
-        with open('resultado.txt', "w", encoding="utf8") as resultado:
+    with open('_'+arquivo_txt+'.txt', "w", encoding="utf8") as resultado1:
+        with open(arquivo_txt+'.txt', "w", encoding="utf8") as resultado:
             with open(arquivo, "rt", encoding="utf8") as f:
                 reader = csv.reader(f, delimiter=",")
                 for row in reader:
                     saida.append([row[0], row[1], row[2], row[3], row[4], row[6], row[7], row[8], row[12]])
-                    lista += f'{row[0]}, {row[1]}, {row[2]}, {row[3]}, {row[4]}, {row[6]}, {row[7]}, {row[8]}, {row[12]}\n'
+                    lista += f'{row[0]}, {row[1]}, {row[2]}, {row[3]}, {row[4]}, {row[6]}, {row[7]}, {row[8]}, {row[9]}, {row[10]}, {row[11]}, {row[12]}\n'
                     contador = contador + 1
 
             final = pd.DataFrame(saida)

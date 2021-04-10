@@ -10,6 +10,7 @@ from pandasmodel import PandasModel
 from PyQt5.QtWidgets import QMainWindow, QApplication
 from design import Ui_ColecaoMoedas
 
+arquivo_txt = 'RESULTADO'
 
 class MainUi(QMainWindow, Ui_ColecaoMoedas):
     def __init__(self, parent=None):
@@ -24,10 +25,10 @@ class MainUi(QMainWindow, Ui_ColecaoMoedas):
         self.n_lista_unica = lista_unica(self.n_lista_total)
 
         # atribui a função ao botao
-        self.btn_moeda_ucoin.clicked.connect(self.total_ucoin)
-        self.btn_moeda_celular.clicked.connect(self.total_celular)
+        self.btn_moeda_ucoin.clicked.connect(self.total_moeda)
+        # self.btn_moeda_celular.clicked.connect(self.total_celular)
         self.btn_ucoin_celular.clicked.connect(self.divergencias)
-        self.btn_totais_notas.clicked.connect(self.totais_notas)
+        self.btn_totais_notas.clicked.connect(self.total_nota)
         self.btn_pesquisar.clicked.connect(self.pesquisa)
         self.btn_update.clicked.connect(self.update_base)
         self.btn_nota.clicked.connect(self.total_nota)
@@ -35,55 +36,56 @@ class MainUi(QMainWindow, Ui_ColecaoMoedas):
 
     def loadFile(self, arquivo):
         # fileName, _ = QFileDialog.getOpenFileName(self, "Open File", "", "CSV Files (*.csv)");
-        fileName = arquivo
-        # self.pathLE.setText(fileName)
-        df = pd.read_csv(fileName)
-        model = PandasModel(df)
-        self.tabela.setModel(model)
+        try:
+            fileName = arquivo
+            # self.pathLE.setText(fileName)
+            df = pd.read_csv(fileName)
+            model = PandasModel(df)
+            self.tabela.setModel(model)
+        except:
+            pass
 
     def update_base(self):
         baixar_CSV_android()
         self.resposta.setText('Dados Atualizados')
 
-    def total_ucoin(self):
-        exibe_totais(self.u_lista_unica, self.u_lista_total, 'TOTAL_MOEDA_UCOIN')
-        inf = open('TOTAL_MOEDA_UCOIN.txt')
-        self.loadFile('_TOTAL_MOEDA_UCOIN.txt')
-        # self.resposta.setText(str(inf.read()))
-        time.sleep(2)
-
-    def total_celular(self):
-        exibe_totais(self.a_lista_unica, self.a_lista_total, 'TOTAL_MOEDA_ANDROID_APP')
-        inf = open('TOTAL_MOEDA_ANDROID_APP.txt')
-        self.loadFile('_TOTAL_MOEDA_ANDROID_APP.txt')
+    def qtd_total_moedas(self):
+        quantidade_moedas(self.u_lista_unica, self.a_lista_unica, self.u_lista_total, self.a_lista_total, arquivo_txt)
+        inf = open(arquivo_txt+'.txt')
+        self.lbl_tipo.setText('Quantidade de Moedas pais por pais')
+        self.loadFile('_'+arquivo_txt+'.txt')
         # self.resposta.setText(str(inf.read()))
         time.sleep(2)
 
     def divergencias(self):
         exibe_divergencias(self.a_lista_unica, self.a_lista_total, self.u_lista_unica, self.u_lista_total)
-        inf = open('DIVERGENCIAS.txt')
-        self.loadFile('_DIVERGENCIAS.txt')
+        inf = open(arquivo_txt+'.txt')
+        self.lbl_tipo.setText('Divergencia de Moedas pais por pais')
+        self.loadFile('_'+arquivo_txt+'.txt')
         # self.resposta.setText(str(inf.read()))
         time.sleep(2)
 
-    def totais_notas(self):
-        exibe_totais(self.n_lista_unica, self.n_lista_total, 'TOTAL_NOTAS_ANDROID_APP')
-        inf = open('TOTAL_NOTAS_ANDROID_APP.txt')
-        self.loadFile('_TOTAL_NOTAS_ANDROID_APP.txt')
+    def qtd_total_notas(self):
+        quantidade_notas(self.n_lista_unica, self.n_lista_total, arquivo_txt)
+        inf = open(arquivo_txt+'.txt')
+        self.lbl_tipo.setText('Quantida de Notas pais por pais')
+        self.loadFile('_'+arquivo_txt+'.txt')
         # self.resposta.setText(str(inf.read()))
         time.sleep(2)
 
     def total_nota(self):
         total('bancoNotas.csv')
-        inf = open('resultado.txt')
-        self.loadFile('_resultado.txt')
+        inf = open(arquivo_txt+'.txt')
+        self.lbl_tipo.setText('Notas da Coleção')
+        self.loadFile('_'+arquivo_txt+'.txt')
         # self.resposta.setText(str(inf.read()))
         time.sleep(2)
 
     def total_moeda(self):
         total('bancoMoedas.csv')
-        inf = open('resultado.txt')
-        self.loadFile('_resultado.txt')
+        inf = open(arquivo_txt+'.txt')
+        self.lbl_tipo.setText('Moedas da Coleção')
+        self.loadFile('_'+arquivo_txt+'.txt')
         # self.resposta.setText(str(inf.read()))
         time.sleep(2)
 
@@ -95,10 +97,17 @@ class MainUi(QMainWindow, Ui_ColecaoMoedas):
             tipo = 'bancoMoedas.csv'
         termo = self.lineEdit.text()
         if tipo:
-            pesquisar(tipo, termo)
-        inf = open('resultado.txt')
+            try:
+                pesquisar(tipo, termo)
+            except:
+                pass
+
+        inf = open(arquivo_txt+'.txt')
         # self.resposta.setText(str(inf.read()))
-        self.loadFile('_resultado.txt')
+        self.lbl_tipo.setText('Resultado da pesquisa por: '+termo+' em: '+tipo)
+
+        self.loadFile('_'+arquivo_txt+'.txt')
+
         time.sleep(2)
 
 
