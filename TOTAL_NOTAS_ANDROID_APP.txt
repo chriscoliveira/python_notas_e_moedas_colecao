@@ -1,91 +1,91 @@
-TOTAL NOTAS ANDROID APP
-
-AFEGANISTAO: 4
-ALEMANHA: 6
-ALEMANHA TERCEIRO REICH: 1
-ANGOLA: 2
-ARGENTINA: 9
-AUSTRIA: 1
-BANGLADESH: 3
-BIELORRUSSIA: 4
-BOLIVIA: 1
-BOSNIA E HERZEGOVINA: 2
-BRASIL: 136
-BULGARIA: 2
-BURMA: 2
-BURUNDI: 1
-BUTAO: 1
-CAMBOJA: 5
-CARIBE: 1
-CHINA: 9
-COLOMBIA: 1
-CONGO: 1
-COREIA DO NORTE: 2
-CROACIA: 2
-CUBA: 1
-EGITO: 4
-EQUADOR: 1
-ERITREIA: 1
-ESLOVENIA: 1
-ESTADOS UNIDOS: 4
-ESTONIA: 2
-FILIPINAS: 2
-GEORGIA: 1
-GRECIA: 1
-GUATEMALA: 1
-GUIANA: 2
-GUINE: 1
-HELL: 4
-IEMEN: 1
-ILHAS CAYMAN: 1
-INDONESIA: 3
-IRAN: 2
-IRAQUE: 1
-ITALIA: 1
-IUGOSLAVIA: 6
-JAPAO: 1
-LAOS: 1
-LIBANO: 2
-LIBIA: 1
-MACEDONIA: 1
-MADAGASCAR: 1
-MALASIA: 1
-MALAWI: 1
-MOCAMBIQUE: 1
-MOLDOVA: 1
-MONGOLIA: 5
-MYANMAR: 2
-NEPAL: 2
-NICARAGUA: 4
-NIGERIA: 2
-OMAN: 1
-PAQUISTAO: 1
-PARAGUAI: 1
-PERU: 1
-POLONIA: 1
-PORTUGAL: 1
-QATAR: 2
-QUENIA: 1
-QUIRQUISTAO: 3
-REINO UNIDO: 2
-ROMENIA: 1
-RUSSIA: 7
-SERBIA: 1
-SIRIA: 1
-SOMALIA: 1
-SRI LANKA: 1
-SUDAO: 3
-SURINAME: 1
-TAJIQUISTAO: 2
-TRANSNISTRIA: 3
-TURQUIA: 1
-UCRANIA: 3
-UGANDA: 1
-URUGUAI: 2
-UZBEQUISTAO: 2
-VENEZUELA: 9
-VIETNAM: 2
-ZAIRE: 1
-ZAMBIA: 2
-ZIMBABUE: 1
-Total Paises 87
+                          0           1
+0                      PAIS  QUANTIDADE
+1               AFEGANISTAO           4
+2                  ALEMANHA           6
+3   ALEMANHA TERCEIRO REICH           1
+4                    ANGOLA           2
+5                 ARGENTINA           9
+6                   AUSTRIA           1
+7                BANGLADESH           3
+8              BIELORRUSSIA           4
+9                   BOLIVIA           1
+10     BOSNIA E HERZEGOVINA           2
+11                   BRASIL         136
+12                 BULGARIA           2
+13                    BURMA           2
+14                  BURUNDI           1
+15                    BUTAO           1
+16                  CAMBOJA           5
+17                   CARIBE           1
+18                    CHINA           9
+19                 COLOMBIA           1
+20                    CONGO           1
+21          COREIA DO NORTE           2
+22                  CROACIA           2
+23                     CUBA           1
+24                    EGITO           4
+25                  EQUADOR           1
+26                 ERITREIA           1
+27                ESLOVENIA           1
+28           ESTADOS UNIDOS           4
+29                  ESTONIA           2
+30                FILIPINAS           2
+31                  GEORGIA           1
+32                   GRECIA           1
+33                GUATEMALA           1
+34                   GUIANA           2
+35                    GUINE           1
+36                     HELL           4
+37                    IEMEN           1
+38             ILHAS CAYMAN           1
+39                INDONESIA           3
+40                     IRAN           2
+41                   IRAQUE           1
+42                   ITALIA           1
+43               IUGOSLAVIA           6
+44                    JAPAO           1
+45                     LAOS           1
+46                   LIBANO           2
+47                    LIBIA           1
+48                MACEDONIA           1
+49               MADAGASCAR           1
+50                  MALASIA           1
+51                   MALAWI           1
+52               MOCAMBIQUE           1
+53                  MOLDOVA           1
+54                 MONGOLIA           5
+55                  MYANMAR           2
+56                    NEPAL           2
+57                NICARAGUA           4
+58                  NIGERIA           2
+59                     OMAN           1
+60                PAQUISTAO           1
+61                 PARAGUAI           1
+62                     PERU           1
+63                  POLONIA           1
+64                 PORTUGAL           1
+65                    QATAR           2
+66                   QUENIA           1
+67              QUIRQUISTAO           3
+68              REINO UNIDO           2
+69                  ROMENIA           1
+70                   RUSSIA           7
+71                   SERBIA           1
+72                    SIRIA           1
+73                  SOMALIA           1
+74                SRI LANKA           1
+75                    SUDAO           3
+76                 SURINAME           1
+77              TAJIQUISTAO           2
+78             TRANSNISTRIA           3
+79                  TURQUIA           1
+80                  UCRANIA           3
+81                   UGANDA           1
+82                  URUGUAI           2
+83              UZBEQUISTAO           2
+84                VENEZUELA           9
+85                  VIETNAM           2
+86                    ZAIRE           1
+87                   ZAMBIA           2
+88                 ZIMBABUE           1
+89                    TOTAL          87

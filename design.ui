@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1035</width>
+    <width>1108</width>
     <height>600</height>
    </rect>
   </property>
@@ -20,14 +20,14 @@
       <item row="0" column="0">
        <widget class="QPushButton" name="btn_moeda_ucoin">
         <property name="text">
-         <string>Moedas Ucoin</string>
+         <string>Ucoin</string>
         </property>
        </widget>
       </item>
-      <item row="0" column="1">
-       <widget class="QPushButton" name="btn_moeda_celular">
+      <item row="0" column="5">
+       <widget class="QPushButton" name="btn_moeda">
         <property name="text">
-         <string>Moedas Celular</string>
+         <string>Moeda Total</string>
         </property>
        </widget>
       </item>
@@ -38,21 +38,7 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="3">
-       <widget class="QPushButton" name="btn_totais_notas">
-        <property name="text">
-         <string>Notas</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="2">
-       <widget class="QPushButton" name="btn_ucoin_celular">
-        <property name="text">
-         <string>Div. Ucoin x Celular</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="5">
+      <item row="0" column="7">
        <layout class="QHBoxLayout" name="horizontalLayout_2">
         <item>
          <widget class="QLineEdit" name="lineEdit"/>
@@ -80,6 +66,34 @@
         </item>
        </layout>
       </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="btn_totais_notas">
+        <property name="text">
+         <string>Notas</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="btn_ucoin_celular">
+        <property name="text">
+         <string>Divergencia</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="btn_moeda_celular">
+        <property name="text">
+         <string>Celular</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="6">
+       <widget class="QPushButton" name="btn_nota">
+        <property name="text">
+         <string>Notas Total</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </item>
     <item row="1" column="0">
@@ -92,20 +106,13 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>1015</width>
+         <width>1088</width>
          <height>520</height>
         </rect>
        </property>
        <layout class="QGridLayout" name="gridLayout_2">
         <item row="0" column="0">
-         <widget class="QLabel" name="resposta">
-          <property name="text">
-           <string/>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-          </property>
-         </widget>
+         <widget class="QTableView" name="tabela"/>
         </item>
        </layout>
       </widget>

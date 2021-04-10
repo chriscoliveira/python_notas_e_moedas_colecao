@@ -94,8 +94,7 @@
 "Argentina","50 centavos","2009","","Peso argentino","","","","KM# 111","",""
 "Argentina","50 centavos","1994","","Peso argentino","","","","KM# 111","",""
 "Argentina","1 peso","2010","","Peso argentino","","","","KM# 112","",""
-"Argentina","1 peso","2010","","Peso argentino","
-Bicentenário da Argentina - Pucará de Tilcara","","","KM# 159","",""
+"Argentina","1 peso","2010","","Peso argentino","Bicentenário da Argentina - Pucará de Tilcara","","","KM# 159","",""
 "Argentina","1 peso","2010","","Peso argentino","Bicentenário da Argentina - El Palmar","","","KM# 156","",""
 "Argentina","1 peso","2009","","Peso argentino","","","","KM# 112","",""
 "Argentina","2 pesos","2010","","Peso argentino","","","","KM# 165","",""
@@ -720,39 +719,56 @@ Bicentenário da Argentina - Pucará de Tilcara","","","KM# 159","",""
 "EUA","1 cêntimo","1982","","Dólar americano","Cêntimo de Lincoln","","","KM# 201","",""
 "EUA","1 cêntimo","1981","","Dólar americano","Cêntimo de Lincoln","","","KM# 201","",""
 "EUA","5 cêntimos","2014 P","P","Dólar americano","Jefferson Nickel
-","","","KM# 381","",""
+
+","","","KM# 381","",""
 "EUA","5 cêntimos","2008 P","P","Dólar americano","Jefferson Nickel
-","","","KM# 381","",""
+
+","","","KM# 381","",""
 "EUA","5 cêntimos","2000 D","D","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1999 P","P","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1996 D","D","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1996 P","P","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1995 D","D","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1994 D","D","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1994 P","P","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1991 P","P","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1990 P","P","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1988 P","P","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1987 D","D","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1985 P","P","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1984 P","P","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1984 D","D","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1982 D","D","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","1 dime","2001 D","D","Dólar americano","Dime do Roosevelt","","","KM# 195a","",""
 "EUA","1 dime","2000 P","P","Dólar americano","Dime do Roosevelt","","","KM# 195a","",""
 "EUA","1 dime","2000 D","D","Dólar americano","Dime do Roosevelt","","","KM# 195a","",""
@@ -800,13 +816,17 @@ Bicentenário da Argentina - Pucará de Tilcara","","","KM# 159","",""
 "EUA","1 cêntimo","1960","","Dólar americano","Cêntimo de Lincoln","","","KM# 201","",""
 "EUA","1 cêntimo","1957 D","D","Dólar americano","Mintmark ""D"" - Denver","","","KM# A132","",""
 "EUA","5 cêntimos","1979 D","D","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1974","","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1972 D","D","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","5 cêntimos","1964","","Dólar americano","Jefferson Nickel
-","","","KM# A192","",""
+
+","","","KM# A192","",""
 "EUA","1 dime","1980 P","P","Dólar americano","Dime do Roosevelt","","","KM# 195a","",""
 "EUA","1 dime","1975 D","D","Dólar americano","Dime do Roosevelt","","","KM# 195a","",""
 "EUA","1 dime","1975","","Dólar americano","Dime do Roosevelt","","","KM# 195a","",""
@@ -826,7 +846,8 @@ Bicentenário da Argentina - Pucará de Tilcara","","","KM# 159","",""
 "EUA","½ dólar","1965","","Dólar americano","1/2 dólar - Kennedy","","","KM# 202a","",""
 "EUA","1 dólar","1972","","Dólar americano","","","","KM# 203","",""
 "EUA","5 cêntimos","1941","","Dólar americano","Jefferson Nickel
-","","","KM# 192","",""
+
+","","","KM# 192","",""
 "Fiji","1 cêntimo","2001","","Dólar de Fiji","","","","KM# 49a","",""
 "Filipinas","1 piso","2003","","Peso filipino","","","","KM# 269","",""
 "Finlândia","1 penni","1979","","Markka finlandesa","","","","KM# 44a","",""
@@ -1261,7 +1282,8 @@ Bicentenário da Argentina - Pucará de Tilcara","","","KM# 159","",""
 "Turquia","500.000 lira","2002","","Lira turca","Ovelha","","","KM# 1161","",""
 "Turquia","750.000 lira","2002","","Lira turca","Cabra","","","KM# 1162","",""
 "Turquia","1.000 lira","1990","","Lira turca","","","","KM# 997","",""
-"Turquia","50.000 lira","1999","","Lira turca","FAO - Segurança alimentar","","","KM# 1103","",""
+"Turquia","50.000 lira","1999","","Lira turca","FAO - Segurança alimentar
+","","","KM# 1103","",""
 "Turquia","10 kurus","1949","","Lira turca","","","","KM# 888","",""
 "Uganda","1 shilling","1987","","Shilling de Uganda","","","","KM# 27","",""
 "Uganda","2 shillings","1987","","Shilling de Uganda","","","","KM# 28","",""

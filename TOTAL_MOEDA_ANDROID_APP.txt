@@ -1,112 +1,112 @@
-TOTAL MOEDA ANDROID APP
-
-JAPAO: 39
-IRAN: 3
-COREIA DO SUL: 2
-ISRAEL: 9
-TAILANDIA: 4
-MALDIVAS: 1
-EMIRADOS ARABES UNIDOS: 4
-BAHRAIN: 1
-ARABIA SAUDITA: 1
-TUNISIA: 1
-TAIWAN: 2
-BRASIL: 380
-RUSSIA: 8
-ESPANHA: 31
-ALEMANHA: 29
-MOLDAVIA: 1
-ESTADOS UNIDOS DA AMERICA: 127
-COLOMBIA: 6
-REPUBLICA CHECA: 7
-INDIA: 5
-REINO UNIDO: 35
-BAHAMAS: 2
-PAQUISTAO: 2
-FRANCA: 55
-ANGOLA: 6
-CHILE: 14
-POLONIA: 9
-HUNGRIA: 13
-AUSTRIA: 7
-PARAGUAI: 7
-NOVA ZELANDIA: 3
-ILHAS SALOMAO: 2
-ZAMBIA: 1
-PORTUGAL: 34
-PERU: 11
-TAJIQUISTAO: 1
-ARGENTINA: 27
-TURQUIA: 6
-PAPUA NOVA GUINE: 1
-MACAU: 1
-ITALIA: 35
-BELGICA: 15
-ESLOVAQUIA: 1
-GRECIA: 9
-AFRICA DO SUL: 12
-AUSTRALIA: 7
-MEXICO: 6
-CANADA: 7
-IRLANDA: 5
-HOLANDA: 15
-GANA: 1
-SINGAPURA: 5
-CHINA: 5
-URUGUAI: 22
-TONGA: 1
-LUXEMBURGO: 2
-SUECIA: 7
-VIETNAM: 1
-ARMENIA: 2
-FILIPINAS: 1
-FINLANDIA: 8
-PANAMA: 1
-FIJI: 1
-NORUEGA: 4
-ANTILHAS HOLANDESAS: 2
-BULGARIA: 1
-INDONESIA: 2
-OMAN: 1
-MOCAMBIQUE: 1
-HONG KONG: 4
-HAITI: 3
-JORDANIA: 1
-CHIPRE: 3
-MALASIA: 4
-CROACIA: 4
-JERSEY: 3
-CABO VERDE: 1
-UZBEQUISTAO: 6
-SUICA: 11
-CAZAQUISTAO: 5
-ESLOVENIA: 4
-ROMENIA: 2
-BOLIVIA: 5
-LITUANIA: 3
-GUIANA: 3
-EQUADOR: 4
-DINAMARCA: 3
-ILHAS CAYMAN: 1
-ARUBA: 1
-JUGOSLAVIA: 4
-CUBA: 2
-UGANDA: 3
-ISLANDIA: 3
-RUANDA: 1
-CHECOSLOVAQUIA: 1
-EGITO: 3
-BERMUDAS: 1
-LAOS: 1
-UNIAO SOVIETICA: 2
-LIBIA: 1
-VENEZUELA: 4
-BANGLADESH: 1
-NIGERIA: 1
-JAMAICA: 1
-SIRIA: 1
-AFRICA OCIDENTAL: 1
-QUENIA: 1
-LIBANO: 1
-ALEMANHA TERCEIRO REICH: 5
-Total Paises 108
+                             0           1
+0                         PAIS  QUANTIDADE
+1                AFRICA DO SUL          12
+2             AFRICA OCIDENTAL           1
+3                     ALEMANHA          50
+4      ALEMANHA TERCEIRO REICH           6
+5                       ANGOLA           6
+6          ANTILHAS HOLANDESAS           2
+7               ARABIA SAUDITA           1
+8                    ARGENTINA          49
+9                      ARMENIA           2
+10                       ARUBA           1
+11                   AUSTRALIA           7
+12                     AUSTRIA           7
+13                     BAHAMAS           3
+14                     BAHRAIN           1
+15                  BANGLADESH           1
+16                     BELGICA          15
+17                    BERMUDAS           1
+18                     BOLIVIA           5
+19                      BRASIL         380
+20                    BULGARIA           1
+21                  CABO VERDE           1
+22                      CANADA          10
+23                 CAZAQUISTAO           5
+24              CHECOSLOVAQUIA           1
+25                       CHILE          20
+26                       CHINA           5
+27                      CHIPRE           3
+28                    COLOMBIA           7
+29               COREIA DO SUL           2
+30                     CROACIA           4
+31                        CUBA           4
+32                   DINAMARCA           3
+33                       EGITO           3
+34      EMIRADOS ARABES UNIDOS           4
+35                     EQUADOR           4
+36                  ESLOVAQUIA           1
+37                   ESLOVENIA           4
+38                     ESPANHA          46
+39   ESTADOS UNIDOS DA AMERICA         127
+40                        FIJI           1
+41                   FILIPINAS           1
+42                   FINLANDIA           8
+43                      FRANCA          55
+44                        GANA           1
+45                      GRECIA           9
+46                      GUIANA           3
+47                       HAITI           3
+48                     HOLANDA          15
+49                   HONG KONG           4
+50                     HUNGRIA          13
+51                ILHAS CAYMAN           1
+52               ILHAS SALOMAO           2
+53                       INDIA           5
+54                   INDONESIA           2
+55                        IRAN           3
+56                     IRLANDA           5
+57                    ISLANDIA           3
+58                      ISRAEL           9
+59                      ITALIA          35
+60                     JAMAICA           1
+61                       JAPAO          40
+62                      JERSEY           3
+63                    JORDANIA           1
+64                  JUGOSLAVIA           4
+65                        LAOS           1
+66                      LIBANO           1
+67                       LIBIA           1
+68                    LITUANIA           3
+69                  LUXEMBURGO           2
+70                       MACAU           1
+71                     MALASIA           4
+72                    MALDIVAS           1
+73                      MEXICO           9
+74                  MOCAMBIQUE           1
+75                    MOLDAVIA           1
+76                     NIGERIA           1
+77                     NORUEGA           4
+78               NOVA ZELANDIA           3
+79                        OMAN           1
+80                      PANAMA           1
+81            PAPUA NOVA GUINE           1
+82                   PAQUISTAO           2
+83                    PARAGUAI           8
+84                        PERU          13
+85                     POLONIA           9
+86                    PORTUGAL          34
+87                      QUENIA           1
+88                 REINO UNIDO          48
+89             REPUBLICA CHECA           7
+90                     ROMENIA           2
+91                      RUANDA           1
+92                      RUSSIA           8
+93                   SINGAPURA           5
+94                       SIRIA           1
+95                      SUECIA           7
+96                       SUICA          11
+97                   TAILANDIA           4
+98                      TAIWAN           2
+99                 TAJIQUISTAO           1
+100                      TONGA           1
+101                    TUNISIA           1
+102                    TURQUIA           6
+103                     UGANDA           3
+104            UNIAO SOVIETICA           2
+105                    URUGUAI          36
+106                UZBEQUISTAO           6
+107                  VENEZUELA           4
+108                    VIETNAM           1
+109                     ZAMBIA           1
+110                      TOTAL         108

@@ -1,7 +1,3 @@
-import collections
-import csv
-import unidecode
-from sys import exit
 from lib import *
 
 # from docs import firebase_colecao, leitura_csv
@@ -37,20 +33,19 @@ n_lista_unica = lista_unica(n_lista_total)
 while True:
     opcao = ['exibir totais de moedas da Ucoin', 'exibir totais de moedas do Celular', 'exibir divergencias em moedas',
              'totais em notas', 'Pesquisar']
-    valor = menu('Confere Moedas e Notas',opcao)
-
+    valor = menu('Confere Moedas e Notas', opcao)
 
     if valor == '1':
-        exibe_totais(u_lista_unica, u_lista_total,'TOTAL_MOEDA_UCOIN')
+        exibe_totais(u_lista_unica, u_lista_total, 'TOTAL_MOEDA_UCOIN')
         continua = input('continue...')
     elif valor == '2':
-        exibe_totais(a_lista_unica, a_lista_total,'TOTAL_MOEDA_ANDROID_APP')
+        exibe_totais(a_lista_unica, a_lista_total, 'TOTAL_MOEDA_ANDROID_APP')
         continua = input('continue...')
     elif valor == '3':
         exibe_divergencias(a_lista_unica, a_lista_total, u_lista_unica, u_lista_total)
         continua = input('continue...')
     elif valor == '4':
-        exibe_totais(n_lista_unica, n_lista_total,'TOTAL_NOTAS_ANDROID_APP')
+        exibe_totais(n_lista_unica, n_lista_total, 'TOTAL_NOTAS_ANDROID_APP')
         continua = input('continue...')
     elif valor == '5':
 
@@ -72,7 +67,7 @@ while True:
             termo = input("Para retornar digite 'voltar'\nPesquisar em " + opcao[int(escolha) - 1] + ": ")
             if termo.upper() == 'VOLTAR':
                 break
-            pesquisar(arquivo,termo)
+            pesquisar(arquivo, termo)
     elif valor == '6':
         exit()
     else:
