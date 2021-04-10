@@ -69,14 +69,7 @@
               <item>
                <widget class="QPushButton" name="btn_moeda_ucoin">
                 <property name="text">
-                 <string>Ucoin</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="btn_moeda_celular">
-                <property name="text">
-                 <string>Celular</string>
+                 <string>Moedas</string>
                 </property>
                </widget>
               </item>
