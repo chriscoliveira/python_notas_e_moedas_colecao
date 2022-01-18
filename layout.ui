@@ -511,9 +511,6 @@
    <property name="shortcut">
     <string>F1</string>
    </property>
-   <property name="shortcutVisibleInContextMenu">
-    <bool>false</bool>
-   </property>
   </action>
   <action name="adicionaNota">
    <property name="text">
