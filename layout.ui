@@ -7,11 +7,17 @@
     <x>0</x>
     <y>0</y>
     <width>1046</width>
-    <height>836</height>
+    <height>857</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Coleção de Moedas e Notas 2022</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_2">
@@ -48,28 +54,22 @@
          </item>
          <item row="1" column="0">
           <layout class="QGridLayout" name="gridLayout">
-           <item row="10" column="1" colspan="3">
-            <widget class="QLabel" name="lbl_data">
+           <item row="1" column="0" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_3">
              <property name="text">
-              <string/>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignCenter</set>
+              <string>Krause</string>
              </property>
             </widget>
            </item>
-           <item row="8" column="1">
-            <widget class="QLineEdit" name="ed_foto1"/>
-           </item>
-           <item row="8" column="3">
-            <widget class="QLineEdit" name="ed_foto2"/>
-           </item>
-           <item row="8" column="0">
-            <widget class="QLabel" name="label_14">
+           <item row="0" column="0" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label">
              <property name="text">
-              <string>Link foto1</string>
+              <string>País</string>
              </property>
             </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="ed_pais"/>
            </item>
            <item row="0" column="2" alignment="Qt::AlignHCenter">
             <widget class="QLabel" name="label_2">
@@ -81,132 +81,8 @@
              </property>
             </widget>
            </item>
-           <item row="10" column="0">
-            <widget class="QLabel" name="lbl_id">
-             <property name="text">
-              <string/>
-             </property>
-            </widget>
-           </item>
            <item row="0" column="3">
             <widget class="QLineEdit" name="ed_ano"/>
-           </item>
-           <item row="0" column="0" alignment="Qt::AlignHCenter">
-            <widget class="QLabel" name="label">
-             <property name="text">
-              <string>País</string>
-             </property>
-            </widget>
-           </item>
-           <item row="8" column="2">
-            <widget class="QLabel" name="label_15">
-             <property name="text">
-              <string>Link foto2</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="2" alignment="Qt::AlignHCenter">
-            <widget class="QLabel" name="label_4">
-             <property name="text">
-              <string>Tipo</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="0" alignment="Qt::AlignHCenter">
-            <widget class="QLabel" name="label_3">
-             <property name="text">
-              <string>Krause</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="1">
-            <widget class="QLineEdit" name="ed_krause"/>
-           </item>
-           <item row="1" column="3">
-            <widget class="QLineEdit" name="ed_tipo"/>
-           </item>
-           <item row="0" column="1">
-            <widget class="QLineEdit" name="ed_pais"/>
-           </item>
-           <item row="2" column="2" alignment="Qt::AlignHCenter">
-            <widget class="QLabel" name="label_6">
-             <property name="text">
-              <string>Moeda</string>
-             </property>
-            </widget>
-           </item>
-           <item row="3" column="0" alignment="Qt::AlignHCenter">
-            <widget class="QLabel" name="label_7">
-             <property name="text">
-              <string>Material</string>
-             </property>
-            </widget>
-           </item>
-           <item row="2" column="0" alignment="Qt::AlignHCenter">
-            <widget class="QLabel" name="label_5">
-             <property name="text">
-              <string>Valor</string>
-             </property>
-            </widget>
-           </item>
-           <item row="2" column="1">
-            <widget class="QLineEdit" name="ed_valor"/>
-           </item>
-           <item row="2" column="3">
-            <widget class="QLineEdit" name="ed_moeda"/>
-           </item>
-           <item row="3" column="1">
-            <widget class="QLineEdit" name="ed_material"/>
-           </item>
-           <item row="3" column="2" alignment="Qt::AlignHCenter">
-            <widget class="QLabel" name="label_8">
-             <property name="text">
-              <string>$ Venda</string>
-             </property>
-            </widget>
-           </item>
-           <item row="4" column="2">
-            <widget class="QLabel" name="label_10">
-             <property name="text">
-              <string>Qualidade</string>
-             </property>
-            </widget>
-           </item>
-           <item row="3" column="3">
-            <widget class="QLineEdit" name="ed_venda"/>
-           </item>
-           <item row="5" column="1">
-            <widget class="QLineEdit" name="ed_anverso"/>
-           </item>
-           <item row="4" column="3">
-            <widget class="QLineEdit" name="ed_qualidade"/>
-           </item>
-           <item row="4" column="0" alignment="Qt::AlignHCenter">
-            <widget class="QLabel" name="label_9">
-             <property name="text">
-              <string>Tamanho</string>
-             </property>
-            </widget>
-           </item>
-           <item row="5" column="0" alignment="Qt::AlignHCenter">
-            <widget class="QLabel" name="label_11">
-             <property name="text">
-              <string>Anverso</string>
-             </property>
-            </widget>
-           </item>
-           <item row="4" column="1">
-            <widget class="QLineEdit" name="ed_tamanho"/>
-           </item>
-           <item row="6" column="1">
-            <widget class="QLabel" name="foto_anverso">
-             <property name="text">
-              <string/>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignCenter</set>
-             </property>
-            </widget>
            </item>
            <item row="6" column="3">
             <widget class="QLabel" name="foto_reverso">
@@ -218,26 +94,6 @@
              </property>
             </widget>
            </item>
-           <item row="5" column="3">
-            <widget class="QLineEdit" name="ed_reverso"/>
-           </item>
-           <item row="5" column="2" alignment="Qt::AlignHCenter">
-            <widget class="QLabel" name="label_12">
-             <property name="text">
-              <string>Reverso</string>
-             </property>
-            </widget>
-           </item>
-           <item row="12" column="0" colspan="4">
-            <widget class="QLabel" name="lbl_status_cadastro">
-             <property name="text">
-              <string/>
-             </property>
-            </widget>
-           </item>
-           <item row="7" column="1" colspan="3">
-            <widget class="QPlainTextEdit" name="ed_detalhes"/>
-           </item>
            <item row="7" column="0" alignment="Qt::AlignHCenter">
             <widget class="QLabel" name="label_13">
              <property name="text">
@@ -245,10 +101,80 @@
              </property>
             </widget>
            </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="label_14">
+             <property name="text">
+              <string>Link foto1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QLineEdit" name="ed_foto1"/>
+           </item>
+           <item row="8" column="2">
+            <widget class="QLabel" name="label_15">
+             <property name="text">
+              <string>Link foto2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_11">
+             <property name="text">
+              <string>Anverso</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="ed_krause"/>
+           </item>
+           <item row="1" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>Tipo</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="3">
+            <widget class="QLineEdit" name="ed_qualidade"/>
+           </item>
+           <item row="1" column="3">
+            <widget class="QLineEdit" name="ed_tipo"/>
+           </item>
+           <item row="10" column="0">
+            <widget class="QLabel" name="lbl_id">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
            <item row="6" column="0">
             <widget class="QPushButton" name="bt_mostrar_foto">
              <property name="text">
               <string>Mostrar Fotos</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLineEdit" name="ed_anverso"/>
+           </item>
+           <item row="6" column="1">
+            <widget class="QLabel" name="foto_anverso">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="1" colspan="3">
+            <widget class="QLabel" name="lbl_data">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
              </property>
             </widget>
            </item>
@@ -276,6 +202,86 @@
               </widget>
              </item>
             </layout>
+           </item>
+           <item row="7" column="1" colspan="3">
+            <widget class="QPlainTextEdit" name="ed_detalhes"/>
+           </item>
+           <item row="5" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_12">
+             <property name="text">
+              <string>Reverso</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="3">
+            <widget class="QLineEdit" name="ed_foto2"/>
+           </item>
+           <item row="2" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>Moeda</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="3">
+            <widget class="QLineEdit" name="ed_moeda"/>
+           </item>
+           <item row="4" column="0" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>Tamanho</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLineEdit" name="ed_tamanho"/>
+           </item>
+           <item row="4" column="2">
+            <widget class="QLabel" name="label_10">
+             <property name="text">
+              <string>Qualidade</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="ed_material"/>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="ed_valor"/>
+           </item>
+           <item row="3" column="0" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>Material</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string>$ Venda</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>Valor</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="3">
+            <widget class="QLineEdit" name="ed_venda"/>
+           </item>
+           <item row="5" column="3">
+            <widget class="QLineEdit" name="ed_reverso"/>
+           </item>
+           <item row="12" column="0" colspan="4">
+            <widget class="QLabel" name="lbl_status_cadastro">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
            </item>
           </layout>
          </item>
@@ -306,37 +312,13 @@
          <enum>QFrame::Raised</enum>
         </property>
         <layout class="QGridLayout" name="gridLayout_3">
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="ed_localizar"/>
+         </item>
          <item row="1" column="0">
           <widget class="QLabel" name="label_16">
            <property name="text">
             <string>Digite a palavra que deseja buscar</string>
-           </property>
-          </widget>
-         </item>
-         <item row="3" column="0">
-          <widget class="QLabel" name="lbl_status">
-           <property name="text">
-            <string/>
-           </property>
-          </widget>
-         </item>
-         <item row="1" column="1">
-          <widget class="QLineEdit" name="ed_localizar"/>
-         </item>
-         <item row="0" column="0" colspan="3">
-          <widget class="QLabel" name="lbl_titulo_2">
-           <property name="font">
-            <font>
-             <pointsize>15</pointsize>
-             <weight>75</weight>
-             <bold>true</bold>
-            </font>
-           </property>
-           <property name="text">
-            <string>Pesquisar Item</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
            </property>
           </widget>
          </item>
@@ -356,6 +338,30 @@
            </property>
           </widget>
          </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="lbl_status">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0" colspan="3">
+          <widget class="QLabel" name="lbl_titulo_2">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Pesquisar Item</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
         </layout>
        </widget>
       </item>
@@ -363,6 +369,9 @@
        <layout class="QGridLayout" name="gridLayout_4">
         <item row="0" column="0">
          <widget class="QFrame" name="frame_resumo">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
           <property name="frameShape">
            <enum>QFrame::StyledPanel</enum>
           </property>
@@ -370,20 +379,47 @@
            <enum>QFrame::Raised</enum>
           </property>
           <layout class="QGridLayout" name="gridLayout_5">
-           <item row="0" column="0">
-            <widget class="QLabel" name="resumo">
-             <property name="font">
-              <font>
-               <pointsize>20</pointsize>
-              </font>
-             </property>
-             <property name="text">
-              <string/>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignCenter</set>
-             </property>
-            </widget>
+           <item row="2" column="0">
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="QLabel" name="resumo">
+               <property name="font">
+                <font>
+                 <family>Lucida Console</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignHCenter|Qt::AlignTop</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="mapa">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>screenshot.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>false</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
            </item>
           </layout>
          </widget>
@@ -451,6 +487,7 @@
     </widget>
     <addaction name="Exportar_TXT"/>
     <addaction name="menuImportar"/>
+    <addaction name="Atualizar_Imagem"/>
    </widget>
    <addaction name="menuCadastrar"/>
    <addaction name="menuCadastrar_Novo"/>
@@ -549,6 +586,11 @@
    </property>
    <property name="shortcut">
     <string>F10</string>
+   </property>
+  </action>
+  <action name="Atualizar_Imagem">
+   <property name="text">
+    <string>Atualizar Imagem</string>
    </property>
   </action>
  </widget>

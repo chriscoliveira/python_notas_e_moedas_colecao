@@ -179,7 +179,7 @@ def mostra_fotos():
         pixmap = QPixmap()
         pixmap.loadFromData(data)
         prog.foto_anverso.setPixmap(pixmap)
-        prog.foto_anverso.setMaximumSize(150, 150)
+        prog.foto_anverso.setMaximumSize(300, 300)
         prog.foto_anverso.setScaledContents(True)
         prog.foto_anverso.setVisible(True)
 
@@ -189,7 +189,7 @@ def mostra_fotos():
         data = urllib.request.urlopen(prog.ed_foto2.text()).read()
         pixmap.loadFromData(data)
         prog.foto_reverso.setPixmap(pixmap)
-        prog.foto_reverso.setMaximumSize(150, 150)
+        prog.foto_reverso.setMaximumSize(300, 300)
         prog.foto_reverso.setScaledContents(True)
         prog.foto_reverso.setVisible(True)
     except:
@@ -309,6 +309,18 @@ def apagar_registro():
         exiberesumo()
 
 
+def carregaimagemFundo():
+    pixmap = QPixmap('screenshot.png')
+    scaled = pixmap.scaled(prog.mapa.size(), QtCore.Qt.KeepAspectRatio)
+    prog.mapa.setPixmap(scaled)
+    prog.mapa.setVisible(True)
+
+
+def scrap_img():
+    colecao.scrap()
+    carregaimagemFundo()
+
+
 def exportar_banco_sql():
     qtde = colecao.exportarTXT()
     QMessageBox.about(
@@ -367,6 +379,8 @@ prog.NotasNacional.triggered.connect(
 # menu resumo por pais
 prog.listar_por_pais.triggered.connect(
     partial(exibe_frame_de_pesquisa, tipo='Resumo Por Pais'))
+# menu atualiza imagem do mapa
+prog.Atualizar_Imagem.triggered.connect(partial(scrap_img))
 # menu de exportacao do banco sql
 prog.Exportar_TXT.triggered.connect(exportar_banco_sql)
 # menu de importacao do banco sql parcial
@@ -391,5 +405,6 @@ prog.bt_cancelar.clicked.connect(cancelar)
 prog.bt_deletar_reg.clicked.connect(apagar_registro)
 
 exiberesumo()
+carregaimagemFundo()
 prog.show()
 app.exec()
