@@ -36,10 +36,10 @@ class Colecao:
                             diametro, detalhe, anverso, reverso, valor_venda, datacadastro, imagem1, imagem2))
         self.conn.commit()
 
-    def editar(self, id, pais, ano, krause, valor, moeda, tipo, qualidade, material, diametro, detalhe, anverso, reverso, valor_venda, datacadastro, imagem1, imagem2):
-        sql = "UPDATE colecao SET pais=?,ano=?,krause=?,valor=?,moeda=?,tipo=?,qualidade=?,material=?,diametro=?,detalhe=?,anverso=?,reverso=?,valor_venda=?,datacadastro=?,imagem1=?,imagem2=? WHERE id=?"
+    def editar(self, id, pais, ano, krause, valor, moeda, tipo, qualidade, material, diametro, detalhe, anverso, reverso, valor_venda, imagem1, imagem2):
+        sql = "UPDATE colecao SET pais=?,ano=?,krause=?,valor=?,moeda=?,tipo=?,qualidade=?,material=?,diametro=?,detalhe=?,anverso=?,reverso=?,valor_venda=?,imagem1=?,imagem2=? WHERE id=?"
         self.cursor.execute(sql, (pais, ano, krause, valor, moeda, tipo, qualidade, material,
-                            diametro, detalhe, anverso, reverso, valor_venda, datacadastro, imagem1, imagem2, id))
+                            diametro, detalhe, anverso, reverso, valor_venda, imagem1, imagem2, id))
         self.conn.commit()
 
     def remover(self, id):

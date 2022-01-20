@@ -9,11 +9,68 @@ from datetime import date
 import requests
 import urllib
 from funcoes import Colecao
+
 colecao = Colecao('colecao.db')
 
 # inicio da aplicacao
 app = QtWidgets.QApplication([])
+
 prog = uic.loadUi('layout.ui')
+pixmap = QPixmap('screenshot.png')
+scaled = pixmap.scaled(600, 400, QtCore.Qt.KeepAspectRatio)
+prog.mapa.setPixmap(scaled)
+
+
+'''
+THREADS
+'''
+
+
+class th(Thread):
+    # declarar as variaveis que terão interação da funcao com a interface UI
+    def __init__(self, imagem1, imagem2, edt1, edt2):
+        # variaveis que herdam os componentes
+        self.img1 = imagem1
+        self.img2 = imagem2
+        self.ed1 = edt1
+        self.ed2 = edt2
+
+        super().__init__()
+
+    def mostra_fotos(self):
+
+        try:
+            data = urllib.request.urlopen(self.ed1.text()).read()
+            pixmap = QPixmap()
+            pixmap.loadFromData(data)
+            pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
+            self.img1.setPixmap(pixmap)
+            self.img1.setVisible(True)
+        except:
+            print('Foto não encontrada')
+        try:
+            data = urllib.request.urlopen(self.ed2.text()).read()
+            pixmap = QPixmap()
+            pixmap.loadFromData(data)
+            pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
+            self.img2.setPixmap(pixmap)
+            self.img2.setVisible(True)
+        except:
+            print('Foto não encontrada')
+
+    def run(self):
+        self.mostra_fotos()
+
+
+'''
+FIM THREADS
+'''
+
+
+def exibeafoto():
+    t = th(imagem1=prog.foto_anverso, imagem2=prog.foto_reverso,
+           edt1=prog.ed_foto1, edt2=prog.ed_foto2)
+    retorno = t.start()
 
 
 def exibelista():
@@ -82,7 +139,7 @@ def fcadastrar():
                                                         f'{qualidade} {material} {diametro}\n{detalhe}\n{anverso} {reverso} {valor_venda}')
                                                 else:
                                                     colecao.editar(id, pais, ano, krause, valor, moeda, tipo, qualidade, material,
-                                                                   diametro, detalhe, anverso, reverso, valor_venda, datacadastro, imagem1, imagem2)
+                                                                   diametro, detalhe, anverso, reverso, valor_venda, imagem1, imagem2)
                                                     prog.lbl_status_cadastro.setText(
                                                         'Item atualizado com sucesso')
                                                     QMessageBox.about(
@@ -147,7 +204,7 @@ def limpa_form_cadastro():
     prog.lbl_status_cadastro.setText('')
 
 
-def exibe_moeda(id):
+def exibe_moeda(id, opcao):
     '''Exibe o item clicado'''
     exibecadastro()
 
@@ -170,30 +227,9 @@ def exibe_moeda(id):
     prog.ed_foto2.setText(str(linha[16]))
     prog.lbl_data.setText(str(linha[14]))
     prog.bt_deletar_reg.setVisible(True)
+    prog.bt_mostrar_foto.setVisible(False)
     prog.bt_cadastrar.setText('Atualizar')
-
-
-def mostra_fotos():
-    try:
-        data = urllib.request.urlopen(prog.ed_foto1.text()).read()
-        pixmap = QPixmap()
-        pixmap.loadFromData(data)
-        prog.foto_anverso.setPixmap(pixmap)
-        prog.foto_anverso.setMaximumSize(300, 300)
-        prog.foto_anverso.setScaledContents(True)
-        prog.foto_anverso.setVisible(True)
-
-    except:
-        pass
-    try:
-        data = urllib.request.urlopen(prog.ed_foto2.text()).read()
-        pixmap.loadFromData(data)
-        prog.foto_reverso.setPixmap(pixmap)
-        prog.foto_reverso.setMaximumSize(300, 300)
-        prog.foto_reverso.setScaledContents(True)
-        prog.foto_reverso.setVisible(True)
-    except:
-        pass
+    exibeafoto()
 
 
 def exibe_frame_de_pesquisa(tipo):
@@ -262,8 +298,10 @@ def exibe_frame_de_pesquisa(tipo):
     def abre_item_selecionado(item):
         '''duplo clique para abrir o item'''
         id = str(item.text()).split(':')[0].strip()
+        prog.lbl_titulo.setText(f'Atualizar Registro: {id}')
+
         try:
-            exibe_moeda(id)
+            exibe_moeda(id, 'atualizar')
 
         except:
 
@@ -281,6 +319,9 @@ def exibe_frame_de_cadastro(tipo):
     prog.bt_deletar_reg.setVisible(False)
     limpa_form_cadastro()
     exibecadastro()
+    prog.lbl_titulo.setText(f'Cadastrar nova {str(tipo).lower()}')
+    prog.bt_cadastrar.setText('Cadastrar')
+    prog.bt_mostrar_foto.setVisible(True)
     prog.ed_tipo.setText(tipo)
     detalhes = 'CUNHAGEM - PERIODO - CIRCULACAO - BORDA - ALINHAMENTO - PESO GR - ESPESSURA MM'
     prog.ed_detalhes.setPlainText(detalhes)
@@ -311,7 +352,7 @@ def apagar_registro():
 
 def carregaimagemFundo():
     pixmap = QPixmap('screenshot.png')
-    scaled = pixmap.scaled(prog.mapa.size(), QtCore.Qt.KeepAspectRatio)
+    scaled = pixmap.scaled(600, 400, QtCore.Qt.KeepAspectRatio)
     prog.mapa.setPixmap(scaled)
     prog.mapa.setVisible(True)
 
@@ -398,13 +439,13 @@ prog.bt_cadastrar.clicked.connect(fcadastrar)
 prog.bt_localizar.clicked.connect(
     partial(exibe_frame_de_pesquisa, tipo='pesquisa'))
 # botao mostrar fotos no frame de cadastro
-prog.bt_mostrar_foto.clicked.connect(mostra_fotos)
+prog.bt_mostrar_foto.clicked.connect(exibeafoto)
 # botao cancelar cadastro
 prog.bt_cancelar.clicked.connect(cancelar)
 # botao apagar registro
 prog.bt_deletar_reg.clicked.connect(apagar_registro)
 
 exiberesumo()
-carregaimagemFundo()
+
 prog.show()
 app.exec()
