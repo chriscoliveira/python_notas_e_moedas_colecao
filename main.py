@@ -358,8 +358,14 @@ def carregaimagemFundo():
 
 
 def scrap_img():
+    QMessageBox.about(
+        prog, 'Vai demorar....', 'Este processo pode demorar um pouco :/')
     colecao.scrap()
     carregaimagemFundo()
+    # colecao.deletemapa(caminho='minha-colecao-a01d5.appspot.com',
+    #                    arquivo='screenshot.png')
+    colecao.upload(caminho='minha-colecao-a01d5.appspot.com',
+                   arquivo='screenshot.png')
 
 
 def exportar_banco_sql():

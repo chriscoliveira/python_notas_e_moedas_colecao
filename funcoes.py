@@ -2,6 +2,7 @@ import sqlite3
 from playwright.sync_api import sync_playwright
 from time import sleep
 import os
+from firebase_admin import credentials, initialize_app, storage
 
 
 class Colecao:
@@ -11,20 +12,22 @@ class Colecao:
         self.cursor = self.conn.cursor()
 
     def scrap(self):
+        try:
+            URL = 'https://pt.ucoin.net/uid26638?v=home'
+            with sync_playwright() as p:
+                browser = p.webkit.launch()
+                page = browser.new_page()
+                page.goto(URL)
+                page.click('#cookies-warning > div > div.right > div')
+                # page.query_selector(id="map")
+                #    sleep(8)
+                page.click('#map')
 
-        URL = 'https://pt.ucoin.net/uid26638?v=home'
-        with sync_playwright() as p:
-            browser = p.webkit.launch()
-            page = browser.new_page()
-            page.goto(URL)
-            page.click('#cookies-warning > div > div.right > div')
-            # page.query_selector(id="map")
-            #    sleep(8)
-            page.click('#map')
-
-            page.locator(
-                '#user-map > div.modal-container > div.modal-body').screenshot(path="screenshot.png")
-            browser.close()
+                page.locator(
+                    '#user-map > div.modal-container > div.modal-body').screenshot(path="screenshot.png")
+                browser.close()
+        except Exception as e:
+            print(e)
 
     def upload():
         pass
@@ -274,3 +277,50 @@ class Colecao:
     def fechar(self):
         self.conn.close()
         self.cursor.close()
+
+    def deletemapa(self, caminho, arquivo):
+        try:
+            ''' 
+            screenshot = 'minha-colecao-a01d5.appspot.com'
+            banco='minha-colecao-a01d5.appspot.com/Y2hyaXN0aWFuLmNvbGl2ZWlyYUBnbWFpbC5jb20=/bancodados'
+            '''
+            # Init firebase with your credentials
+            cred = credentials.Certificate(
+                "minha-colecao-a01d5-firebase-adminsdk-ehm8b-b1a0aed377.json")
+            initialize_app(cred, {'storageBucket': caminho})
+
+            # remove image
+            bucket = storage.bucket()
+            blob = bucket.blob('screenshot.png')
+            blob.delete()
+        except Exception as e:
+            print(e)
+
+    def upload(self, caminho, arquivo):
+        try:
+            ''' 
+            screenshot = 'minha-colecao-a01d5.appspot.com'
+            banco='minha-colecao-a01d5.appspot.com/Y2hyaXN0aWFuLmNvbGl2ZWlyYUBnbWFpbC5jb20=/bancodados'
+            '''
+            # Init firebase with your credentials
+            try:
+                cred = credentials.Certificate(
+                    "minha-colecao-a01d5-firebase-adminsdk-ehm8b-b1a0aed377.json")
+                initialize_app(cred, {'storageBucket': caminho})
+            except:
+                pass
+
+            # upload image
+            fileName = arquivo
+            bucket = storage.bucket()
+            blob = bucket.blob(fileName)
+            blob.upload_from_filename(fileName)
+
+            # Opt : if you want to make public access from the URL
+            blob.make_public()
+
+            print("your file url", blob.public_url)
+
+            # /Y2hyaXN0aWFuLmNvbGl2ZWlyYUBnbWFpbC5jb20=/bancodados
+        except Exception as e:
+            print(e)
