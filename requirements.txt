@@ -1,0 +1,4 @@
+firebase_admin
+pyqt5
+requests
+playwright
