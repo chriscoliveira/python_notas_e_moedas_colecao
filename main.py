@@ -116,69 +116,29 @@ def fcadastrar():
     datacadastro = data_atual.strftime('%d/%m/%Y')
     id = prog.lbl_id.text()
     print(id, type(id))
-    if pais:
-        if ano:
-            if krause:
-                if valor:
-                    if moeda:
-                        if tipo:
-                            if qualidade:
-                                if material:
-                                    if diametro:
-                                        if detalhe:
-                                            if valor_venda:
-                                                # Verifica se os campos nao estao vazios
-                                                if id == '':
-                                                    colecao.inserir(pais, ano, krause, valor, moeda, tipo, qualidade, material, diametro,
-                                                                    detalhe, anverso, reverso, valor_venda, datacadastro, imagem1, imagem2)
-                                                    prog.lbl_status_cadastro.setText(
-                                                        'Item cadastrado com sucesso')
-                                                    limpa_form_cadastro()
-                                                    QMessageBox.about(
-                                                        prog, 'Cadastro', f'Registro criado com sucesso!\n{ano} {pais} {valor} {moeda} {tipo}\n'
-                                                        f'{qualidade} {material} {diametro}\n{detalhe}\n{anverso} {reverso} {valor_venda}')
-                                                else:
-                                                    colecao.editar(id, pais, ano, krause, valor, moeda, tipo, qualidade, material,
-                                                                   diametro, detalhe, anverso, reverso, valor_venda, imagem1, imagem2)
-                                                    prog.lbl_status_cadastro.setText(
-                                                        'Item atualizado com sucesso')
-                                                    QMessageBox.about(
-                                                        prog, 'Atualização', f'Registro atualizado com sucesso!\n{ano} {pais} {valor} {moeda} {tipo}\n'
-                                                        f'{qualidade} {material} {diametro}\n{detalhe}\n{anverso} {reverso} {valor_venda}')
-                                                exiberesumo()
-                                            else:
-                                                prog.lbl_status_cadastro.setText(
-                                                    'Campo valor de venda não pode ser vazio')
-                                        else:
-                                            prog.lbl_status_cadastro.setText(
-                                                'Campo detalhe não pode ser vazio')
-                                    else:
-                                        prog.lbl_status_cadastro.setText(
-                                            'Campo diametro não pode ser vazio')
-                                else:
-                                    prog.lbl_status_cadastro.setText(
-                                        'Campo material não pode ser vazio')
-                            else:
-                                prog.lbl_status_cadastro.setText(
-                                    'Campo qualidade não pode ser vazio')
-                        else:
-                            prog.lbl_status_cadastro.setText(
-                                'Campo tipo não pode ser vazio')
-                    else:
-                        prog.lbl_status_cadastro.setText(
-                            'Campo moeda não pode ser vazio')
-                else:
-                    prog.lbl_status_cadastro.setText(
-                        'Campo valor não pode ser vazio')
-            else:
-                prog.lbl_status_cadastro.setText(
-                    'Campo krause não pode ser vazio')
-        else:
+    if pais and ano and krause and valor and moeda and tipo and qualidade and material and diametro and detalhe and valor_venda:
+        # Verifica se os campos nao estao vazios
+        if id == '':
+            colecao.inserir(pais, ano, krause, valor, moeda, tipo, qualidade, material, diametro,
+                            detalhe, anverso, reverso, valor_venda, datacadastro, imagem1, imagem2)
             prog.lbl_status_cadastro.setText(
-                'Campo ano não pode ser vazio')
+                'Item cadastrado com sucesso')
+            limpa_form_cadastro()
+            QMessageBox.about(
+                prog, 'Cadastro', f'Registro criado com sucesso!\n{ano} {pais} {valor} {moeda} {tipo}\n'
+                f'{qualidade} {material} {diametro}\n{detalhe}\n{anverso} {reverso} {valor_venda}')
+        else:
+            colecao.editar(id, pais, ano, krause, valor, moeda, tipo, qualidade, material,
+                           diametro, detalhe, anverso, reverso, valor_venda, imagem1, imagem2)
+            prog.lbl_status_cadastro.setText(
+                'Item atualizado com sucesso')
+            QMessageBox.about(
+                prog, 'Atualização', f'Registro atualizado com sucesso!\n{ano} {pais} {valor} {moeda} {tipo}\n'
+                f'{qualidade} {material} {diametro}\n{detalhe}\n{anverso} {reverso} {valor_venda}')
+        exiberesumo()
     else:
-        prog.lbl_status_cadastro.setText(
-            'Campo país não pode ser vazio')
+        QMessageBox.about(prog, 'Erro ao Cadastrar',
+                          f'É necessário que todos os campos sejam preenchidos!\n')
 
 
 def limpa_form_cadastro():
