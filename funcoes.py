@@ -200,47 +200,50 @@ class Colecao:
         return listagem
 
     def exibir_resumo(self):
-        # pega a lista de pais unicos
-        mbrasil = 0
-        nbrasil = 0
-        nfora = 0
-        mfora = 0
-        valorcolecao = 0
-        # verifica a quantidade moedas do brasil
+        try:
+            # pega a lista de pais unicos
+            mbrasil = 0
+            nbrasil = 0
+            nfora = 0
+            mfora = 0
+            valorcolecao = 0
+            # verifica a quantidade moedas do brasil
 
-        sql_qtde_moedas = f"Select * from Colecao where pais == 'Brasil' and tipo == 'Moeda'"
-        self.cursor.execute(sql_qtde_moedas)
-        for linha in self.cursor.fetchall():
-            mbrasil += 1
+            sql_qtde_moedas = f"Select * from Colecao where pais == 'Brasil' and tipo == 'Moeda'"
+            self.cursor.execute(sql_qtde_moedas)
+            for linha in self.cursor.fetchall():
+                mbrasil += 1
 
-        # verifica a quantidade notas do brasil
-        sql_qtde_notas = f'Select * from Colecao where pais == "Brasil" and tipo == "Nota"'
-        self.cursor.execute(sql_qtde_notas)
-        for linha in self.cursor.fetchall():
-            nbrasil += 1
+            # verifica a quantidade notas do brasil
+            sql_qtde_notas = f'Select * from Colecao where pais == "Brasil" and tipo == "Nota"'
+            self.cursor.execute(sql_qtde_notas)
+            for linha in self.cursor.fetchall():
+                nbrasil += 1
 
-        # verifica a quantidade moedas de fora do brasil
-        sql_qtde_moedas = f"Select * from Colecao where pais != 'Brasil' and tipo == 'Moeda'"
-        self.cursor.execute(sql_qtde_moedas)
-        for linha in self.cursor.fetchall():
-            mfora += 1
+            # verifica a quantidade moedas de fora do brasil
+            sql_qtde_moedas = f"Select * from Colecao where pais != 'Brasil' and tipo == 'Moeda'"
+            self.cursor.execute(sql_qtde_moedas)
+            for linha in self.cursor.fetchall():
+                mfora += 1
 
-        # verifica a quantidade notas de fora do brasil
-        sql_qtde_notas = f'Select * from Colecao where pais != "Brasil" and tipo == "Nota"'
-        self.cursor.execute(sql_qtde_notas)
-        for linha in self.cursor.fetchall():
-            nfora += 1
+            # verifica a quantidade notas de fora do brasil
+            sql_qtde_notas = f'Select * from Colecao where pais != "Brasil" and tipo == "Nota"'
+            self.cursor.execute(sql_qtde_notas)
+            for linha in self.cursor.fetchall():
+                nfora += 1
 
-        # soma os valores de venda de todas as moedas e notas
-        sql_valor_moedas = f'Select sum(valor_venda) from Colecao '
-        valorcolecao = self.cursor.execute(sql_valor_moedas)
-        valorcolecao1 = list(valorcolecao)
-        valorcolecao1 = valorcolecao1[0]
+            # soma os valores de venda de todas as moedas e notas
+            sql_valor_moedas = f'Select sum(valor_venda) from Colecao '
+            valorcolecao = self.cursor.execute(sql_valor_moedas)
+            valorcolecao1 = list(valorcolecao)
+            valorcolecao1 = valorcolecao1[0]
 
-        return f'Moedas do Brasil: {mbrasil}\nNotas do Brasil: {nbrasil}\n\nMoedas estrangeiras: {mfora}\nNotas estrangeiras: {nfora}\n\nTotal de moedas: {mbrasil+mfora}\nTotal de notas: {nbrasil+nfora}\nContagem total: {mbrasil+mfora+nbrasil+nfora}\n\nValor total de coleção: R${valorcolecao1[0]:.2f}'
+            return f'Moedas do Brasil: {mbrasil}\nNotas do Brasil: {nbrasil}\n\nMoedas estrangeiras: {mfora}\nNotas estrangeiras: {nfora}\n\nTotal de moedas: {mbrasil+mfora}\nTotal de notas: {nbrasil+nfora}\nContagem total: {mbrasil+mfora+nbrasil+nfora}\n\nValor total de coleção: R${valorcolecao1[0]:.2f}'
+        except:
+            return f'Não há dados para exibir'
 
     def criartabela(self):
-        sql = 'CREATE TABLE IF NOT EXISTS "Colecao" ("id" INTEGER,"pais" TEXT NOT NULL,"ano" TEXT NOT NULL,"krause" TEXT NOT NULL,"valor" TEXT NOT NULL,"moeda" TEXT NOT NULL,"tipo" TEXT NOT NULL,"qualidade" TEXT NOT NULL,"material" TEXT NOT NULL,"diametro" TEXT NOT NULL,"detalhe" TEXT NOT NULL,"anverso" TEXT NOT NULL,"reverso" TEXT NOT NULL,"valor_venda" TEXT NOT NULL,"datacadastro" TEXT NOT NULL,"imagem1" TEXT NOT NULL,"imagem2" TEXT NOT NULL,PRIMARY KEY("id" AUTOINCREMENT))'
+        sql = 'CREATE TABLE IF NOT EXISTS "Colecao" ("id" INTEGER,"pais" TEXT,"ano" TEXT,"krause" TEXT,"valor" TEXT,"moeda" TEXT,"tipo" TEXT,"qualidade" TEXT,"material" TEXT,"diametro" TEXT,"detalhe" TEXT,"anverso" TEXT,"reverso" TEXT,"valor_venda" TEXT,"datacadastro" TEXT,"imagem1" TEXT,"imagem2" TEXT,PRIMARY KEY("id" AUTOINCREMENT))'
         self.cursor.execute(sql)
 
     def importarTXT(self, tipo):

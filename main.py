@@ -11,7 +11,7 @@ import urllib
 from funcoes import Colecao
 
 colecao = Colecao('colecao.db')
-
+colecao.criartabela()
 # inicio da aplicacao
 app = QtWidgets.QApplication([])
 
