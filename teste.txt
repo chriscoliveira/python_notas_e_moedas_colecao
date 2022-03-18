@@ -1,0 +1,17 @@
+<tr><th>Número Krause</th><td>KM# 468</td></tr>
+<tr><th>País</th><td>Estados Unidos da América</td></tr>
+<tr><th>Denominação</th><td>1 cêntimo</td></tr>
+<tr><th>Taxa de câmbio</th><td class="gray-11" style="text-align:right"><b>0.01</b> USD = <b class="blue-11">0.05</b> BRL</td></tr>
+<tr><th>Ano</th><td>2017</td></tr>
+<tr><th>Assunto</th><td>Cêntimo de Lincoln</td></tr>
+<tr><th>Periodo</th><td>Estados Unidos da América (1981 - 2022)</td></tr>
+<tr><th>Tipo de moeda</th><td>Circulação normal</td></tr>
+<tr><th>Composição</th><td>Zinco com revestimento de Cobre</td></tr>
+<tr><th>Tipo de bordo</th><td>Liso</td></tr>
+<tr><th>Formato</th><td>Redonda</td></tr>
+<tr><th>Alinhamento</th><td>Moeda (180°)</td></tr>
+<tr><th>Peso (gr)</th><td>2.5</td></tr>
+<tr><th>Diametro (mm)</th><td>19.05</td></tr>
+<tr><th>Espessura (mm)</th><td>1.55</td></tr>
+<tr><th class="nowrap">Anverso</th><td>IN GOD WE TRUST<span class="lgray-11"> / </span>LIBERTY<span class="lgray-11"> / </span>VDB</td></tr>
+<tr><th class="nowrap">Reverso</th><td>E PLURIBUS UNUM<span class="lgray-11"> / </span>JFM<span class="lgray-11"> / </span>LB<span class="lgray-11"> / </span>ONE CENT<span class="lgray-11"> / </span>UNITED STATES OF AMERICA</td></tr>
