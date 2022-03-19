@@ -74,7 +74,7 @@ def login_site():
 
 
 def novacaptura(inicio, fim):
-    VENDA, CUNHAGEM, FOTO1, FOTO2, CADASTRO, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO, CONSERVACAO = '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
+    
     with sync_playwright() as p:
         # browser = p.chromium.launch(
         #     channel='chrome', headless=False)
@@ -84,6 +84,7 @@ def novacaptura(inicio, fim):
 
         # pega os links por pagina
         for i in range(int(inicio), int(fim)):
+            VENDA, CUNHAGEM, FOTO1, FOTO2, CADASTRO, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO, CONSERVACAO = '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
             print(link_colecao+str(i))
             with open('paginas_feitas.txt', 'a') as p:
                 p.write(link_colecao+str(i)+'\n')
