@@ -1,3 +1,4 @@
+from pprint import pprint
 import sys
 from threading import Thread
 from PyQt5.QtWidgets import *
@@ -10,7 +11,7 @@ import requests
 import urllib
 from funcoes import Colecao
 
-colecao = Colecao('colecao.db')
+colecao = Colecao('db_colecao.db')
 colecao.criartabela()
 # inicio da aplicacao
 app = QtWidgets.QApplication([])
@@ -38,25 +39,47 @@ class th(Thread):
         super().__init__()
 
     def mostra_fotos(self):
+        self.img1.setVisible(True)
+        self.img2.setVisible(True)
+        pixmap = QPixmap('noimage.jpg')
+        pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
+        self.img1.setPixmap(pixmap)
+        self.img2.setPixmap(pixmap)
+        try:
+
+            with requests.Session() as session:
+                resp_2 = session.get(self.ed1.text(),
+                                     headers={'User-Agent': 'Mozilla/5.0'})
+                with open("foto1.jpg", "wb") as f:
+                    f.write(resp_2.content)
+
+        #     data = urllib.request.urlopen(self.ed1.text()).read()
+        #     print(self.ed1.text())
+                    pixmap = QPixmap('foto1.jpg')
+
+                    pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
+                    self.img1.setPixmap(pixmap)
+
+        except Exception as e:
+            print(e)
 
         try:
-            data = urllib.request.urlopen(self.ed1.text()).read()
-            pixmap = QPixmap()
-            pixmap.loadFromData(data)
-            pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
-            self.img1.setPixmap(pixmap)
-            self.img1.setVisible(True)
-        except:
-            print('Foto não encontrada')
-        try:
-            data = urllib.request.urlopen(self.ed2.text()).read()
-            pixmap = QPixmap()
-            pixmap.loadFromData(data)
-            pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
-            self.img2.setPixmap(pixmap)
-            self.img2.setVisible(True)
-        except:
-            print('Foto não encontrada')
+
+            with requests.Session() as session:
+                resp_2 = session.get(self.ed2.text(),
+                                     headers={'User-Agent': 'Mozilla/5.0'})
+                with open("foto2.jpg", "wb") as f:
+                    f.write(resp_2.content)
+
+                    # data = urllib.request.urlopen(self.ed1.text()).read()
+                    # print(self.ed1.text())
+                    pixmap = QPixmap('foto2.jpg')
+
+                    pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
+                    self.img2.setPixmap(pixmap)
+
+        except Exception as e:
+            print(e)
 
     def run(self):
         self.mostra_fotos()
@@ -97,44 +120,55 @@ def exiberesumo():
 def fcadastrar():
     '''funcao para cadastrar um item'''
     pais = prog.ed_pais.text().capitalize()
-    ano = prog.ed_ano.text().upper()
-    krause = prog.ed_krause.text().upper()
-    valor = prog.ed_valor.text().upper()
-    moeda = prog.ed_moeda.text().upper()
-    tipo = prog.ed_tipo.text().capitalize()
-    qualidade = prog.ed_qualidade.text().upper()
-    material = prog.ed_material.text().upper()
-    diametro = prog.ed_tamanho.text().upper()
-    detalhe = prog.ed_detalhes.toPlainText().upper()
-    anverso = prog.ed_anverso.text().upper()
-    reverso = prog.ed_reverso.text().upper()
-    valor_venda = prog.ed_venda.text().upper()
-
-    imagem1 = prog.ed_foto1.text()
-    imagem2 = prog.ed_foto2.text()
+    ano = prog.ed_ano.text()
+    krause = prog.ed_krause.text()
+    valor = prog.ed_valor.text()
+    periodo = prog.ed_periodo.text()
+    circulacao = prog.ed_circulacao.text()
+    assunto = prog.ed_assunto.text()
+    serie = prog.ed_serie.text()
+    soberano = prog.ed_soberano.text()
+    cunhagem = prog.ed_cunhagem.text()
+    composicao = prog.ed_composicao.text()
+    borda = prog.ed_borda.text()
+    formato = prog.ed_formato.text()
+    alinhamento = prog.ed_alinhamento.text()
+    peso = prog.ed_peso.text()
+    conservacao = prog.ed_conservacao.text()
+    diametro = prog.ed_diametro.text()
+    espessura = prog.ed_espessura.text()
+    anverso = prog.ed_anverso.text()
+    reverso = prog.ed_reverso.text()
+    venda = prog.ed_venda.text()
+    tipo = prog.ed_tipo.text()
+    foto1 = prog.ed_foto1.text()
+    foto2 = prog.ed_foto2.text()
     data_atual = date.today()
-    datacadastro = data_atual.strftime('%d/%m/%Y')
+    data_cadastro = prog.lbl_data.text()
+    cadastro = data_atual.strftime('%d/%m/%Y')
     id = prog.lbl_id.text()
     print(id, type(id))
-    if pais and ano and krause and valor and moeda and tipo and qualidade and material and diametro and detalhe and valor_venda:
+    if pais and ano and krause and valor:
+
         # Verifica se os campos nao estao vazios
         if id == '':
-            colecao.inserir(pais, ano, krause, valor, moeda, tipo, qualidade, material, diametro,
-                            detalhe, anverso, reverso, valor_venda, datacadastro, imagem1, imagem2)
+            colecao.inserir(venda, cunhagem, foto1, foto2, cadastro, pais, ano, krause, valor, periodo, circulacao, assunto,
+                            serie, soberano, composicao, borda, formato, alinhamento, peso, diametro, espessura, anverso, reverso, conservacao, tipo)
+
             prog.lbl_status_cadastro.setText(
                 'Item cadastrado com sucesso')
             limpa_form_cadastro()
             QMessageBox.about(
-                prog, 'Cadastro', f'Registro criado com sucesso!\n{ano} {pais} {valor} {moeda} {tipo}\n'
-                f'{qualidade} {material} {diametro}\n{detalhe}\n{anverso} {reverso} {valor_venda}')
+                prog, 'Cadastro', f'Registro criado com sucesso!\n{ano} {pais} {valor}\n'
+                f'{conservacao} {composicao} {diametro}\n{peso}\n{anverso} {reverso} {valor}')
         else:
-            colecao.editar(id, pais, ano, krause, valor, moeda, tipo, qualidade, material,
-                           diametro, detalhe, anverso, reverso, valor_venda, imagem1, imagem2)
+            colecao.editar(id, venda, cunhagem, foto1, foto2, data_cadastro, pais, ano, krause, valor, periodo, circulacao, assunto,
+                           serie, soberano, composicao, borda, formato, alinhamento, peso, diametro, espessura, anverso, reverso, conservacao, tipo)
             prog.lbl_status_cadastro.setText(
                 'Item atualizado com sucesso')
             QMessageBox.about(
-                prog, 'Atualização', f'Registro atualizado com sucesso!\n{ano} {pais} {valor} {moeda} {tipo}\n'
-                f'{qualidade} {material} {diametro}\n{detalhe}\n{anverso} {reverso} {valor_venda}')
+                prog, 'Cadastro', f'Registro criado com sucesso!\n{ano} {pais} {valor}\n'
+                f'{conservacao} {composicao} {diametro}\n{peso}\n{anverso} {reverso} {valor}')
         exiberesumo()
     else:
         QMessageBox.about(prog, 'Erro ao Cadastrar',
@@ -147,18 +181,26 @@ def limpa_form_cadastro():
     prog.ed_ano.setText('')
     prog.ed_krause.setText('')
     prog.ed_valor.setText('')
-    prog.ed_moeda.setText('')
-    prog.ed_tipo.setText('')
-    prog.ed_qualidade.setText('')
-    prog.ed_material.setText('')
-    prog.ed_tamanho.setText('')
-    prog.ed_detalhes.setPlainText('')
+    prog.ed_periodo.setText('')
+    prog.ed_circulacao.setText('')
+    prog.ed_assunto.setText('')
+    prog.ed_serie.setText('')
+    prog.ed_soberano.setText('')
+    prog.ed_cunhagem.setText('')
+    prog.ed_composicao.setText('')
+    prog.ed_borda.setText('')
+    prog.ed_formato.setText('')
+    prog.ed_alinhamento.setText('')
+    prog.ed_peso.setText('')
+    prog.ed_conservacao.setText('')
+    prog.ed_diametro.setText('')
+    prog.ed_espessura.setText('')
     prog.ed_anverso.setText('')
     prog.ed_reverso.setText('')
-    prog.ed_venda.setText('')
     prog.ed_foto1.setText('')
     prog.ed_foto2.setText('')
-    prog.lbl_data.setText('')
+    prog.ed_venda.setText('')
+    prog.ed_tipo.setText('')
     prog.foto_anverso.setVisible(False)
     prog.foto_reverso.setVisible(False)
     prog.lbl_status_cadastro.setText('')
@@ -174,18 +216,51 @@ def exibe_moeda(id, opcao):
     prog.ed_ano.setText(str(linha[2]))
     prog.ed_krause.setText(str(linha[3]))
     prog.ed_valor.setText(str(linha[4]))
-    prog.ed_moeda.setText(str(linha[5]))
-    prog.ed_tipo.setText(str(linha[6]))
-    prog.ed_qualidade.setText(str(linha[7]))
-    prog.ed_material.setText(str(linha[8]))
-    prog.ed_tamanho.setText(str(linha[9]))
-    prog.ed_detalhes.setPlainText(str(linha[10]))
-    prog.ed_anverso.setText(str(linha[11]))
-    prog.ed_reverso.setText(str(linha[12]))
-    prog.ed_venda.setText(str(linha[13]))
-    prog.ed_foto1.setText(str(linha[15]))
-    prog.ed_foto2.setText(str(linha[16]))
-    prog.lbl_data.setText(str(linha[14]))
+    prog.ed_periodo.setText(str(linha[5]))
+    prog.ed_circulacao.setText(str(linha[6]))
+    prog.ed_assunto.setText(str(linha[7]))
+    prog.ed_serie.setText(str(linha[8]))
+    prog.ed_soberano.setText(str(linha[9]))
+    prog.ed_cunhagem.setText(str(linha[10]))
+    prog.ed_composicao.setText(str(linha[11]))
+    prog.ed_borda.setText(str(linha[12]))
+    prog.ed_formato.setText(str(linha[13]))
+    prog.ed_alinhamento.setText(str(linha[14]))
+    prog.ed_peso.setText(str(linha[15]))
+    prog.ed_conservacao.setText(str(linha[16]))
+    prog.ed_diametro.setText(str(linha[17]))
+    prog.ed_espessura.setText(str(linha[18]))
+    prog.ed_anverso.setText(str(linha[19]))
+    prog.ed_reverso.setText(str(linha[20]))
+    prog.ed_foto1.setText(str(linha[23]))
+    prog.ed_foto2.setText(str(linha[24]))
+    prog.ed_venda.setText(str(linha[21]))
+    prog.lbl_data.setText(str(linha[22]))
+    prog.ed_tipo.setText(str(linha[25]))
+    # pais = linha[1]
+    # ano = linha[2]
+    # krause = linha[3]
+    # valor = linha[4]
+    # periodo = linha[5]
+    # circulacao = linha[6]
+    # assunto = linha[7]
+    # serie = linha[8]
+    # soberano = linha[9]
+    # cunhagem = linha[10]
+    # composicao = linha[11]
+    # borda = linha[12]
+    # formato = linha[13]
+    # alinhamento = linha[14]
+    # peso = linha[15]
+    # conservacao = linha[16]
+    # diametro = linha[17]
+    # espessura = linha[18]
+    # anverso = linha[19]
+    # reverso = linha[20]
+    # venda = linha[21]
+    # cadastro = linha[22]
+    # foto1 = linha[23]
+    # foto2 = linha[24]
     prog.bt_deletar_reg.setVisible(True)
     prog.bt_mostrar_foto.setVisible(False)
     prog.bt_cadastrar.setText('Atualizar')
@@ -263,8 +338,8 @@ def exibe_frame_de_pesquisa(tipo):
         try:
             exibe_moeda(id, 'atualizar')
 
-        except:
-
+        except Exception as e:
+            print(e)
             exibelista()
             prog.ed_localizar.setText(id)
 
@@ -282,9 +357,7 @@ def exibe_frame_de_cadastro(tipo):
     prog.lbl_titulo.setText(f'Cadastrar nova {str(tipo).lower()}')
     prog.bt_cadastrar.setText('Cadastrar')
     prog.bt_mostrar_foto.setVisible(True)
-    prog.ed_tipo.setText(tipo)
-    detalhes = 'CUNHAGEM - PERIODO - CIRCULACAO - BORDA - ALINHAMENTO - PESO GR - ESPESSURA MM'
-    prog.ed_detalhes.setPlainText(detalhes)
+    # prog.ed_tipo.setText(tipo)
 
 
 def cancelar():
@@ -300,7 +373,7 @@ def apagar_registro():
     print('apagar')
     '''Apaga o registro selecionado'''
     ret = QMessageBox.question(
-        prog, 'ATENÇÃO!!!', f"Tem certeza que deseja apagar o item:\n{prog.ed_ano.text()} {prog.ed_pais.text()} {prog.ed_valor.text()} {prog.ed_moeda.text()}", QMessageBox.Yes | QMessageBox.Cancel)
+        prog, 'ATENÇÃO!!!', f"Tem certeza que deseja apagar o item:\n{prog.ed_ano.text()} {prog.ed_pais.text()} {prog.ed_valor.text()} ", QMessageBox.Yes | QMessageBox.Cancel)
 
     if ret == QMessageBox.Yes:
         colecao.remover(prog.lbl_id.text())

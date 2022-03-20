@@ -5,3 +5,5 @@
 minha-colecao-a01d5-firebase-adminsdk-ehm8b-b1a0aed377.json
 colecao.db
 *.json
+/imagens/
+/user_data/

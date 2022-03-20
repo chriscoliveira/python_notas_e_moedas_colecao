@@ -49,7 +49,7 @@ class DBase:
         finally:
             if sqliteConnection:
                 sqliteConnection.close()
-                print("The SQLite connection is closed")
+                # print("The SQLite connection is closed")
 
 
 Banco = DBase('db_colecao.db')
@@ -74,7 +74,7 @@ def login_site():
 
 
 def novacaptura(inicio, fim):
-    
+
     with sync_playwright() as p:
         # browser = p.chromium.launch(
         #     channel='chrome', headless=False)
@@ -223,6 +223,8 @@ def novacaptura(inicio, fim):
                                 '<tr><th class="nowrap">Reverso</th><td>', '').replace('<span class="lgray-11"> / </span>', ' / ').replace('</td></tr>', '')
                     Banco.cadastrar(VENDA, CUNHAGEM, FOTO1, FOTO2, CADASTRO, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO,
                                     SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO, CONSERVACAO)
+                    VENDA, CUNHAGEM, FOTO1, FOTO2, CADASTRO, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO, CONSERVACAO = '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
 
 
-novacaptura(40, 50)
+novacaptura(99, 112)
+# login_site()
