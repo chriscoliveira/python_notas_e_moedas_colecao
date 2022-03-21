@@ -2,6 +2,8 @@ import sqlite3
 from playwright.sync_api import sync_playwright
 from time import sleep
 import os
+from bs4 import BeautifulSoup
+
 # from firebase_admin import credentials, initialize_app, storage
 
 
@@ -343,6 +345,128 @@ class Colecao:
     #         # /Y2hyaXN0aWFuLmNvbGl2ZWlyYUBnbWFpbC5jb20=/bancodados
     #     except Exception as e:
     #         print(e)
+
+    def captura_infos(self, link):
+        if link:
+            with sync_playwright() as p:
+                VENDA, CUNHAGEM, FOTO1, FOTO2, CADASTRO, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO, CONSERVACAO = '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
+                browser = p.chromium.launch_persistent_context(channel='chrome', user_data_dir=os.path.join(
+                    os.path.dirname(__file__), 'user_data'), headless=True)
+                page = browser.new_page()
+                # entra link por link
+                page.goto(link)
+                page.set_default_timeout(0)
+
+                htm = page.content()
+                soup = BeautifulSoup(htm, 'html.parser', from_encoding='UTF-8')
+
+                try:
+                    VENDA = soup.find('a', class_='pricewj').text
+                    VENDA = VENDA.replace('Preço: R$ ', '')
+                except:
+                    VENDA = ''
+
+                try:
+                    CUNHAGEM = soup.find('h4').text
+
+                except:
+                    CUNHAGEM = ''
+                try:
+                    FOTO = soup.find_all('img', id='coin-img1')
+                    FOTOS = []
+                    for i in FOTO:
+                        FOTOS.append(i['src'])
+                    FOTO1 = FOTOS[0]
+                    FOTO2 = FOTOS[1]
+                except:
+                    FOTO1 = ''
+                    FOTO2 = ''
+
+                infopublicacao = soup.find_all('table', class_='my-func-info')
+                soupinfo = BeautifulSoup(str(infopublicacao), 'html.parser')
+                linhasinfo = soupinfo.find_all('tr')
+
+                info = soup.find_all('table', class_='coin-info')
+                soupinfo = BeautifulSoup(
+                    str(info), 'html.parser', from_encoding='utf-8')
+                linhasinfo = soupinfo.find_all('tr')
+
+                for linha in linhasinfo:
+
+                    if 'País' in str(linha):
+                        PAIS = str(linha).replace(
+                            '<tr><th>País</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Ano' in str(linha):
+                        ANO = str(linha).replace(
+                            '<tr><th>Ano</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Krause' in str(linha):
+                        KRAUSE = str(linha).replace(
+                            '<tr><th>Número Krause</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Denominação' in str(linha):
+                        VALOR = str(linha).replace(
+                            '<tr><th>Denominação</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Periodo' in str(linha):
+                        PERIODO = str(linha).replace(
+                            '<tr><th>Periodo</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Tipo de moeda' in str(linha):
+                        CIRCULACAO = str(linha).replace(
+                            '<tr><th>Tipo de moeda</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Assunto' in str(linha):
+                        ASSUNTO = str(linha).replace(
+                            '<tr><th>Assunto</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Série' in str(linha):
+                        SERIE = str(linha).replace(
+                            '<tr><th>Série</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Soberano' in str(linha):
+                        SOBERANO = str(linha).replace(
+                            '<tr><th>Soberano</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Composição' in str(linha):
+                        COMPOSICAO = str(linha).replace(
+                            '<tr><th>Composição</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Tipo de bordo' in str(linha):
+                        BORDA = str(linha).replace(
+                            '<tr><th>Tipo de bordo</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Formato' in str(linha):
+                        FORMATO = str(linha).replace(
+                            '<tr><th>Formato</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Alinhamento' in str(linha):
+                        ALINHAMENTO = str(linha).replace(
+                            '<tr><th>Alinhamento</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Peso' in str(linha):
+                        PESO = str(linha).replace(
+                            '<tr><th>Peso (gr)</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Diametro' in str(linha):
+                        DIAMETRO = str(linha).replace(
+                            '<tr><th>Diametro (mm)</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Espessura' in str(linha):
+                        ESPESSURA = str(linha).replace(
+                            '<tr><th>Espessura (mm)</th><td>', '').replace('</td></tr>', '')
+
+                    if 'Anverso' in str(linha):
+                        ANVERSO = str(linha).replace(
+                            '<tr><th class="nowrap">Anverso</th><td>', '').replace('<span class="lgray-11"> / </span>', ' / ').replace('</td></tr>', '')
+
+                    if 'Reverso' in str(linha):
+                        REVERSO = str(linha).replace(
+                            '<tr><th class="nowrap">Reverso</th><td>', '').replace('<span class="lgray-11"> / </span>', ' / ').replace('</td></tr>', '')
+
+                return VENDA, CUNHAGEM, FOTO1, FOTO2, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO
+                VENDA, CUNHAGEM, FOTO1, FOTO2, CADASTRO, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO, CONSERVACAO = '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
 
 
 if __name__ == '__main__':

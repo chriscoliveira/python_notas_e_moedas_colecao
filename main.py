@@ -1,3 +1,4 @@
+from os import link
 from pprint import pprint
 import sys
 from threading import Thread
@@ -21,6 +22,9 @@ pixmap = QPixmap('screenshot.png')
 scaled = pixmap.scaled(600, 400, QtCore.Qt.KeepAspectRatio)
 prog.mapa.setPixmap(scaled)
 
+prog.label_ucoin.setVisible(False)
+prog.ed_link_ucoin.setVisible(False)
+prog.bt_buscar_ucoin.setVisible(False)
 
 '''
 THREADS
@@ -367,6 +371,43 @@ def carregaimagemFundo():
     prog.mapa.setVisible(True)
 
 
+def pega_info_ucoin():
+    prog.label_ucoin.setVisible(True)
+    prog.ed_link_ucoin.setVisible(True)
+    prog.bt_buscar_ucoin.setVisible(True)
+
+
+def envia_info_cadastro(link):
+    VENDA, CUNHAGEM, FOTO1, FOTO2, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO = colecao.captura_infos(
+        link)
+    prog.ed_pais.setText(PAIS)
+    prog.ed_ano.setText(ANO)
+    prog.ed_krause.setText(KRAUSE)
+    prog.ed_valor.setText(VALOR)
+    prog.ed_periodo.setText(PERIODO)
+    prog.ed_circulacao.setText(CIRCULACAO)
+    prog.ed_assunto.setText(ASSUNTO)
+    prog.ed_serie.setText(SERIE)
+    prog.ed_soberano.setText(SOBERANO)
+    prog.ed_cunhagem.setText(CUNHAGEM)
+    prog.ed_composicao.setText(COMPOSICAO)
+    prog.ed_borda.setText(BORDA)
+    prog.ed_formato.setText(FORMATO)
+    prog.ed_alinhamento.setText(ALINHAMENTO)
+    prog.ed_peso.setText(PESO)
+    prog.ed_diametro.setText(DIAMETRO)
+    prog.ed_espessura.setText(ESPESSURA)
+    prog.ed_anverso.setText(ANVERSO)
+    prog.ed_reverso.setText(REVERSO)
+    prog.ed_foto1.setText(FOTO1)
+    prog.ed_foto2.setText(FOTO2)
+    prog.ed_venda.setText(VENDA)
+    prog.label_ucoin.setVisible(False)
+    prog.ed_link_ucoin.setVisible(False)
+    prog.bt_buscar_ucoin.setVisible(False)
+    prog.ed_link_ucoin.setText('')
+
+
 def scrap_img():
     QMessageBox.about(
         prog, 'Vai demorar....', 'Este processo pode demorar um pouco :/')
@@ -374,8 +415,8 @@ def scrap_img():
     carregaimagemFundo()
     # colecao.deletemapa(caminho='minha-colecao-a01d5.appspot.com',
     #                    arquivo='screenshot.png')
-    colecao.upload(caminho='minha-colecao-a01d5.appspot.com',
-                   arquivo='screenshot.png')
+    # colecao.upload(caminho='minha-colecao-a01d5.appspot.com',
+    #                arquivo='screenshot.png')
 
 
 def exportar_banco_sql():
@@ -461,7 +502,15 @@ prog.bt_cancelar.clicked.connect(cancelar)
 # botao apagar registro
 prog.bt_deletar_reg.clicked.connect(apagar_registro)
 
+prog.bt_scrap.clicked.connect(pega_info_ucoin)
+
+prog.bt_buscar_ucoin.clicked.connect(
+    lambda: envia_info_cadastro(prog.ed_link_ucoin.text()))
+
 exiberesumo()
+
+# colecao.captura_infos(
+#     link='https://pt.ucoin.net/coin/brazil-20-centavos-1942/?cid=23714')
 
 prog.show()
 app.exec()
