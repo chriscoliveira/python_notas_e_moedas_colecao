@@ -46,25 +46,25 @@ class th(Thread):
         self.img1.setPixmap(pixmap)
         self.img2.setPixmap(pixmap)
         try:
+            if self.ed1.text() != '' or self.ed1.text() != ' ':
+                with requests.Session() as session:
+                    resp_2 = session.get(self.ed1.text(),
+                                         headers={'User-Agent': 'Mozilla/5.0'})
+                    with open("foto1.jpg", "wb") as f:
+                        f.write(resp_2.content)
 
-            with requests.Session() as session:
-                resp_2 = session.get(self.ed1.text(),
-                                     headers={'User-Agent': 'Mozilla/5.0'})
-                with open("foto1.jpg", "wb") as f:
-                    f.write(resp_2.content)
+            #     data = urllib.request.urlopen(self.ed1.text()).read()
+            #     print(self.ed1.text())
+                        pixmap = QPixmap('foto1.jpg')
 
-        #     data = urllib.request.urlopen(self.ed1.text()).read()
-        #     print(self.ed1.text())
-                    pixmap = QPixmap('foto1.jpg')
-
-                    pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
-                    self.img1.setPixmap(pixmap)
+                        pixmap = pixmap.scaled(
+                            300, 300, QtCore.Qt.KeepAspectRatio)
+                        self.img1.setPixmap(pixmap)
 
         except Exception as e:
             print(e)
 
         try:
-
             with requests.Session() as session:
                 resp_2 = session.get(self.ed2.text(),
                                      headers={'User-Agent': 'Mozilla/5.0'})
@@ -237,30 +237,7 @@ def exibe_moeda(id, opcao):
     prog.ed_venda.setText(str(linha[21]))
     prog.lbl_data.setText(str(linha[22]))
     prog.ed_tipo.setText(str(linha[25]))
-    # pais = linha[1]
-    # ano = linha[2]
-    # krause = linha[3]
-    # valor = linha[4]
-    # periodo = linha[5]
-    # circulacao = linha[6]
-    # assunto = linha[7]
-    # serie = linha[8]
-    # soberano = linha[9]
-    # cunhagem = linha[10]
-    # composicao = linha[11]
-    # borda = linha[12]
-    # formato = linha[13]
-    # alinhamento = linha[14]
-    # peso = linha[15]
-    # conservacao = linha[16]
-    # diametro = linha[17]
-    # espessura = linha[18]
-    # anverso = linha[19]
-    # reverso = linha[20]
-    # venda = linha[21]
-    # cadastro = linha[22]
-    # foto1 = linha[23]
-    # foto2 = linha[24]
+
     prog.bt_deletar_reg.setVisible(True)
     prog.bt_mostrar_foto.setVisible(False)
     prog.bt_cadastrar.setText('Atualizar')

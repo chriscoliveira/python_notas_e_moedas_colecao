@@ -2,7 +2,7 @@ import sqlite3
 from playwright.sync_api import sync_playwright
 from time import sleep
 import os
-from firebase_admin import credentials, initialize_app, storage
+# from firebase_admin import credentials, initialize_app, storage
 
 
 class Colecao:
@@ -225,7 +225,7 @@ class Colecao:
             valorcolecao = 0
             # verifica a quantidade moedas do brasil
 
-            sql_qtde_moedas = f"Select * FROM colecao where pais == 'Brasil'"
+            sql_qtde_moedas = f"Select * FROM colecao where pais == 'Brasil' and tipo == 'moeda'"
             self.cursor.execute(sql_qtde_moedas)
             for linha in self.cursor.fetchall():
                 mbrasil += 1
@@ -237,7 +237,7 @@ class Colecao:
                 nbrasil += 1
 
             # verifica a quantidade moedas de fora do brasil
-            sql_qtde_moedas = f"Select * FROM colecao where pais != 'Brasil'"
+            sql_qtde_moedas = f"Select * FROM colecao where pais != 'Brasil' and tipo == 'moeda'"
             self.cursor.execute(sql_qtde_moedas)
             for linha in self.cursor.fetchall():
                 mfora += 1

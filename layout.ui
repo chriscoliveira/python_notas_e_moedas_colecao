@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>845</width>
-    <height>723</height>
+    <height>865</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -23,7 +23,7 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true"/>
+   <string notr="true">background-color: rgb(0, 122, 204);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_7">
@@ -34,7 +34,7 @@
         <item>
          <widget class="QFrame" name="frame_resumo">
           <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
+           <string notr="true">background-color: rgb(240, 240, 240);</string>
           </property>
           <property name="frameShape">
            <enum>QFrame::StyledPanel</enum>
@@ -91,6 +91,9 @@
        <widget class="QFrame" name="frame_cadastro">
         <property name="layoutDirection">
          <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(240, 240, 240);</string>
         </property>
         <property name="frameShape">
          <enum>QFrame::StyledPanel</enum>
@@ -173,11 +176,14 @@
            </item>
            <item row="0" column="2">
             <widget class="QLabel" name="label_2">
+             <property name="layoutDirection">
+              <enum>Qt::LeftToRight</enum>
+             </property>
              <property name="text">
               <string>Ano</string>
              </property>
              <property name="alignment">
-              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
              </property>
             </widget>
            </item>
@@ -224,22 +230,8 @@
            <item row="0" column="1">
             <widget class="QLineEdit" name="ed_pais"/>
            </item>
-           <item row="0" column="0" alignment="Qt::AlignHCenter">
-            <widget class="QLabel" name="label">
-             <property name="text">
-              <string>País</string>
-             </property>
-            </widget>
-           </item>
            <item row="1" column="1">
             <widget class="QLineEdit" name="ed_krause"/>
-           </item>
-           <item row="1" column="0" alignment="Qt::AlignHCenter">
-            <widget class="QLabel" name="label_3">
-             <property name="text">
-              <string>Krause</string>
-             </property>
-            </widget>
            </item>
            <item row="16" column="0" colspan="5">
             <layout class="QHBoxLayout" name="horizontalLayout">
@@ -302,7 +294,7 @@
               <string/>
              </property>
              <property name="alignment">
-              <set>Qt::AlignCenter</set>
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
              </property>
             </widget>
            </item>
@@ -318,6 +310,12 @@
            </item>
            <item row="12" column="2">
             <widget class="QLabel" name="lbl_id">
+             <property name="maximumSize">
+              <size>
+               <width>1</width>
+               <height>16777215</height>
+              </size>
+             </property>
              <property name="text">
               <string/>
              </property>
@@ -399,7 +397,12 @@
             </widget>
            </item>
            <item row="2" column="3">
-            <widget class="QLineEdit" name="ed_tipo"/>
+            <widget class="QLineEdit" name="ed_tipo">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(222, 222, 222);
+color: rgb(170, 23, 25);</string>
+             </property>
+            </widget>
            </item>
            <item row="9" column="0">
             <widget class="QLabel" name="label_19">
@@ -440,6 +443,30 @@
              </property>
             </widget>
            </item>
+           <item row="11" column="0" colspan="2">
+            <widget class="QLabel" name="label_23">
+             <property name="text">
+              <string>Cadastrado em:</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_26">
+             <property name="text">
+              <string>Krause</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_27">
+             <property name="text">
+              <string>País</string>
+             </property>
+            </widget>
+           </item>
           </layout>
          </item>
         </layout>
@@ -461,6 +488,9 @@
         </property>
         <property name="autoFillBackground">
          <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(240, 240, 240);</string>
         </property>
         <property name="frameShape">
          <enum>QFrame::StyledPanel</enum>
@@ -532,7 +562,7 @@
      <x>0</x>
      <y>0</y>
      <width>845</width>
-     <height>21</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuCadastrar">
