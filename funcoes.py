@@ -284,16 +284,49 @@ class Colecao:
     #                 self.conn.commit()
     #     return contador
 
-    # def exportarTXT(self):
-    #     contador = 0
-    #     ini = 'INSERT INTO Colecao (pais,ano,krause,valor,moeda,tipo,qualidade,material,diametro,detalhe,anverso,reverso,valor_venda,datacadastro,imagem1,imagem2) VALUES '
-    #     with open('bancoMoedas.txt', 'w', encoding='utf-8') as arquivo:
-    #         sql = 'SELECT pais,ano,krause,valor,moeda,tipo,qualidade,material,diametro,detalhe,anverso,reverso,valor_venda,datacadastro,imagem1,imagem2 FROM colecao'
-    #         self.cursor.execute(sql)
-    #         for linha in self.cursor.fetchall():
-    #             contador += 1
-    #             arquivo.write(f'{ini}{linha}\n')
-    #     return contador
+    def exportarTXT(self):
+        contador = 0
+        ini = 'INSERT INTO Colecao (pais,ano,krause,valor,moeda,tipo,qualidade,material,diametro,detalhe,anverso,reverso,valor_venda,datacadastro,imagem1,imagem2) VALUES ('
+        with open('bancoMoedas.txt', 'w', encoding='utf-8') as arquivo:
+            sql = 'SELECT * FROM colecao'
+            self.cursor.execute(sql)
+            for linha in self.cursor.fetchall():
+                pais = linha[1]
+                ano = linha[2]
+                krause = linha[3]
+                valor = linha[4]
+                valor1 = valor.split('\xa0')
+                periodo = linha[5]
+                circulacao = linha[6]
+                assunto = linha[7]
+                serie = linha[8]
+                soberano = linha[9]
+                cunhagem = linha[10]
+                composicao = linha[11]
+                borda = linha[12]
+                formato = linha[13]
+                alinhamento = linha[14]
+                peso = linha[15]
+                conservacao = linha[16]
+                diametro = linha[17]
+                espessura = linha[18]
+                anverso = linha[19]
+                anverso = anverso.replace("'", "")
+                reverso = linha[20]
+                reverso = reverso.replace("'", "")
+                venda = linha[21]
+                cadastro = linha[22]
+                foto1 = linha[23]
+                foto2 = linha[24]
+                tipo = linha[25]
+                tipo = tipo.capitalize()
+                detalhe = f'PERIODO {periodo} CIRCULACAO {circulacao} ASSUNTO {assunto} SERIE {serie} SOBERANO {soberano} CUNHAGEM {cunhagem} BORDA {borda} FORMATO {formato} ALINHAMENTO {alinhamento} PESO {peso} ESPESSURA {espessura}'
+                detalhe = detalhe.replace("'", "")
+                contador += 1
+                # arquivo.write(f'{valor1[0]} = {" ".join(valor1[1:])}\n')
+                texto = f"{ini}'{pais}',{ano},'{krause}','{valor1[0]}','{' '.join(valor1[1:])}','{tipo}','{conservacao}','{composicao}','{diametro}','{detalhe}','{anverso}','{reverso}','{venda}','{cadastro}','{foto1}','{foto2}');\n"
+                arquivo.write(texto.replace('\n', '')+'\n')
+        return contador
 
     def fechar(self):
         self.conn.close()
@@ -475,3 +508,4 @@ if __name__ == '__main__':
     # print(a.buscar_id(2))
     # print(a.exibir_resumo_paises())
     print(a.exibir_resumo())
+    a.exportarTXT()
