@@ -93,6 +93,7 @@ def novacaptura(inicio, fim):
             soup = BeautifulSoup(req.content, 'html.parser')
             itens = soup.find_all('a', class_='blue-15')
             for item in itens:
+
                 link = 'https://pt.ucoin.net'+item['href']
 
                 # entra link por link
@@ -147,83 +148,82 @@ def novacaptura(inicio, fim):
                     str(info), 'html.parser', from_encoding='utf-8')
                 linhasinfo = soupinfo.find_all('tr')
 
-                with open('teste.txt', 'w', encoding='utf-8') as f:
-                    for linha in linhasinfo:
+                for linha in linhasinfo:
 
-                        if 'País' in str(linha):
-                            PAIS = str(linha).replace(
-                                '<tr><th>País</th><td>', '').replace('</td></tr>', '')
+                    if 'País' in str(linha):
+                        PAIS = str(linha).replace(
+                            '<tr><th>País</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Ano' in str(linha):
-                            ANO = str(linha).replace(
-                                '<tr><th>Ano</th><td>', '').replace('</td></tr>', '')
+                    if 'Ano' in str(linha):
+                        ANO = str(linha).replace(
+                            '<tr><th>Ano</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Krause' in str(linha):
-                            KRAUSE = str(linha).replace(
-                                '<tr><th>Número Krause</th><td>', '').replace('</td></tr>', '')
+                    if 'Krause' in str(linha):
+                        KRAUSE = str(linha).replace(
+                            '<tr><th>Número Krause</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Denominação' in str(linha):
-                            VALOR = str(linha).replace(
-                                '<tr><th>Denominação</th><td>', '').replace('</td></tr>', '')
+                    if 'Denominação' in str(linha):
+                        VALOR = str(linha).replace(
+                            '<tr><th>Denominação</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Periodo' in str(linha):
-                            PERIODO = str(linha).replace(
-                                '<tr><th>Periodo</th><td>', '').replace('</td></tr>', '')
+                    if 'Periodo' in str(linha):
+                        PERIODO = str(linha).replace(
+                            '<tr><th>Periodo</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Tipo de moeda' in str(linha):
-                            CIRCULACAO = str(linha).replace(
-                                '<tr><th>Tipo de moeda</th><td>', '').replace('</td></tr>', '')
+                    if 'Tipo de moeda' in str(linha):
+                        CIRCULACAO = str(linha).replace(
+                            '<tr><th>Tipo de moeda</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Assunto' in str(linha):
-                            ASSUNTO = str(linha).replace(
-                                '<tr><th>Assunto</th><td>', '').replace('</td></tr>', '')
+                    if 'Assunto' in str(linha):
+                        ASSUNTO = str(linha).replace(
+                            '<tr><th>Assunto</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Série' in str(linha):
-                            SERIE = str(linha).replace(
-                                '<tr><th>Série</th><td>', '').replace('</td></tr>', '')
+                    if 'Série' in str(linha):
+                        SERIE = str(linha).replace(
+                            '<tr><th>Série</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Soberano' in str(linha):
-                            SOBERANO = str(linha).replace(
-                                '<tr><th>Soberano</th><td>', '').replace('</td></tr>', '')
+                    if 'Soberano' in str(linha):
+                        SOBERANO = str(linha).replace(
+                            '<tr><th>Soberano</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Composição' in str(linha):
-                            COMPOSICAO = str(linha).replace(
-                                '<tr><th>Composição</th><td>', '').replace('</td></tr>', '')
+                    if 'Composição' in str(linha):
+                        COMPOSICAO = str(linha).replace(
+                            '<tr><th>Composição</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Tipo de bordo' in str(linha):
-                            BORDA = str(linha).replace(
-                                '<tr><th>Tipo de bordo</th><td>', '').replace('</td></tr>', '')
+                    if 'Tipo de bordo' in str(linha):
+                        BORDA = str(linha).replace(
+                            '<tr><th>Tipo de bordo</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Formato' in str(linha):
-                            FORMATO = str(linha).replace(
-                                '<tr><th>Formato</th><td>', '').replace('</td></tr>', '')
+                    if 'Formato' in str(linha):
+                        FORMATO = str(linha).replace(
+                            '<tr><th>Formato</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Alinhamento' in str(linha):
-                            ALINHAMENTO = str(linha).replace(
-                                '<tr><th>Alinhamento</th><td>', '').replace('</td></tr>', '')
+                    if 'Alinhamento' in str(linha):
+                        ALINHAMENTO = str(linha).replace(
+                            '<tr><th>Alinhamento</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Peso' in str(linha):
-                            PESO = str(linha).replace(
-                                '<tr><th>Peso (gr)</th><td>', '').replace('</td></tr>', '')
+                    if 'Peso' in str(linha):
+                        PESO = str(linha).replace(
+                            '<tr><th>Peso (gr)</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Diametro' in str(linha):
-                            DIAMETRO = str(linha).replace(
-                                '<tr><th>Diametro (mm)</th><td>', '').replace('</td></tr>', '')
+                    if 'Diametro' in str(linha):
+                        DIAMETRO = str(linha).replace(
+                            '<tr><th>Diametro (mm)</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Espessura' in str(linha):
-                            ESPESSURA = str(linha).replace(
-                                '<tr><th>Espessura (mm)</th><td>', '').replace('</td></tr>', '')
+                    if 'Espessura' in str(linha):
+                        ESPESSURA = str(linha).replace(
+                            '<tr><th>Espessura (mm)</th><td>', '').replace('</td></tr>', '')
 
-                        if 'Anverso' in str(linha):
-                            ANVERSO = str(linha).replace(
-                                '<tr><th class="nowrap">Anverso</th><td>', '').replace('<span class="lgray-11"> / </span>', ' / ').replace('</td></tr>', '')
+                    if 'Anverso' in str(linha):
+                        ANVERSO = str(linha).replace(
+                            '<tr><th class="nowrap">Anverso</th><td>', '').replace('<span class="lgray-11"> / </span>', ' / ').replace('</td></tr>', '')
 
-                        if 'Reverso' in str(linha):
-                            REVERSO = str(linha).replace(
-                                '<tr><th class="nowrap">Reverso</th><td>', '').replace('<span class="lgray-11"> / </span>', ' / ').replace('</td></tr>', '')
-                    Banco.cadastrar(VENDA, CUNHAGEM, FOTO1, FOTO2, CADASTRO, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO,
-                                    SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO, CONSERVACAO)
-                    VENDA, CUNHAGEM, FOTO1, FOTO2, CADASTRO, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO, CONSERVACAO = '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
+                    if 'Reverso' in str(linha):
+                        REVERSO = str(linha).replace(
+                            '<tr><th class="nowrap">Reverso</th><td>', '').replace('<span class="lgray-11"> / </span>', ' / ').replace('</td></tr>', '')
+                Banco.cadastrar(VENDA, CUNHAGEM, FOTO1, FOTO2, CADASTRO, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO,
+                                SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO, CONSERVACAO)
+                VENDA, CUNHAGEM, FOTO1, FOTO2, CADASTRO, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO, CONSERVACAO = '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
 
 
 novacaptura(99, 112)
