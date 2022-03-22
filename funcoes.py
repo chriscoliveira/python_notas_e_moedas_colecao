@@ -264,26 +264,6 @@ class Colecao:
         sql = 'CREATE TABLE IF NOT EXISTS "moedas"( "id" INTEGER UNIQUE, "PAIS" TEXT, "ANO" TEXT, "KRAUSE" TEXT, "VALOR" TEXT, "PERIODO" TEXT, "CIRCULACAO" TEXT, "ASSUNTO" TEXT, "SERIE" TEXT, "SOBERANO" TEXT, "CUNHAGEM" TEXT, "COMPOSICAO" TEXT, "BORDA" TEXT, "FORMATO" TEXT, "ALINHAMENTO" TEXT, "PESO" TEXT, "CONSERVACAO" TEXT, "DIAMETRO" TEXT, "ESPESSURA" TEXT, "ANVERSO" TEXT, "REVERSO" TEXT, "VENDA" TEXT, "CADASTRO" TEXT, "FOTO1" TEXT, "FOTO2" TEXT, "TIPO" TEXT, PRIMARY KEY("id" AUTOINCREMENT) )'
         self.cursor.execute(sql)
 
-    # def importarTXT(self, tipo):
-    #     contador = 0
-    #     if tipo == 'total':
-    #         sql_drop = 'DROP TABLE IF EXISTS "Colecao"'
-    #         self.cursor.execute(sql_drop)
-    #         self.criartabela()
-    #         with open('bancoMoedas.txt', 'r', encoding='utf-8') as arquivo:
-    #             for linha in arquivo:
-    #                 contador += 1
-    #                 self.cursor.execute(linha)
-    #                 self.conn.commit()
-
-    #     elif tipo == 'parcial':
-    #         with open('bancoMoedas.txt', 'r', encoding='utf-8') as arquivo:
-    #             for linha in arquivo:
-    #                 contador += 1
-    #                 self.cursor.execute(linha)
-    #                 self.conn.commit()
-    #     return contador
-
     def exportarTXT(self):
         contador = 0
         ini = 'INSERT INTO Colecao (pais,ano,krause,valor,moeda,tipo,qualidade,material,diametro,detalhe,anverso,reverso,valor_venda,datacadastro,imagem1,imagem2) VALUES ('
