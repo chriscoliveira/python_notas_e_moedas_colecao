@@ -17,7 +17,7 @@ class Colecao:
         try:
             URL = 'https://pt.ucoin.net/uid26638?v=home'
             with sync_playwright() as p:
-                browser = p.webkit.launch()
+                browser = p.chromium.launch(channel='chrome')
                 page = browser.new_page()
                 page.goto(URL)
                 page.click('#cookies-warning > div > div.right > div')
@@ -227,7 +227,7 @@ class Colecao:
             valorcolecao = 0
             # verifica a quantidade moedas do brasil
 
-            sql_qtde_moedas = f"Select * FROM colecao where pais == 'Brasil' and tipo == 'moeda'"
+            sql_qtde_moedas = f"Select * FROM colecao where pais == 'Brasil' and tipo == 'Moeda'"
             self.cursor.execute(sql_qtde_moedas)
             for linha in self.cursor.fetchall():
                 mbrasil += 1
@@ -239,7 +239,7 @@ class Colecao:
                 nbrasil += 1
 
             # verifica a quantidade moedas de fora do brasil
-            sql_qtde_moedas = f"Select * FROM colecao where pais != 'Brasil' and tipo == 'moeda'"
+            sql_qtde_moedas = f"Select * FROM colecao where pais != 'Brasil' and tipo == 'Moeda'"
             self.cursor.execute(sql_qtde_moedas)
             for linha in self.cursor.fetchall():
                 mfora += 1
@@ -261,7 +261,7 @@ class Colecao:
             return f'Não há dados para exibir: {e}'
 
     def criartabela(self):
-        sql = 'CREATE TABLE IF NOT EXISTS "moedas"( "id" INTEGER UNIQUE, "PAIS" TEXT, "ANO" TEXT, "KRAUSE" TEXT, "VALOR" TEXT, "PERIODO" TEXT, "CIRCULACAO" TEXT, "ASSUNTO" TEXT, "SERIE" TEXT, "SOBERANO" TEXT, "CUNHAGEM" TEXT, "COMPOSICAO" TEXT, "BORDA" TEXT, "FORMATO" TEXT, "ALINHAMENTO" TEXT, "PESO" TEXT, "CONSERVACAO" TEXT, "DIAMETRO" TEXT, "ESPESSURA" TEXT, "ANVERSO" TEXT, "REVERSO" TEXT, "VENDA" TEXT, "CADASTRO" TEXT, "FOTO1" TEXT, "FOTO2" TEXT, "TIPO" TEXT, PRIMARY KEY("id" AUTOINCREMENT) )'
+        sql = 'CREATE TABLE IF NOT EXISTS "Colecao"( "id" INTEGER UNIQUE, "PAIS" TEXT, "ANO" TEXT, "KRAUSE" TEXT, "VALOR" TEXT, "PERIODO" TEXT, "CIRCULACAO" TEXT, "ASSUNTO" TEXT, "SERIE" TEXT, "SOBERANO" TEXT, "CUNHAGEM" TEXT, "COMPOSICAO" TEXT, "BORDA" TEXT, "FORMATO" TEXT, "ALINHAMENTO" TEXT, "PESO" TEXT, "CONSERVACAO" TEXT, "DIAMETRO" TEXT, "ESPESSURA" TEXT, "ANVERSO" TEXT, "REVERSO" TEXT, "VENDA" TEXT, "CADASTRO" TEXT, "FOTO1" TEXT, "FOTO2" TEXT, "TIPO" TEXT, PRIMARY KEY("id" AUTOINCREMENT) )'
         self.cursor.execute(sql)
 
     def exportarTXT(self):

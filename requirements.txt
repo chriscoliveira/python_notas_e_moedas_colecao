@@ -1,4 +1,5 @@
-firebase_admin
 pyqt5
 requests
 playwright
+beautifulsoup4
+pyinstaller

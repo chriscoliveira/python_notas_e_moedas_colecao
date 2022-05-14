@@ -586,7 +586,7 @@ color: rgb(170, 23, 25);</string>
      <x>0</x>
      <y>0</y>
      <width>845</width>
-     <height>22</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuCadastrar">
@@ -629,6 +629,9 @@ color: rgb(170, 23, 25);</string>
      <string>Configuração</string>
     </property>
     <widget class="QMenu" name="menuImportar">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
      <property name="title">
       <string>Importar</string>
      </property>
@@ -639,6 +642,13 @@ color: rgb(170, 23, 25);</string>
     <addaction name="menuImportar"/>
     <addaction name="Atualizar_Imagem"/>
    </widget>
+   <widget class="QMenu" name="menuResumo">
+    <property name="title">
+     <string>Home</string>
+    </property>
+    <addaction name="actionResumo"/>
+   </widget>
+   <addaction name="menuResumo"/>
    <addaction name="menuCadastrar"/>
    <addaction name="menuCadastrar_Novo"/>
    <addaction name="menuConfigura_o"/>
@@ -741,6 +751,11 @@ color: rgb(170, 23, 25);</string>
   <action name="Atualizar_Imagem">
    <property name="text">
     <string>Atualizar Imagem</string>
+   </property>
+  </action>
+  <action name="actionResumo">
+   <property name="text">
+    <string>Resumo</string>
    </property>
   </action>
  </widget>
