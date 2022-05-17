@@ -15,7 +15,8 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(845, 866)
-        MainWindow.setMaximumSize(QtCore.QSize(1000, 900))
+        MainWindow.setMinimumSize(QtCore.QSize(845, 866))
+        MainWindow.setMaximumSize(QtCore.QSize(845, 866))
         MainWindow.setAutoFillBackground(False)
         MainWindow.setStyleSheet("background-color: rgb(0, 122, 204);")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
@@ -373,6 +374,8 @@ class Ui_MainWindow(object):
         self.Atualizar_Imagem.setObjectName("Atualizar_Imagem")
         self.actionResumo = QtWidgets.QAction(MainWindow)
         self.actionResumo.setObjectName("actionResumo")
+        self.actionGerar_Backup = QtWidgets.QAction(MainWindow)
+        self.actionGerar_Backup.setObjectName("actionGerar_Backup")
         self.menuNacional.addAction(self.NotasNacional)
         self.menuNacional.addAction(self.MoedasNacional)
         self.menuEstrangeiro.addAction(self.NotasInternacional)
@@ -390,6 +393,7 @@ class Ui_MainWindow(object):
         self.menuCadastrar_Novo.addAction(self.adicionaMoeda)
         self.menuImportar.addAction(self.sqlParcial)
         self.menuImportar.addAction(self.sqlTotal)
+        self.menuConfigura_o.addAction(self.actionGerar_Backup)
         self.menuConfigura_o.addAction(self.Exportar_TXT)
         self.menuConfigura_o.addAction(self.menuImportar.menuAction())
         self.menuConfigura_o.addAction(self.Atualizar_Imagem)
@@ -504,6 +508,7 @@ class Ui_MainWindow(object):
         self.ultimos_adicionados.setShortcut(_translate("MainWindow", "F10"))
         self.Atualizar_Imagem.setText(_translate("MainWindow", "Atualizar Imagem"))
         self.actionResumo.setText(_translate("MainWindow", "Resumo"))
+        self.actionGerar_Backup.setText(_translate("MainWindow", "Gerar Backup"))
 
 
 if __name__ == "__main__":

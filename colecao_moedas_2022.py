@@ -1,5 +1,6 @@
 # compilar usando
-# venv\Scripts\pyinstaller.exe -F --console -w --upx-dir=Z:\Christian\Python\GitHub\upx-3.96-win64\upx-3.96-win64 --ico .\icone.ico --name "Coleção de Moedas 2022" .\colecao_moedas_2022.py
+# venv\Scripts\pyinstaller.exe -F --console -w --upx-dir=Z:\Christian\Python\GitHub\upx-3.96-win64\upx-3.96-win64 --distpath .\ --ico .\icone.ico --name "Coleção de Moedas 2022" .\colecao_moedas_2022.py
+
 from os import link
 from pprint import pprint
 import sys
@@ -9,7 +10,7 @@ from PyQt5.QtGui import *
 from PyQt5 import uic
 from layout import *
 from functools import partial
-from datetime import date
+from datetime import date, datetime
 import requests
 import urllib
 from funcoes import Colecao
@@ -94,7 +95,10 @@ class Novo(QMainWindow, Ui_MainWindow):
 
         colecao.criartabela()
         # inicio da aplicacao
-
+        try:
+            os.mkdir('backupDB')
+        except:
+            pass
         pixmap = QPixmap('screenshot.png')
         scaled = pixmap.scaled(600, 400, QtCore.Qt.KeepAspectRatio)
         self.mapa.setPixmap(scaled)
@@ -103,6 +107,7 @@ class Novo(QMainWindow, Ui_MainWindow):
         self.ed_link_ucoin.setVisible(False)
         self.bt_buscar_ucoin.setVisible(False)
 
+        self.actionGerar_Backup.triggered.connect(self.backupBanco)
         # menus
         self.menuResumo.triggered.connect(self.exiberesumo)
         # menu de cadastro de moedas
@@ -187,7 +192,7 @@ class Novo(QMainWindow, Ui_MainWindow):
         self.frame_listar.hide()
 
         txt_resumo = colecao.exibir_resumo()
-        print(txt_resumo)
+        # print(txt_resumo)
         self.resumo.setText(txt_resumo)
 
     def fcadastrar(self):
@@ -504,6 +509,22 @@ class Novo(QMainWindow, Ui_MainWindow):
                 qtde = colecao.importarTXT(tipo=tipo)
                 QMessageBox.about(
                     self, 'Importação', f'Registros importados com sucesso!\n{qtde} registros foram importados')
+
+    def backupBanco(self):
+        import os
+        import time
+
+        pastaAtual = os.path.dirname(os.path.realpath(__file__))
+
+        lista_arquivos = os.listdir(pastaAtual+"/backupDB")
+
+        hoje = datetime.now().strftime('%d-%m-%Y')
+        hoje = str(hoje).replace(':', ' ')
+        import shutil
+        shutil.make_archive(f'backupDB\\db_colecao.db_{hoje}', 'zip',
+                            './', 'db_colecao.db')
+        QMessageBox.about(
+            self, 'Backup', f'O backup foi gerado com sucesso')
 
 
 qt = QApplication(sys.argv)
