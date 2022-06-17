@@ -267,7 +267,7 @@ class Colecao:
     def exportarTXT(self):
         contador = 0
         ini = 'INSERT INTO Colecao (pais,ano,krause,valor,moeda,tipo,qualidade,material,diametro,detalhe,anverso,reverso,valor_venda,datacadastro,imagem1,imagem2) VALUES ('
-        with open('bancoMoedas.txt', 'w', encoding='utf-8') as arquivo:
+        with open('backupDB/bancoMoedas.txt', 'w', encoding='utf-8') as arquivo:
             sql = 'SELECT * FROM colecao'
             self.cursor.execute(sql)
             for linha in self.cursor.fetchall():

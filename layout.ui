@@ -734,7 +734,7 @@ color: rgb(170, 23, 25);</string>
   </action>
   <action name="Exportar_TXT">
    <property name="text">
-    <string>Exportar TXT</string>
+    <string>Fazer Backup</string>
    </property>
   </action>
   <action name="sqlParcial">
@@ -768,6 +768,9 @@ color: rgb(170, 23, 25);</string>
   <action name="actionGerar_Backup">
    <property name="text">
     <string>Gerar Backup</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
    </property>
   </action>
  </widget>

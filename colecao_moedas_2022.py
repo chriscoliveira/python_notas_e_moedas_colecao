@@ -486,6 +486,7 @@ class Novo(QMainWindow, Ui_MainWindow):
         qtde = colecao.exportarTXT()
         QMessageBox.about(
             self, 'Backup', f'O arquivo TXT com o backup foi gerado com sucesso\n{qtde} registros exportados')
+        self.backupBanco()
 
     def importar_banco_sql(self, tipo):
         with open(f'bancoMoedas.txt', 'r') as arquivo:
@@ -511,20 +512,17 @@ class Novo(QMainWindow, Ui_MainWindow):
                     self, 'Importação', f'Registros importados com sucesso!\n{qtde} registros foram importados')
 
     def backupBanco(self):
-        import os
-        import time
-
-        pastaAtual = os.path.dirname(os.path.realpath(__file__))
-
-        lista_arquivos = os.listdir(pastaAtual+"/backupDB")
-
-        hoje = datetime.now().strftime('%d-%m-%Y')
-        hoje = str(hoje).replace(':', ' ')
-        import shutil
-        shutil.make_archive(f'backupDB\\db_colecao.db_{hoje}', 'zip',
-                            './', 'db_colecao.db')
-        QMessageBox.about(
-            self, 'Backup', f'O backup foi gerado com sucesso')
+        try:
+            hoje = datetime.now().strftime('%d-%m-%Y')
+            hoje = str(hoje).replace(':', ' ')
+            import shutil
+            shutil.make_archive(f'backupDB\\db_colecao.db_{hoje}', 'zip',
+                                './', 'db_colecao.db')
+            QMessageBox.about(
+                self, 'Backup', f'O backup foi gerado com sucesso')
+        except Exception as e:
+            QMessageBox.about(
+                self, 'Backup', f'Ocorreu um erro ao gerar o backup\n{e}')
 
 
 qt = QApplication(sys.argv)

@@ -9,4 +9,5 @@ colecao.db
 *.json
 /imagens/
 /user_data/
-build/
+/build/
+/.vscode/
