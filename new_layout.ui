@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>845</width>
+    <height>866</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>845</width>
+    <height>866</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>845</width>
+    <height>866</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Coleção de Moedas e Notas 2022</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 122, 204);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_7">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="bt_notas">
+        <property name="text">
+         <string>Notas</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bt_moedas">
+        <property name="text">
+         <string>Moedas</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bt_colecao">
+        <property name="text">
+         <string>Colecao</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bt_recentes">
+        <property name="text">
+         <string>Recentes</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bt_cadastro">
+        <property name="text">
+         <string>Cadastrar</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="0">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="2" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QFrame" name="frame_resumo">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(240, 240, 240);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="2" column="0">
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="QLabel" name="mapa">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="scaledContents">
+                <bool>false</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="resumo">
+               <property name="font">
+                <font>
+                 <family>Lucida Console</family>
+                 <pointsize>14</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignHCenter|Qt::AlignTop</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="0" alignment="Qt::AlignHCenter">
+       <widget class="QFrame" name="frame_cadastro">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(240, 240, 240);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QFormLayout" name="formLayout">
+         <item row="0" column="0" colspan="2">
+          <widget class="QLabel" name="lbl_titulo">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Cadastrar Item</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="10" column="0">
+            <widget class="QLabel" name="label_20">
+             <property name="text">
+              <string>Valor Venda R$</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>Soberano</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLineEdit" name="ed_composicao"/>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="ed_periodo"/>
+           </item>
+           <item row="8" column="3">
+            <widget class="QLineEdit" name="ed_conservacao"/>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="ed_pais"/>
+           </item>
+           <item row="10" column="2">
+            <widget class="QLabel" name="label_25">
+             <property name="text">
+              <string>Reverso</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QLineEdit" name="ed_ano"/>
+           </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="label_18">
+             <property name="text">
+              <string>Diametro</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="3">
+            <widget class="QLineEdit" name="ed_valor"/>
+           </item>
+           <item row="12" column="2">
+            <widget class="QLabel" name="lbl_id">
+             <property name="maximumSize">
+              <size>
+               <width>1</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="2" colspan="2">
+            <widget class="QLabel" name="lbl_data">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="3">
+            <widget class="QLineEdit" name="ed_espessura"/>
+           </item>
+           <item row="6" column="3">
+            <widget class="QLineEdit" name="ed_borda"/>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="ed_assunto"/>
+           </item>
+           <item row="12" column="0">
+            <widget class="QPushButton" name="bt_mostrar_foto">
+             <property name="text">
+              <string>Mostrar Fotos</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="1">
+            <widget class="QLabel" name="foto_anverso">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="2">
+            <widget class="QLabel" name="label_15">
+             <property name="text">
+              <string>Link foto2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>Periodo</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="3">
+            <widget class="QLineEdit" name="ed_tipo">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(222, 222, 222);
+color: rgb(170, 23, 25);</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLabel" name="label_2">
+             <property name="layoutDirection">
+              <enum>Qt::LeftToRight</enum>
+             </property>
+             <property name="text">
+              <string>Ano</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="label_11">
+             <property name="text">
+              <string>Composicao</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QLineEdit" name="ed_diametro"/>
+           </item>
+           <item row="9" column="1">
+            <widget class="QLineEdit" name="ed_anverso"/>
+           </item>
+           <item row="9" column="2">
+            <widget class="QLabel" name="label_24">
+             <property name="text">
+              <string>Espessura</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="label_17">
+             <property name="text">
+              <string>Peso</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="2">
+            <widget class="QLabel" name="label_12">
+             <property name="text">
+              <string>Borda</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="2">
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>Circulacao</string>
+             </property>
+            </widget>
+           </item>
+           <item row="15" column="0" colspan="5">
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QPushButton" name="bt_cadastrar">
+               <property name="text">
+                <string>Cadastrar</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="bt_deletar_reg">
+               <property name="text">
+                <string>Deletar Item</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="bt_cancelar">
+               <property name="text">
+                <string>Cancelar</string>
+               </property>
+               <property name="shortcut">
+                <string>Esc</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="bt_scrap">
+               <property name="text">
+                <string>Scrap Ucoin</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="3" column="3">
+            <widget class="QLineEdit" name="ed_circulacao"/>
+           </item>
+           <item row="7" column="2">
+            <widget class="QLabel" name="label_22">
+             <property name="text">
+              <string>Alinhamento</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QLineEdit" name="ed_formato"/>
+           </item>
+           <item row="10" column="3">
+            <widget class="QLineEdit" name="ed_reverso"/>
+           </item>
+           <item row="16" column="0" colspan="5">
+            <widget class="QLabel" name="lbl_status_cadastro">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="3">
+            <widget class="QLineEdit" name="ed_serie"/>
+           </item>
+           <item row="11" column="0" colspan="2">
+            <widget class="QLabel" name="label_23">
+             <property name="text">
+              <string>Cadastrado em:</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="3">
+            <widget class="QLineEdit" name="ed_cunhagem"/>
+           </item>
+           <item row="10" column="1">
+            <widget class="QLineEdit" name="ed_venda"/>
+           </item>
+           <item row="8" column="2">
+            <widget class="QLabel" name="conservacao">
+             <property name="text">
+              <string>Conservacao</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="3">
+            <widget class="QLabel" name="foto_reverso">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="1">
+            <widget class="QLineEdit" name="ed_foto1"/>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="label_13">
+             <property name="text">
+              <string>Formato</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="0">
+            <widget class="QLabel" name="label_14">
+             <property name="text">
+              <string>Link foto1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="3">
+            <widget class="QLineEdit" name="ed_foto2"/>
+           </item>
+           <item row="7" column="3">
+            <widget class="QLineEdit" name="ed_alinhamento"/>
+           </item>
+           <item row="1" column="2">
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>Valor</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLineEdit" name="ed_soberano"/>
+           </item>
+           <item row="2" column="2">
+            <widget class="QLabel" name="label_21">
+             <property name="text">
+              <string>Tipo</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="2">
+            <widget class="QLabel" name="label_10">
+             <property name="text">
+              <string>Cunhagem</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QLineEdit" name="ed_peso"/>
+           </item>
+           <item row="9" column="0">
+            <widget class="QLabel" name="label_19">
+             <property name="text">
+              <string>Anverso</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_27">
+             <property name="text">
+              <string>País</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="2">
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string>Serie</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>Assunto</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="ed_krause"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_26">
+             <property name="text">
+              <string>Krause</string>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="0">
+            <widget class="QLabel" name="label_ucoin">
+             <property name="text">
+              <string>Link Ucoin</string>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="1" colspan="2">
+            <widget class="QLineEdit" name="ed_link_ucoin"/>
+           </item>
+           <item row="14" column="3">
+            <widget class="QPushButton" name="bt_buscar_ucoin">
+             <property name="text">
+              <string>Buscar</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QFrame" name="frame_listar">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(240, 240, 240);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="3" column="0">
+          <widget class="QLabel" name="lbl_status">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0" colspan="3">
+          <widget class="QListWidget" name="list_item">
+           <property name="font">
+            <font>
+             <family>Lucida Console</family>
+            </font>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0" colspan="3">
+          <widget class="QLabel" name="lbl_titulo_2">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Pesquisar Item</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="ed_localizar"/>
+         </item>
+         <item row="1" column="2">
+          <widget class="QPushButton" name="bt_localizar">
+           <property name="text">
+            <string>Pesquisar</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_16">
+           <property name="text">
+            <string>Digite a palavra que deseja buscar</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>845</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCadastrar">
+    <property name="title">
+     <string>Filtrar</string>
+    </property>
+    <widget class="QMenu" name="menuNacional">
+     <property name="title">
+      <string>Nacional</string>
+     </property>
+     <addaction name="NotasNacional"/>
+     <addaction name="MoedasNacional"/>
+    </widget>
+    <widget class="QMenu" name="menuEstrangeiro">
+     <property name="title">
+      <string>Internacional</string>
+     </property>
+     <addaction name="NotasInternacional"/>
+     <addaction name="MoedasInternacional"/>
+    </widget>
+    <addaction name="pesquisar"/>
+    <addaction name="separator"/>
+    <addaction name="menuNacional"/>
+    <addaction name="menuEstrangeiro"/>
+    <addaction name="separator"/>
+    <addaction name="ColecaoCompleta"/>
+    <addaction name="separator"/>
+    <addaction name="listar_por_pais"/>
+    <addaction name="ultimos_adicionados"/>
+   </widget>
+   <widget class="QMenu" name="menuCadastrar_Novo">
+    <property name="title">
+     <string>Cadastrar Novo</string>
+    </property>
+    <addaction name="adicionaNota"/>
+    <addaction name="adicionaMoeda"/>
+   </widget>
+   <widget class="QMenu" name="menuConfigura_o">
+    <property name="title">
+     <string>Configuração</string>
+    </property>
+    <widget class="QMenu" name="menuImportar">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="title">
+      <string>Importar</string>
+     </property>
+     <addaction name="sqlParcial"/>
+     <addaction name="sqlTotal"/>
+    </widget>
+    <addaction name="actionGerar_Backup"/>
+    <addaction name="Exportar_TXT"/>
+    <addaction name="menuImportar"/>
+    <addaction name="Atualizar_Imagem"/>
+   </widget>
+   <widget class="QMenu" name="menuResumo">
+    <property name="title">
+     <string>Home</string>
+    </property>
+    <addaction name="actionResumo"/>
+   </widget>
+   <addaction name="menuResumo"/>
+   <addaction name="menuCadastrar"/>
+   <addaction name="menuCadastrar_Novo"/>
+   <addaction name="menuConfigura_o"/>
+  </widget>
+  <action name="NotasNacional">
+   <property name="text">
+    <string>Notas</string>
+   </property>
+   <property name="shortcut">
+    <string>F2</string>
+   </property>
+  </action>
+  <action name="MoedasNacional">
+   <property name="text">
+    <string>Moedas</string>
+   </property>
+   <property name="shortcut">
+    <string>F3</string>
+   </property>
+  </action>
+  <action name="NotasInternacional">
+   <property name="text">
+    <string>Notas</string>
+   </property>
+   <property name="shortcut">
+    <string>F4</string>
+   </property>
+  </action>
+  <action name="MoedasInternacional">
+   <property name="text">
+    <string>Moedas</string>
+   </property>
+   <property name="shortcut">
+    <string>F5</string>
+   </property>
+  </action>
+  <action name="ColecaoCompleta">
+   <property name="text">
+    <string>Coleção Completa</string>
+   </property>
+   <property name="shortcut">
+    <string>F6</string>
+   </property>
+  </action>
+  <action name="listar_por_pais">
+   <property name="text">
+    <string>Listar por país</string>
+   </property>
+   <property name="shortcut">
+    <string>F7</string>
+   </property>
+  </action>
+  <action name="pesquisar">
+   <property name="text">
+    <string>Pesquisar</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+  </action>
+  <action name="adicionaNota">
+   <property name="text">
+    <string>Nota</string>
+   </property>
+   <property name="shortcut">
+    <string>F8</string>
+   </property>
+  </action>
+  <action name="adicionaMoeda">
+   <property name="text">
+    <string>Moeda</string>
+   </property>
+   <property name="shortcut">
+    <string>F9</string>
+   </property>
+  </action>
+  <action name="Exportar_TXT">
+   <property name="text">
+    <string>Fazer Backup</string>
+   </property>
+  </action>
+  <action name="sqlParcial">
+   <property name="text">
+    <string>Parcial</string>
+   </property>
+  </action>
+  <action name="sqlTotal">
+   <property name="text">
+    <string>Total</string>
+   </property>
+  </action>
+  <action name="ultimos_adicionados">
+   <property name="text">
+    <string>Últimos Adicionados</string>
+   </property>
+   <property name="shortcut">
+    <string>F10</string>
+   </property>
+  </action>
+  <action name="Atualizar_Imagem">
+   <property name="text">
+    <string>Atualizar Imagem</string>
+   </property>
+  </action>
+  <action name="actionResumo">
+   <property name="text">
+    <string>Resumo</string>
+   </property>
+  </action>
+  <action name="actionGerar_Backup">
+   <property name="text">
+    <string>Gerar Backup</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>ed_pais</tabstop>
+  <tabstop>ed_ano</tabstop>
+  <tabstop>ed_krause</tabstop>
+  <tabstop>ed_valor</tabstop>
+  <tabstop>ed_periodo</tabstop>
+  <tabstop>ed_tipo</tabstop>
+  <tabstop>ed_assunto</tabstop>
+  <tabstop>ed_circulacao</tabstop>
+  <tabstop>ed_soberano</tabstop>
+  <tabstop>ed_serie</tabstop>
+  <tabstop>ed_composicao</tabstop>
+  <tabstop>ed_cunhagem</tabstop>
+  <tabstop>ed_formato</tabstop>
+  <tabstop>ed_borda</tabstop>
+  <tabstop>ed_peso</tabstop>
+  <tabstop>ed_alinhamento</tabstop>
+  <tabstop>ed_diametro</tabstop>
+  <tabstop>ed_conservacao</tabstop>
+  <tabstop>ed_anverso</tabstop>
+  <tabstop>ed_espessura</tabstop>
+  <tabstop>ed_venda</tabstop>
+  <tabstop>ed_reverso</tabstop>
+  <tabstop>ed_foto1</tabstop>
+  <tabstop>ed_foto2</tabstop>
+  <tabstop>bt_cadastrar</tabstop>
+  <tabstop>bt_deletar_reg</tabstop>
+  <tabstop>bt_cancelar</tabstop>
+  <tabstop>bt_mostrar_foto</tabstop>
+  <tabstop>ed_localizar</tabstop>
+  <tabstop>bt_localizar</tabstop>
+  <tabstop>list_item</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

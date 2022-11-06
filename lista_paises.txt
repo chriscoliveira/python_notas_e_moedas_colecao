@@ -1,0 +1,364 @@
+Aachen,https://pt.ucoin.net<img class="flg" src="/i/flags/app/aachen.png"/>
+Abecásia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/abkhazia.png"/>
+Afeganistão,https://pt.ucoin.net<img class="flg" src="/i/flags/app/afghanistan.png"/>
+África Central (BEAC),https://pt.ucoin.net<img class="flg" src="/i/flags/app/central_africa.png"/>
+África do Sul,https://pt.ucoin.net<img class="flg" src="/i/flags/app/south_africa.png"/>
+África Equatorial Francesa,https://pt.ucoin.net<img class="flg" src="/i/flags/app/french_equatorial_africa.png"/>
+África Ocidental ,https://pt.ucoin.net<img class="flg" src="/i/flags/app/western_africa.png"/>
+África Ocidental Britânica,https://pt.ucoin.net<img class="flg" src="/i/flags/app/british_west_africa.png"/>
+África Ocidental Francesa,https://pt.ucoin.net<img class="flg" src="/i/flags/app/french_west_africa.png"/>
+África Oriental Alemã,https://pt.ucoin.net<img class="flg" src="/i/flags/app/german_east_africa.png"/>
+África Oriental Britânica,https://pt.ucoin.net<img class="flg" src="/i/flags/app/british_east_africa.png"/>
+Albânia ,https://pt.ucoin.net<img class="flg" src="/i/flags/app/albania.png"/>
+Alderney,https://pt.ucoin.net<img class="flg" src="/i/flags/app/alderney.png"/>
+Alemanha,https://pt.ucoin.net<img class="flg" src="/i/flags/app/germany.png"/>
+Alemanha - RDA,https://pt.ucoin.net<img class="flg" src="/i/flags/app/german_democratic_republic.png"/>
+Alemanha - Terceiro Reich,https://pt.ucoin.net<img class="flg" src="/i/flags/app/third_reich.png"/>
+Andorra,https://pt.ucoin.net<img class="flg" src="/i/flags/app/andorra.png"/>
+Angola,https://pt.ucoin.net<img class="flg" src="/i/flags/app/angola.png"/>
+Anguilla,https://pt.ucoin.net<img class="flg" src="/i/flags/app/anguilla.png"/>
+Antiga Áustria,https://pt.ucoin.net<img class="flg" src="/i/flags/app/further_austria.png"/>
+Antígua e Barbuda,https://pt.ucoin.net<img class="flg" src="/i/flags/app/antigua_barbuda.png"/>
+Antilhas Holandesas,https://pt.ucoin.net<img class="flg" src="/i/flags/app/netherlands_antilles.png"/>
+Appenzell,https://pt.ucoin.net<img class="flg" src="/i/flags/app/appenzell.png"/>
+Arábia do Sul,https://pt.ucoin.net<img class="flg" src="/i/flags/app/south_arabia.png"/>
+Arábia Saudita,https://pt.ucoin.net<img class="flg" src="/i/flags/app/saudi_arabia.png"/>
+Arcebispado de Salzburgo,https://pt.ucoin.net<img class="flg" src="/i/flags/app/salzburg.png"/>
+Argélia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/algeria.png"/>
+Argentina,https://pt.ucoin.net<img class="flg" src="/i/flags/app/argentina.png"/>
+Argentina Provincias,https://pt.ucoin.net<img class="flg" src="/i/flags/app/argentine_provinces.png"/>
+Argovia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/aargau.png"/>
+Armavir,https://pt.ucoin.net<img class="flg" src="/i/flags/app/armavir.png"/>
+Arménia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/armenia.png"/>
+Aruba,https://pt.ucoin.net<img class="flg" src="/i/flags/app/aruba.png"/>
+Austrália,https://pt.ucoin.net<img class="flg" src="/i/flags/app/australia.png"/>
+Áustria,https://pt.ucoin.net<img class="flg" src="/i/flags/app/austria.png"/>
+Azerbaijão,https://pt.ucoin.net<img class="flg" src="/i/flags/app/azerbaijan.png"/>
+Baden,https://pt.ucoin.net<img class="flg" src="/i/flags/app/baden.png"/>
+Bahamas,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bahamas.png"/>
+Bahawalpur,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bahawalpur.png"/>
+Bahrain,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bahrain.png"/>
+Bangladesh,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bangladesh.png"/>
+Barbados,https://pt.ucoin.net<img class="flg" src="/i/flags/app/barbados.png"/>
+Baroda,https://pt.ucoin.net<img class="flg" src="/i/flags/app/baroda.png"/>
+Basileia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/basel.png"/>
+Baviera,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bavaria.png"/>
+Bélgica,https://pt.ucoin.net<img class="flg" src="/i/flags/app/belgium.png"/>
+Belize,https://pt.ucoin.net<img class="flg" src="/i/flags/app/belize.png"/>
+Benin,https://pt.ucoin.net<img class="flg" src="/i/flags/app/benin.png"/>
+Berg (Grão Ducado),https://pt.ucoin.net<img class="flg" src="/i/flags/app/berg.png"/>
+Bermudas,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bermuda.png"/>
+Berna,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bern.png"/>
+Bhopal,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bhopal.png"/>
+Biafra,https://pt.ucoin.net<img class="flg" src="/i/flags/app/biafra.png"/>
+Bielorrússia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/belarus.png"/>
+Bikaner,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bikaner.png"/>
+Birmânia ,https://pt.ucoin.net<img class="flg" src="/i/flags/app/myanmar.png"/>
+Boémia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bohemia.png"/>
+Boémia e Morávia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bohemia_moravia.png"/>
+Bolívia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bolivia.png"/>
+Bolonha,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bologna.png"/>
+Bornéu do Norte,https://pt.ucoin.net<img class="flg" src="/i/flags/app/north_borneo.png"/>
+Bósnia Herzegovina,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bosnia_herzegovina.png"/>
+Botsuana,https://pt.ucoin.net<img class="flg" src="/i/flags/app/botswana.png"/>
+Brandeburgo-Prússia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/brandenburg_prussia.png"/>
+Brasil,https://pt.ucoin.net<img class="flg" src="/i/flags/app/brazil.png"/>
+Bremen,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bremen.png"/>
+Broach,https://pt.ucoin.net<img class="flg" src="/i/flags/app/broach.png"/>
+Brunei,https://pt.ucoin.net<img class="flg" src="/i/flags/app/brunei.png"/>
+Brunswick,https://pt.ucoin.net<img class="flg" src="/i/flags/app/brunswick.png"/>
+Brunswick-Lüneburg,https://pt.ucoin.net<img class="flg" src="/i/flags/app/brunswick_luneburg.png"/>
+Bulgária,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bulgaria.png"/>
+Bundi,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bundi.png"/>
+Burgau,https://pt.ucoin.net<img class="flg" src="/i/flags/app/burgau.png"/>
+Burquina Faso,https://pt.ucoin.net<img class="flg" src="/i/flags/app/burkina_faso.png"/>
+Burundi,https://pt.ucoin.net<img class="flg" src="/i/flags/app/burundi.png"/>
+Butão,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bhutan.png"/>
+Cabo Verde,https://pt.ucoin.net<img class="flg" src="/i/flags/app/cape_verde.png"/>
+Camarões,https://pt.ucoin.net<img class="flg" src="/i/flags/app/cameroon.png"/>
+Cambay,https://pt.ucoin.net<img class="flg" src="/i/flags/app/cambay.png"/>
+Camboja,https://pt.ucoin.net<img class="flg" src="/i/flags/app/cambodia.png"/>
+Canadá,https://pt.ucoin.net<img class="flg" src="/i/flags/app/canada.png"/>
+Canato de Khiva,https://pt.ucoin.net<img class="flg" src="/i/flags/app/khiva.png"/>
+Cazaquistão,https://pt.ucoin.net<img class="flg" src="/i/flags/app/kazakhstan.png"/>
+Ceilão,https://pt.ucoin.net<img class="flg" src="/i/flags/app/ceylon.png"/>
+Chade,https://pt.ucoin.net<img class="flg" src="/i/flags/app/chad.png"/>
+Checoslováquia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/czechoslovakia.png"/>
+Chile,https://pt.ucoin.net<img class="flg" src="/i/flags/app/chile.png"/>
+China,https://pt.ucoin.net<img class="flg" src="/i/flags/app/china.png"/>
+China - Império,https://pt.ucoin.net<img class="flg" src="/i/flags/app/china_empire.png"/>
+China - Japonesa,https://pt.ucoin.net<img class="flg" src="/i/flags/app/japanese_china.png"/>
+China - República,https://pt.ucoin.net<img class="flg" src="/i/flags/app/china_republic.png"/>
+Chipre,https://pt.ucoin.net<img class="flg" src="/i/flags/app/cyprus.png"/>
+Cidade do Vaticano,https://pt.ucoin.net<img class="flg" src="/i/flags/app/vatican_city.png"/>
+Cidade Livre de Danzig,https://pt.ucoin.net<img class="flg" src="/i/flags/app/danzig.png"/>
+Cocande,https://pt.ucoin.net<img class="flg" src="/i/flags/app/kokand.png"/>
+Cochinchina Francesa,https://pt.ucoin.net<img class="flg" src="/i/flags/app/french_cochinchina.png"/>
+Colômbia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/colombia.png"/>
+Colônia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/cologne.png"/>
+Colónias Francesas,https://pt.ucoin.net<img class="flg" src="/i/flags/app/french_colonies.png"/>
+Comores,https://pt.ucoin.net<img class="flg" src="/i/flags/app/comoros.png"/>
+Condado de Palatinado do Reno,https://pt.ucoin.net<img class="flg" src="/i/flags/app/palatinate.png"/>
+Confederação do Reno,https://pt.ucoin.net<img class="flg" src="/i/flags/app/rhine.png"/>
+Congo,https://pt.ucoin.net<img class="flg" src="/i/flags/app/west_congo.png"/>
+Congo Belga,https://pt.ucoin.net<img class="flg" src="/i/flags/app/belgian_congo.png"/>
+Congo - RDC,https://pt.ucoin.net<img class="flg" src="/i/flags/app/congo_democratic_republic.png"/>
+Coreia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/korea.png"/>
+Coreia do Norte,https://pt.ucoin.net<img class="flg" src="/i/flags/app/north_korea.png"/>
+Coreia do Sul,https://pt.ucoin.net<img class="flg" src="/i/flags/app/south_korea.png"/>
+Costa do Marfim,https://pt.ucoin.net<img class="flg" src="/i/flags/app/cote_d_ivoire.png"/>
+Costa Rica,https://pt.ucoin.net<img class="flg" src="/i/flags/app/costa_rica.png"/>
+Cracóvia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/krakow.png"/>
+Creta,https://pt.ucoin.net<img class="flg" src="/i/flags/app/crete.png"/>
+Crimeia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/crimea.png"/>
+Croácia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/croatia.png"/>
+Cuba,https://pt.ucoin.net<img class="flg" src="/i/flags/app/cuba.png"/>
+Curaçao,https://pt.ucoin.net<img class="flg" src="/i/flags/app/curacao.png"/>
+Curlândia e Semigália,https://pt.ucoin.net<img class="flg" src="/i/flags/app/courland_semigallia.png"/>
+Darfur,https://pt.ucoin.net<img class="flg" src="/i/flags/app/darfur.png"/>
+Demerara-Essequibo,https://pt.ucoin.net<img class="flg" src="/i/flags/app/demerara_essequibo.png"/>
+Dhar,https://pt.ucoin.net<img class="flg" src="/i/flags/app/dhar.png"/>
+Dinamarca,https://pt.ucoin.net<img class="flg" src="/i/flags/app/denmark.png"/>
+Djibouti,https://pt.ucoin.net<img class="flg" src="/i/flags/app/djibouti.png"/>
+Dominica,https://pt.ucoin.net<img class="flg" src="/i/flags/app/dominica.png"/>
+Domínio de Terra Nova,https://pt.ucoin.net<img class="flg" src="/i/flags/app/newfoundland.png"/>
+Duas Sicílias,https://pt.ucoin.net<img class="flg" src="/i/flags/app/two_sicilies.png"/>
+Ducado de Mecklenburgo-Strelitz,https://pt.ucoin.net<img class="flg" src="/i/flags/app/mecklenburg_strelitz.png"/>
+Ducado de Milão,https://pt.ucoin.net<img class="flg" src="/i/flags/app/milan.png"/>
+Ducado de Saxe-Meiningen,https://pt.ucoin.net<img class="flg" src="/i/flags/app/saxe_meiningen.png"/>
+Egito,https://pt.ucoin.net<img class="flg" src="/i/flags/app/egypt.png"/>
+El Salvador,https://pt.ucoin.net<img class="flg" src="/i/flags/app/el_salvador.png"/>
+Emirado de Ajman (Emirados Árabes Unidos),https://pt.ucoin.net<img class="flg" src="/i/flags/app/ajman.png"/>
+Emirado de Bucara ou Bukhara,https://pt.ucoin.net<img class="flg" src="/i/flags/app/bukhara.png"/>
+Emirados Árabes Unidos,https://pt.ucoin.net<img class="flg" src="/i/flags/app/united_arab_emirates.png"/>
+Equador,https://pt.ucoin.net<img class="flg" src="/i/flags/app/ecuador.png"/>
+Eritreia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/eritrea.png"/>
+Eritreia Italiana,https://pt.ucoin.net<img class="flg" src="/i/flags/app/italian_eritrea.png"/>
+Escócia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/scotland.png"/>
+Eslováquia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/slovakia.png"/>
+Eslovénia ,https://pt.ucoin.net<img class="flg" src="/i/flags/app/slovenia.png"/>
+Espanha,https://pt.ucoin.net<img class="flg" src="/i/flags/app/spain.png"/>
+Espanha - Guerra Civil,https://pt.ucoin.net<img class="flg" src="/i/flags/app/span_civil_war.png"/>
+Essuatíni (Suazilândia),https://pt.ucoin.net<img class="flg" src="/i/flags/app/swaziland.png"/>
+Estabelecimentos dos Estreitos,https://pt.ucoin.net<img class="flg" src="/i/flags/app/straits_settlements.png"/>
+Estado de Kishangarh,https://pt.ucoin.net<img class="flg" src="/i/flags/app/kishangarh.png"/>
+Estado Livre do Congo,https://pt.ucoin.net<img class="flg" src="/i/flags/app/congo_free_state.png"/>
+Estados da África Equatorial,https://pt.ucoin.net<img class="flg" src="/i/flags/app/equatorial_african_states.png"/>
+Estados do Caribe Oriental,https://pt.ucoin.net<img class="flg" src="/i/flags/app/eastern_caribbean.png"/>
+Estados Papais,https://pt.ucoin.net<img class="flg" src="/i/flags/app/papal_states.png"/>
+Estados Unidos da América,https://pt.ucoin.net<img class="flg" src="/i/flags/app/usa.png"/>
+Estónia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/estonia.png"/>
+Etiópia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/ethiopia.png"/>
+Fiji,https://pt.ucoin.net<img class="flg" src="/i/flags/app/fiji.png"/>
+Filipinas,https://pt.ucoin.net<img class="flg" src="/i/flags/app/philippines.png"/>
+Finlândia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/finland.png"/>
+França,https://pt.ucoin.net<img class="flg" src="/i/flags/app/france.png"/>
+Francês dos Afars e Issas,https://pt.ucoin.net<img class="flg" src="/i/flags/app/afars_issas.png"/>
+Frankfurt,https://pt.ucoin.net<img class="flg" src="/i/flags/app/frankfurt.png"/>
+Friburgo,https://pt.ucoin.net<img class="flg" src="/i/flags/app/fribourg.png"/>
+Fujairah (Emirados Árabes Unidos),https://pt.ucoin.net<img class="flg" src="/i/flags/app/fujairah.png"/>
+Gabão,https://pt.ucoin.net<img class="flg" src="/i/flags/app/gabon.png"/>
+Galicia e Lodomeria,https://pt.ucoin.net<img class="flg" src="/i/flags/app/galicia_lodomeria.png"/>
+Gâmbia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/gambia.png"/>
+Gana,https://pt.ucoin.net<img class="flg" src="/i/flags/app/ghana.png"/>
+Geneva,https://pt.ucoin.net<img class="flg" src="/i/flags/app/geneva.png"/>
+Génova,https://pt.ucoin.net<img class="flg" src="/i/flags/app/genoa.png"/>
+Geórgia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/georgia.png"/>
+Geórgia do Sul,https://pt.ucoin.net<img class="flg" src="/i/flags/app/south_georgia.png"/>
+Gibraltar,https://pt.ucoin.net<img class="flg" src="/i/flags/app/gibraltar.png"/>
+Glarus (Cantão Suíço),https://pt.ucoin.net<img class="flg" src="/i/flags/app/glarus.png"/>
+Gorízia e Gradisca,https://pt.ucoin.net<img class="flg" src="/i/flags/app/gorizia_gradisca.png"/>
+Granada,https://pt.ucoin.net<img class="flg" src="/i/flags/app/grenada.png"/>
+Grão-Ducado de Oldenburg,https://pt.ucoin.net<img class="flg" src="/i/flags/app/oldenburg.png"/>
+Grão-Ducado do Mecklemburgo-Schwerin,https://pt.ucoin.net<img class="flg" src="/i/flags/app/mecklenburg_schwerin.png"/>
+Graubünden,https://pt.ucoin.net<img class="flg" src="/i/flags/app/grisons.png"/>
+Grécia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/greece.png"/>
+Gronelândia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/greenland.png"/>
+Guadalupe,https://pt.ucoin.net<img class="flg" src="/i/flags/app/guadeloupe.png"/>
+Guatemala,https://pt.ucoin.net<img class="flg" src="/i/flags/app/guatemala.png"/>
+Gubbio,https://pt.ucoin.net<img class="flg" src="/i/flags/app/gubbio.png"/>
+Guernsey,https://pt.ucoin.net<img class="flg" src="/i/flags/app/guernsey.png"/>
+Guiana,https://pt.ucoin.net<img class="flg" src="/i/flags/app/guyana.png"/>
+Guiana Britânica,https://pt.ucoin.net<img class="flg" src="/i/flags/app/british_guiana.png"/>
+Guiana Francesa,https://pt.ucoin.net<img class="flg" src="/i/flags/app/french_guiana.png"/>
+Guiné,https://pt.ucoin.net<img class="flg" src="/i/flags/app/guinea.png"/>
+Guiné-Bissau,https://pt.ucoin.net<img class="flg" src="/i/flags/app/guinea_bissau.png"/>
+Guiné Equatorial,https://pt.ucoin.net<img class="flg" src="/i/flags/app/equatorial_guinea.png"/>
+Gwalior,https://pt.ucoin.net<img class="flg" src="/i/flags/app/gwalior.png"/>
+Haiti,https://pt.ucoin.net<img class="flg" src="/i/flags/app/haiti.png"/>
+Hamburgo,https://pt.ucoin.net<img class="flg" src="/i/flags/app/hamburg.png"/>
+Hanôver,https://pt.ucoin.net<img class="flg" src="/i/flags/app/hannover.png"/>
+Havaí,https://pt.ucoin.net<img class="flg" src="/i/flags/app/hawaii.png"/>
+Hejaz,https://pt.ucoin.net<img class="flg" src="/i/flags/app/hejaz.png"/>
+Henneberg-Ilmenau,https://pt.ucoin.net<img class="flg" src="/i/flags/app/henneberg_ilmenau.png"/>
+Hesse-Homburg,https://pt.ucoin.net<img class="flg" src="/i/flags/app/hessen_homburg.png"/>
+Hesse-Kassel,https://pt.ucoin.net<img class="flg" src="/i/flags/app/hesse_kassel.png"/>
+Hiderabade,https://pt.ucoin.net<img class="flg" src="/i/flags/app/hyderabad.png"/>
+Hohenzollern,https://pt.ucoin.net<img class="flg" src="/i/flags/app/hohenzollern.png"/>
+Hohenzollern-Hechingen,https://pt.ucoin.net<img class="flg" src="/i/flags/app/hohenzollern_hechingen.png"/>
+Hohenzollern-Sigmaringen,https://pt.ucoin.net<img class="flg" src="/i/flags/app/hohenzollern_sigmaringen.png"/>
+Holanda,https://pt.ucoin.net<img class="flg" src="/i/flags/app/netherlands.png"/>
+Holanda Espanhola,https://pt.ucoin.net<img class="flg" src="/i/flags/app/spanish_netherlands.png"/>
+Honduras,https://pt.ucoin.net<img class="flg" src="/i/flags/app/honduras.png"/>
+Honduras Britânicas,https://pt.ucoin.net<img class="flg" src="/i/flags/app/british_honduras.png"/>
+Hong Kong,https://pt.ucoin.net<img class="flg" src="/i/flags/app/hong_kong.png"/>
+Hungria,https://pt.ucoin.net<img class="flg" src="/i/flags/app/hungary.png"/>
+Iémen,https://pt.ucoin.net<img class="flg" src="/i/flags/app/yemen.png"/>
+Iémen do Sul,https://pt.ucoin.net<img class="flg" src="/i/flags/app/south_yemen.png"/>
+Ilha de Ascensão,https://pt.ucoin.net<img class="flg" src="/i/flags/app/ascension_island.png"/>
+Ilha de Man,https://pt.ucoin.net<img class="flg" src="/i/flags/app/isle_of_man.png"/>
+Ilhas Cayman,https://pt.ucoin.net<img class="flg" src="/i/flags/app/cayman_islands.png"/>
+Ilhas Cook,https://pt.ucoin.net<img class="flg" src="/i/flags/app/cook_islands.png"/>
+Ilhas Falklands,https://pt.ucoin.net<img class="flg" src="/i/flags/app/falkland_islands.png"/>
+Ilhas Faroé,https://pt.ucoin.net<img class="flg" src="/i/flags/app/faroes.png"/>
+Ilhas Jônicas,https://pt.ucoin.net<img class="flg" src="/i/flags/app/ionian_islands.png"/>
+ Ilhas Marshall,https://pt.ucoin.net<img class="flg" src="/i/flags/app/marshall_islands.png"/>
+Ilhas Pitcairn,https://pt.ucoin.net<img class="flg" src="/i/flags/app/pitcairn_islands.png"/>
+Ilhas Salomão,https://pt.ucoin.net<img class="flg" src="/i/flags/app/solomon_islands.png"/>
+Ilhas Turcas e Caicos,https://pt.ucoin.net<img class="flg" src="/i/flags/app/turks_caicos_islands.png"/>
+Ilhas Virgens Britânicas ,https://pt.ucoin.net<img class="flg" src="/i/flags/app/virgin_islands_british.png"/>
+Império Alemão,https://pt.ucoin.net<img class="flg" src="/i/flags/app/german_empire.png"/>
+Império Mogol,https://pt.ucoin.net<img class="flg" src="/i/flags/app/mughal_empire.png"/>
+Império Otomano,https://pt.ucoin.net<img class="flg" src="/i/flags/app/ottoman_empire.png"/>
+Império Sique,https://pt.ucoin.net<img class="flg" src="/i/flags/app/sikh.png"/>
+Índia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/india.png"/>
+Índia - Britânica,https://pt.ucoin.net<img class="flg" src="/i/flags/app/british_india.png"/>
+Índia Portuguesa,https://pt.ucoin.net<img class="flg" src="/i/flags/app/portuguese_india.png"/>
+Índias Britânicas Orientais,https://pt.ucoin.net<img class="flg" src="/i/flags/app/british_east_indies.png"/>
+Índias Ocidentais Britânicas,https://pt.ucoin.net<img class="flg" src="/i/flags/app/british_west_indies.png"/>
+Índias Ocidentais Dinamarquesas,https://pt.ucoin.net<img class="flg" src="/i/flags/app/danish_west_indies.png"/>
+Índias Orientais Neerlandesas,https://pt.ucoin.net<img class="flg" src="/i/flags/app/netherlands_east_indies.png"/>
+Indochina Francesa,https://pt.ucoin.net<img class="flg" src="/i/flags/app/french_indochina.png"/>
+Indonésia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/indonesia.png"/>
+Indore,https://pt.ucoin.net<img class="flg" src="/i/flags/app/indore.png"/>
+Inglaterra,https://pt.ucoin.net<img class="flg" src="/i/flags/app/england.png"/>
+Irã,https://pt.ucoin.net<img class="flg" src="/i/flags/app/iran.png"/>
+Iraque,https://pt.ucoin.net<img class="flg" src="/i/flags/app/iraq.png"/>
+Irlanda,https://pt.ucoin.net<img class="flg" src="/i/flags/app/ireland.png"/>
+Islândia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/iceland.png"/>
+Israel,https://pt.ucoin.net<img class="flg" src="/i/flags/app/israel.png"/>
+Itália,https://pt.ucoin.net<img class="flg" src="/i/flags/app/italy.png"/>
+Jaipur,https://pt.ucoin.net<img class="flg" src="/i/flags/app/jaipur.png"/>
+Jamaica,https://pt.ucoin.net<img class="flg" src="/i/flags/app/jamaica.png"/>
+Jamu e Caxemira,https://pt.ucoin.net<img class="flg" src="/i/flags/app/jammu_kashmir.png"/>
+Jaora,https://pt.ucoin.net<img class="flg" src="/i/flags/app/jaora.png"/>
+Japão,https://pt.ucoin.net<img class="flg" src="/i/flags/app/japan.png"/>
+Jersey,https://pt.ucoin.net<img class="flg" src="/i/flags/app/jersey.png"/>
+Jodhpur,https://pt.ucoin.net<img class="flg" src="/i/flags/app/jodhpur.png"/>
+Jordânia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/jordan.png"/>
+Jugoslávia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/yugoslavia.png"/>
+Jülich-Berg,https://pt.ucoin.net<img class="flg" src="/i/flags/app/julich_berg.png"/>
+Junagadh,https://pt.ucoin.net<img class="flg" src="/i/flags/app/junagadh.png"/>
+Katanga,https://pt.ucoin.net<img class="flg" src="/i/flags/app/katanga.png"/>
+Kiau Chau,https://pt.ucoin.net<img class="flg" src="/i/flags/app/kiau_chau.png"/>
+Kiribati,https://pt.ucoin.net<img class="flg" src="/i/flags/app/kiribati.png"/>
+Kutch,https://pt.ucoin.net<img class="flg" src="/i/flags/app/kutch.png"/>
+Kuwait,https://pt.ucoin.net<img class="flg" src="/i/flags/app/kuwait.png"/>
+Landgraviate de Hesse-Darmstadt,https://pt.ucoin.net<img class="flg" src="/i/flags/app/hessen_darmstadt.png"/>
+Laos,https://pt.ucoin.net<img class="flg" src="/i/flags/app/laos.png"/>
+Lesoto,https://pt.ucoin.net<img class="flg" src="/i/flags/app/lesotho.png"/>
+Letónia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/latvia.png"/>
+Líbano,https://pt.ucoin.net<img class="flg" src="/i/flags/app/lebanon.png"/>
+Libéria,https://pt.ucoin.net<img class="flg" src="/i/flags/app/liberia.png"/>
+Líbia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/libya.png"/>
+Liechtenstein,https://pt.ucoin.net<img class="flg" src="/i/flags/app/liechtenstein.png"/>
+Lipa,https://pt.ucoin.net<img class="flg" src="/i/flags/app/lippe.png"/>
+Lituânia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/lithuania.png"/>
+Livônia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/livonia.png"/>
+Livónia e Estónia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/livonia_estonia.png"/>
+Lombardo-Vêneto,https://pt.ucoin.net<img class="flg" src="/i/flags/app/lombardy_venetia.png"/>
+Lowenstein-Wertheim,https://pt.ucoin.net<img class="flg" src="/i/flags/app/lowenstein_wertheim.png"/>
+Lübeck,https://pt.ucoin.net<img class="flg" src="/i/flags/app/lubeck.png"/>
+Luca,https://pt.ucoin.net<img class="flg" src="/i/flags/app/lucca.png"/>
+Lucerna,https://pt.ucoin.net<img class="flg" src="/i/flags/app/lucerne.png"/>
+Lundy,https://pt.ucoin.net<img class="flg" src="/i/flags/app/lundy.png"/>
+Luxemburgo,https://pt.ucoin.net<img class="flg" src="/i/flags/app/luxembourg.png"/>
+Macau,https://pt.ucoin.net<img class="flg" src="/i/flags/app/macau.png"/>
+Macedónia do Norte,https://pt.ucoin.net<img class="flg" src="/i/flags/app/macedonia.png"/>
+Madagáscar,https://pt.ucoin.net<img class="flg" src="/i/flags/app/madagascar.png"/>
+Mainz,https://pt.ucoin.net<img class="flg" src="/i/flags/app/mainz.png"/>
+Maiorca,https://pt.ucoin.net<img class="flg" src="/i/flags/app/majorca.png"/>
+Malásia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/malaysia.png"/>
+Malásia Peninsular,https://pt.ucoin.net<img class="flg" src="/i/flags/app/malaya.png"/>
+Malásia Peninsular e Borneu Britânico,https://pt.ucoin.net<img class="flg" src="/i/flags/app/malaya_british_borneo.png"/>
+Malawi,https://pt.ucoin.net<img class="flg" src="/i/flags/app/malawi.png"/>
+Maldivas,https://pt.ucoin.net<img class="flg" src="/i/flags/app/maldives.png"/>
+Mali,https://pt.ucoin.net<img class="flg" src="/i/flags/app/mali.png"/>
+Malta,https://pt.ucoin.net<img class="flg" src="/i/flags/app/malta.png"/>
+Mântua,https://pt.ucoin.net<img class="flg" src="/i/flags/app/mantua.png"/>
+Marrocos,https://pt.ucoin.net<img class="flg" src="/i/flags/app/morocco.png"/>
+Martinica,https://pt.ucoin.net<img class="flg" src="/i/flags/app/martinique.png"/>
+Maurícias,https://pt.ucoin.net<img class="flg" src="/i/flags/app/mauritius.png"/>
+Mauritânia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/mauritania.png"/>
+Mewar,https://pt.ucoin.net<img class="flg" src="/i/flags/app/mewar.png"/>
+México,https://pt.ucoin.net<img class="flg" src="/i/flags/app/mexico.png"/>
+México (Revolucionário),https://pt.ucoin.net<img class="flg" src="/i/flags/app/mexico_revolutionary.png"/>
+Moçambique,https://pt.ucoin.net<img class="flg" src="/i/flags/app/mozambique.png"/>
+Moldávia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/moldova.png"/>
+Moldávia e Valáquia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/moldavia_and_wallachia.png"/>
+Mombaça,https://pt.ucoin.net<img class="flg" src="/i/flags/app/mombasa.png"/>
+Mónaco,https://pt.ucoin.net<img class="flg" src="/i/flags/app/monaco.png"/>
+Mongólia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/mongolia.png"/>
+Monserrate,https://pt.ucoin.net<img class="flg" src="/i/flags/app/montserrat.png"/>
+Montenegro,https://pt.ucoin.net<img class="flg" src="/i/flags/app/montenegro.png"/>
+Nagorno-Karabakh,https://pt.ucoin.net<img class="flg" src="/i/flags/app/nagorno_karabakh.png"/>
+Namíbia,https://pt.ucoin.net<img class="flg" src="/i/flags/app/namibia.png"/>
+Nápoles,https://pt.ucoin.net<img class="flg" src="/i/flags/app/naples.png"/>
+Nassau,https://pt.ucoin.net<img class="flg" src="/i/flags/app/nassau.png"/>
+Nassau-Usingen,https://pt.ucoin.net<img class="flg" src="/i/flags/app/nassau_usingen.png"/>
+Nassau-Weilburg,https://pt.ucoin.net<img class="flg" src="/i/flags/app/nassau_weilburg.png"/>
+Nauru,https://pt.ucoin.net<img class="flg" src="/i/flags/app/nauru.png"/>
+Navarra,https://pt.ucoin.net<img class="flg" src="/i/flags/app/navarra.png"/>
+Nawanagar,https://pt.ucoin.net<img class="flg" src="/i/flags/app/nawanagar.png"/>
+Nepal,https://pt.ucoin.netNone
+Neuchâtel,https://pt.ucoin.netNone
+Nicarágua,https://pt.ucoin.netNone
+Niger,https://pt.ucoin.netNone
+Nigéria,https://pt.ucoin.netNone
+Niuê,https://pt.ucoin.netNone
+Noruega,https://pt.ucoin.netNone
+Nova Caledónia,https://pt.ucoin.netNone
+Nova Guiné,https://pt.ucoin.netNone
+Nova Guiné Alemã,https://pt.ucoin.netNone
+Novas Hébridas,https://pt.ucoin.netNone
+Nova Zelândia,https://pt.ucoin.netNone
+Nuremberg,https://pt.ucoin.netNone
+Oceania Francesa,https://pt.ucoin.netNone
+Oldemburgo-Birkenfeld,https://pt.ucoin.netNone
+Omã,https://pt.ucoin.netNone
+Orchha,https://pt.ucoin.netNone
+Ordem de Malta,https://pt.ucoin.netNone
+Oudh (Awadh),https://pt.ucoin.netNone
+Países Baixos Austríacos,https://pt.ucoin.netNone
+Países Baixos Caribenhos,https://pt.ucoin.netNone
+Palatinado Zweibrücken,https://pt.ucoin.netNone
+Palau,https://pt.ucoin.netNone
+Palestina,https://pt.ucoin.netNone
+Panamá,https://pt.ucoin.netNone
+Papua Nova Guiné ,https://pt.ucoin.netNone
+Paquistão,https://pt.ucoin.netNone
+Paraguai,https://pt.ucoin.netNone
+Parma,https://pt.ucoin.netNone
+Peru,https://pt.ucoin.netNone
+Piemonte,https://pt.ucoin.netNone
+Polinésia Francesa,https://pt.ucoin.netNone
+Polónia ,https://pt.ucoin.netNone
+Porbandar,https://pt.ucoin.netNone
+Porto Rico,https://pt.ucoin.netNone
+Portugal,https://pt.ucoin.netNone
+Principado-Bispado de Liège,https://pt.ucoin.netNone
+Principado de Anhalt-Bernburgo,https://pt.ucoin.netNone
+Principado de Brunswick-Wolfenbüttel,https://pt.ucoin.netNone
+Principado de Catalunha,https://pt.ucoin.netNone
+Principado de Reuss-Greiz,https://pt.ucoin.netNone
+Principado de Schaumburg-Lippe,https://pt.ucoin.netNone
+Principado do Rio Hutt,https://pt.ucoin.netNone
+Províncias do Canadá,https://pt.ucoin.netNone
+Províncias Espanholas,https://pt.ucoin.netNone
+Prússia,https://pt.ucoin.netNone
+Qatar,https://pt.ucoin.netNone
+Qatar e Dubai,https://pt.ucoin.netNone
+Quénia,https://pt.ucoin.netNone
+Quirguistão,https://pt.ucoin.netNone
+Radhanpur,https://pt.ucoin.netNone
+Ragusa,https://pt.ucoin.netNone

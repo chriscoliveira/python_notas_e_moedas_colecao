@@ -1,5 +1,6 @@
 # compilar usando
-# venv\Scripts\pyinstaller.exe -F --console -w --upx-dir=Z:\Christian\Python\GitHub\upx-3.96-win64\upx-3.96-win64 --distpath .\ --ico .\icone.ico --name "Coleção de Moedas 2022" .\colecao_moedas_2022.py
+# venv\Scripts\pyinstaller.exe -F --console -w --upx-dir=D:\Python Projects\upx-3.96-win64 --distpath .\ --ico .\icone.ico --name "Coleção de Moedas 2022" .\colecao_moedas_2022.py
+# C:\Users\Christian\AppData\Roaming\Python\Python310\Scripts\pyinstaller.exe -F --console -w --upx-dir=D:\upx-3.96-win64 --distpath .\ --ico .\icone.ico --name "Coleção de Moedas 2022" .\colecao_moedas_2022.py
 
 from os import link
 from pprint import pprint
