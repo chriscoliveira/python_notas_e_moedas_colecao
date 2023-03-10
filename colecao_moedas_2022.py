@@ -17,6 +17,7 @@ import urllib
 from funcoes import Colecao
 from PyQt5.QtWidgets import QMainWindow, QApplication
 import os
+from currency_converter import CurrencyConverter
 
 colecao = Colecao('db_colecao.db')
 
@@ -317,6 +318,7 @@ class Novo(QMainWindow, Ui_MainWindow):
 
         self.bt_deletar_reg.setVisible(True)
         self.bt_mostrar_foto.setVisible(False)
+        self.bt_scrap.setVisible(True)
         self.bt_cadastrar.setText('Atualizar')
 
         self.exibeafoto()
@@ -412,6 +414,12 @@ class Novo(QMainWindow, Ui_MainWindow):
         self.bt_mostrar_foto.setVisible(True)
         self.ed_tipo.setText(tipo)
 
+        if tipo == 'Nota':
+            self.bt_scrap.setVisible(False)
+        else:
+            self.bt_scrap.setVisible(True)
+        self.ed_pais.setFocus()
+
     def cancelar(self):
         self.exiberesumo()
         self.limpa_form_cadastro()
@@ -439,6 +447,7 @@ class Novo(QMainWindow, Ui_MainWindow):
         self.mapa.setVisible(True)
 
     def pega_info_ucoin(self):
+        self.ed_link_ucoin.setFocus()
         self.label_ucoin.setVisible(True)
         self.ed_link_ucoin.setVisible(True)
         self.bt_buscar_ucoin.setVisible(True)
@@ -446,6 +455,14 @@ class Novo(QMainWindow, Ui_MainWindow):
     def envia_info_cadastro(self, link):
         VENDA, CUNHAGEM, FOTO1, FOTO2, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO = colecao.captura_infos(
             link)
+
+        # se o valor estiver em euro converte para real
+        c = CurrencyConverter()
+
+        if 'Preço: €' in VENDA:
+            VENDA = str(VENDA).replace('Preço: €', '')
+            VENDA = str("%.2f" % c.convert(VENDA, 'EUR', 'BRL'))
+            print(VENDA)
         self.ed_pais.setText(PAIS)
         self.ed_ano.setText(ANO)
         self.ed_krause.setText(KRAUSE)

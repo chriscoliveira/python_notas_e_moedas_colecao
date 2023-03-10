@@ -3,6 +3,7 @@ from playwright.sync_api import sync_playwright
 from time import sleep
 import os
 from bs4 import BeautifulSoup
+import re
 
 # from firebase_admin import credentials, initialize_app, storage
 
@@ -17,12 +18,12 @@ class Colecao:
         try:
             URL = 'https://pt.ucoin.net/uid26638?v=home'
             with sync_playwright() as p:
-                browser = p.chromium.launch(channel='chrome')
+                browser = p.chromium.launch(channel='chrome', headless=False)
                 page = browser.new_page()
                 page.goto(URL)
                 page.click('#cookies-warning > div > div.right > div')
                 # page.query_selector(id="map")
-                #    sleep(8)
+                sleep(8)
                 page.click('#map')
 
                 page.locator(
@@ -255,7 +256,16 @@ class Colecao:
             valorcolecao = self.cursor.execute(sql_valor_moedas)
             valorcolecao1 = list(valorcolecao)
             valorcolecao1 = valorcolecao1[0]
-            return f'Moedas do Brasil: {mbrasil}\nNotas do Brasil: {nbrasil}\n\nMoedas estrangeiras: {mfora}\nNotas estrangeiras: {nfora}\n\nTotal de moedas: {mbrasil+mfora}\nContagem total: {mbrasil+mfora+nfora+nbrasil}\n\nValor total de coleção: R${valorcolecao1[0]:.2f}'
+
+            # exibe a quantidade de paises cadastrados
+            sql_qtde_pais = f'SELECT COUNT(DISTINCT PAIS) FROM colecao'
+            totalPais1 = self.cursor.execute(sql_qtde_pais)
+            totalPais = list(totalPais1)
+
+            totalPais = str(totalPais[0]).replace(
+                '(', '').replace(')', '').replace(',', '')
+
+            return f'Moedas do Brasil: {mbrasil}\nNotas do Brasil: {nbrasil}\n\nMoedas estrangeiras: {mfora}\nNotas estrangeiras: {nfora}\n\nTotal de moedas: {mbrasil+mfora}\nContagem total: {mbrasil+mfora+nfora+nbrasil}\n\nValor total de coleção: R${valorcolecao1[0]:.2f}\n\nPaises cadastrados: {totalPais}'
 
         except Exception as e:
             return f'Não há dados para exibir: {e}'
@@ -361,6 +371,7 @@ class Colecao:
 
     def captura_infos(self, link):
         if link:
+            link = re.sub(r'en.ucoin', 'pt.ucoin', link)
             with sync_playwright() as p:
                 VENDA, CUNHAGEM, FOTO1, FOTO2, CADASTRO, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO, CONSERVACAO = '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
                 browser = p.chromium.launch_persistent_context(channel='chrome', user_data_dir=os.path.join(

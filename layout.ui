@@ -127,41 +127,8 @@
          </item>
          <item row="1" column="0">
           <layout class="QGridLayout" name="gridLayout">
-           <item row="10" column="0">
-            <widget class="QLabel" name="label_20">
-             <property name="text">
-              <string>Valor Venda R$</string>
-             </property>
-            </widget>
-           </item>
-           <item row="4" column="0">
-            <widget class="QLabel" name="label_9">
-             <property name="text">
-              <string>Soberano</string>
-             </property>
-            </widget>
-           </item>
-           <item row="5" column="1">
-            <widget class="QLineEdit" name="ed_composicao"/>
-           </item>
            <item row="2" column="1">
             <widget class="QLineEdit" name="ed_periodo"/>
-           </item>
-           <item row="8" column="3">
-            <widget class="QLineEdit" name="ed_conservacao"/>
-           </item>
-           <item row="0" column="1">
-            <widget class="QLineEdit" name="ed_pais"/>
-           </item>
-           <item row="10" column="2">
-            <widget class="QLabel" name="label_25">
-             <property name="text">
-              <string>Reverso</string>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="3">
-            <widget class="QLineEdit" name="ed_ano"/>
            </item>
            <item row="8" column="0">
             <widget class="QLabel" name="label_18">
@@ -169,6 +136,12 @@
               <string>Diametro</string>
              </property>
             </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="ed_pais"/>
+           </item>
+           <item row="0" column="3">
+            <widget class="QLineEdit" name="ed_ano"/>
            </item>
            <item row="1" column="3">
             <widget class="QLineEdit" name="ed_valor"/>
@@ -186,21 +159,22 @@
              </property>
             </widget>
            </item>
-           <item row="11" column="2" colspan="2">
-            <widget class="QLabel" name="lbl_data">
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_9">
              <property name="text">
-              <string/>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              <string>Soberano</string>
              </property>
             </widget>
            </item>
-           <item row="9" column="3">
-            <widget class="QLineEdit" name="ed_espessura"/>
+           <item row="10" column="0">
+            <widget class="QLabel" name="label_20">
+             <property name="text">
+              <string>Valor Venda R$</string>
+             </property>
+            </widget>
            </item>
-           <item row="6" column="3">
-            <widget class="QLineEdit" name="ed_borda"/>
+           <item row="5" column="1">
+            <widget class="QLineEdit" name="ed_composicao"/>
            </item>
            <item row="3" column="1">
             <widget class="QLineEdit" name="ed_assunto"/>
@@ -219,6 +193,19 @@
              </property>
              <property name="alignment">
               <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="3">
+            <widget class="QLineEdit" name="ed_borda"/>
+           </item>
+           <item row="11" column="2" colspan="2">
+            <widget class="QLabel" name="lbl_data">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
              </property>
             </widget>
            </item>
@@ -250,12 +237,15 @@ color: rgb(170, 23, 25);</string>
               <enum>Qt::LeftToRight</enum>
              </property>
              <property name="text">
-              <string>Ano</string>
+              <string>* Ano</string>
              </property>
              <property name="alignment">
               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
              </property>
             </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QLineEdit" name="ed_diametro"/>
            </item>
            <item row="5" column="0">
             <widget class="QLabel" name="label_11">
@@ -264,18 +254,8 @@ color: rgb(170, 23, 25);</string>
              </property>
             </widget>
            </item>
-           <item row="8" column="1">
-            <widget class="QLineEdit" name="ed_diametro"/>
-           </item>
            <item row="9" column="1">
             <widget class="QLineEdit" name="ed_anverso"/>
-           </item>
-           <item row="9" column="2">
-            <widget class="QLabel" name="label_24">
-             <property name="text">
-              <string>Espessura</string>
-             </property>
-            </widget>
            </item>
            <item row="7" column="0">
             <widget class="QLabel" name="label_17">
@@ -298,7 +278,7 @@ color: rgb(170, 23, 25);</string>
              </property>
             </widget>
            </item>
-           <item row="15" column="0" colspan="5">
+           <item row="16" column="0" colspan="5">
             <layout class="QHBoxLayout" name="horizontalLayout">
              <item>
               <widget class="QPushButton" name="bt_cadastrar">
@@ -324,17 +304,10 @@ color: rgb(170, 23, 25);</string>
                </property>
               </widget>
              </item>
-             <item>
-              <widget class="QPushButton" name="bt_scrap">
-               <property name="text">
-                <string>Scrap Ucoin</string>
-               </property>
-              </widget>
-             </item>
             </layout>
            </item>
-           <item row="3" column="3">
-            <widget class="QLineEdit" name="ed_circulacao"/>
+           <item row="6" column="1">
+            <widget class="QLineEdit" name="ed_formato"/>
            </item>
            <item row="7" column="2">
             <widget class="QLabel" name="label_22">
@@ -343,18 +316,15 @@ color: rgb(170, 23, 25);</string>
              </property>
             </widget>
            </item>
-           <item row="6" column="1">
-            <widget class="QLineEdit" name="ed_formato"/>
-           </item>
-           <item row="10" column="3">
-            <widget class="QLineEdit" name="ed_reverso"/>
-           </item>
-           <item row="16" column="0" colspan="5">
+           <item row="17" column="0" colspan="5">
             <widget class="QLabel" name="lbl_status_cadastro">
              <property name="text">
               <string/>
              </property>
             </widget>
+           </item>
+           <item row="3" column="3">
+            <widget class="QLineEdit" name="ed_circulacao"/>
            </item>
            <item row="4" column="3">
             <widget class="QLineEdit" name="ed_serie"/>
@@ -375,20 +345,36 @@ color: rgb(170, 23, 25);</string>
            <item row="10" column="1">
             <widget class="QLineEdit" name="ed_venda"/>
            </item>
-           <item row="8" column="2">
-            <widget class="QLabel" name="conservacao">
+           <item row="7" column="3">
+            <widget class="QLineEdit" name="ed_alinhamento"/>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLineEdit" name="ed_soberano"/>
+           </item>
+           <item row="13" column="3">
+            <widget class="QLineEdit" name="ed_foto2"/>
+           </item>
+           <item row="1" column="2">
+            <widget class="QLabel" name="label_5">
              <property name="text">
-              <string>Conservacao</string>
+              <string>* Valor</string>
              </property>
             </widget>
            </item>
-           <item row="12" column="3">
-            <widget class="QLabel" name="foto_reverso">
+           <item row="2" column="2">
+            <widget class="QLabel" name="label_21">
              <property name="text">
-              <string/>
+              <string>* Tipo</string>
              </property>
-             <property name="alignment">
-              <set>Qt::AlignCenter</set>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QLineEdit" name="ed_peso"/>
+           </item>
+           <item row="5" column="2">
+            <widget class="QLabel" name="label_10">
+             <property name="text">
+              <string>Cunhagem</string>
              </property>
             </widget>
            </item>
@@ -402,6 +388,16 @@ color: rgb(170, 23, 25);</string>
              </property>
             </widget>
            </item>
+           <item row="12" column="3">
+            <widget class="QLabel" name="foto_reverso">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
            <item row="13" column="0">
             <widget class="QLabel" name="label_14">
              <property name="text">
@@ -409,38 +405,49 @@ color: rgb(170, 23, 25);</string>
              </property>
             </widget>
            </item>
-           <item row="13" column="3">
-            <widget class="QLineEdit" name="ed_foto2"/>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="ed_krause"/>
            </item>
-           <item row="7" column="3">
-            <widget class="QLineEdit" name="ed_alinhamento"/>
-           </item>
-           <item row="1" column="2">
-            <widget class="QLabel" name="label_5">
+           <item row="14" column="0">
+            <widget class="QLabel" name="label_ucoin">
              <property name="text">
-              <string>Valor</string>
+              <string>Link Ucoin</string>
              </property>
             </widget>
            </item>
-           <item row="4" column="1">
-            <widget class="QLineEdit" name="ed_soberano"/>
-           </item>
-           <item row="2" column="2">
-            <widget class="QLabel" name="label_21">
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_26">
              <property name="text">
-              <string>Tipo</string>
+              <string>* Krause</string>
              </property>
             </widget>
            </item>
-           <item row="5" column="2">
-            <widget class="QLabel" name="label_10">
+           <item row="14" column="3">
+            <widget class="QPushButton" name="bt_buscar_ucoin">
              <property name="text">
-              <string>Cunhagem</string>
+              <string>Buscar</string>
              </property>
             </widget>
            </item>
-           <item row="7" column="1">
-            <widget class="QLineEdit" name="ed_peso"/>
+           <item row="9" column="2">
+            <widget class="QLabel" name="label_25">
+             <property name="text">
+              <string>Reverso</string>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="1" colspan="2">
+            <widget class="QLineEdit" name="ed_link_ucoin"/>
+           </item>
+           <item row="9" column="3">
+            <widget class="QLineEdit" name="ed_reverso"/>
+           </item>
+           <item row="4" column="2">
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string>Serie</string>
+             </property>
+            </widget>
            </item>
            <item row="9" column="0">
             <widget class="QLabel" name="label_19">
@@ -452,14 +459,7 @@ color: rgb(170, 23, 25);</string>
            <item row="0" column="0">
             <widget class="QLabel" name="label_27">
              <property name="text">
-              <string>País</string>
-             </property>
-            </widget>
-           </item>
-           <item row="4" column="2">
-            <widget class="QLabel" name="label_8">
-             <property name="text">
-              <string>Serie</string>
+              <string>* País</string>
              </property>
             </widget>
            </item>
@@ -470,30 +470,30 @@ color: rgb(170, 23, 25);</string>
              </property>
             </widget>
            </item>
-           <item row="1" column="1">
-            <widget class="QLineEdit" name="ed_krause"/>
+           <item row="8" column="3">
+            <widget class="QLineEdit" name="ed_espessura"/>
            </item>
-           <item row="1" column="0">
-            <widget class="QLabel" name="label_26">
+           <item row="10" column="2">
+            <widget class="QLabel" name="conservacao">
              <property name="text">
-              <string>Krause</string>
+              <string>Conservacao</string>
              </property>
             </widget>
            </item>
-           <item row="14" column="0">
-            <widget class="QLabel" name="label_ucoin">
+           <item row="8" column="2">
+            <widget class="QLabel" name="label_24">
              <property name="text">
-              <string>Link Ucoin</string>
+              <string>Espessura</string>
              </property>
             </widget>
            </item>
-           <item row="14" column="1" colspan="2">
-            <widget class="QLineEdit" name="ed_link_ucoin"/>
+           <item row="10" column="3">
+            <widget class="QLineEdit" name="ed_conservacao"/>
            </item>
-           <item row="14" column="3">
-            <widget class="QPushButton" name="bt_buscar_ucoin">
+           <item row="15" column="0" colspan="4">
+            <widget class="QPushButton" name="bt_scrap">
              <property name="text">
-              <string>Buscar</string>
+              <string>Capturar dados da Ucoin.com</string>
              </property>
             </widget>
            </item>
@@ -792,17 +792,19 @@ color: rgb(170, 23, 25);</string>
   <tabstop>ed_peso</tabstop>
   <tabstop>ed_alinhamento</tabstop>
   <tabstop>ed_diametro</tabstop>
-  <tabstop>ed_conservacao</tabstop>
-  <tabstop>ed_anverso</tabstop>
   <tabstop>ed_espessura</tabstop>
-  <tabstop>ed_venda</tabstop>
+  <tabstop>ed_anverso</tabstop>
   <tabstop>ed_reverso</tabstop>
+  <tabstop>ed_venda</tabstop>
+  <tabstop>ed_conservacao</tabstop>
   <tabstop>ed_foto1</tabstop>
   <tabstop>ed_foto2</tabstop>
+  <tabstop>ed_link_ucoin</tabstop>
+  <tabstop>bt_buscar_ucoin</tabstop>
+  <tabstop>bt_mostrar_foto</tabstop>
   <tabstop>bt_cadastrar</tabstop>
   <tabstop>bt_deletar_reg</tabstop>
   <tabstop>bt_cancelar</tabstop>
-  <tabstop>bt_mostrar_foto</tabstop>
   <tabstop>ed_localizar</tabstop>
   <tabstop>bt_localizar</tabstop>
   <tabstop>list_item</tabstop>
