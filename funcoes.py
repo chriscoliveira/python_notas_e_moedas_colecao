@@ -67,7 +67,7 @@ class Colecao:
         retorno = []
         for linha in self.cursor.fetchall():
             # print(linha)
-            id = str(linha[0]) + ':'
+            id = str(linha[0]) + ','
             pais = linha[1]
             ano = linha[2]
             krause = linha[3]
@@ -122,7 +122,7 @@ class Colecao:
 
         retorno = []
         for linha in self.cursor.fetchall():
-            id = str(linha[0]) + ':'
+            id = str(linha[0]) + ','
             pais = linha[1]
             ano = linha[2]
             krause = linha[3]
@@ -481,11 +481,31 @@ class Colecao:
                 return VENDA, CUNHAGEM, FOTO1, FOTO2, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO
                 VENDA, CUNHAGEM, FOTO1, FOTO2, CADASTRO, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO, CONSERVACAO = '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
 
+    def todosPaises(self):
+        paisesmapa = ['ad:Andorra', 'ae:Emirados Árabes Unidos', 'af:Afeganistão', 'al:Albânia', 'am:Armênia', 'ao:Angola', 'aq:Antártica', 'ar:Argentina', 'at:Áustria', 'au:Austrália', 'az:Azerbaijão', 'ba:Bósnia e Herzegovina', 'bd:Bangladesh', 'be:Bélgica', 'bf:Burkina Faso', 'bg:Bulgária', 'bh:Bahrein', 'bi:Burundi', 'bj:Benim', 'bn:Brunei Darussalam', 'bo:Bolívia', 'br:Brasil', 'bt:Butão', 'bw:Botsuana', 'by:Bielorrússia', 'bz:Belize', 'ca:Canadá', 'cd:Congo', 'cf:Africa Central', 'cg:Congo', 'ch:Suíça', 'ci:Costa do Marfim', 'cl:Chile', 'cm:Camarões', 'cn:China', 'co:Colômbia', 'cr:Costa Rica', 'cu:Cuba', 'cv:Cape Verde', 'cy:Chipre', 'cz:República Checa', 'de:Alemanha', 'dj:Djibuti', 'dk:Dinamarca', 'do:República Dominicana', 'dz:Argélia', 'ec:Equador', 'ee:Estônia', 'eg:Egito', 'eh:Saara Ocidental', 'er:Eritreia', 'es:Espanha', 'et:Etiópia', 'fi:Finlândia', 'fr:França', 'ga:Gabão', 'gb:Reino Unido', 'ge:Geórgia', 'gf:Guiana Francesa', 'gh:Gana', 'gl:Groenlândia', 'gm:Gâmbia', 'gn:Guiné', 'gq:Guiné Equatorial', 'gr:Grécia', 'gt:Guatemala', 'gu:Guam', 'gw:Guinea-Bissau', 'gy:Guiana', 'hk:Hong Kong', 'hn:Honduras', 'hr:Croácia', 'ht:Haiti', 'hu:Hungria', 'id:Indonésia', 'ie:Irlanda', 'il:Israel', 'in:Índia', 'iq:Iraque', 'ir:Irã', 'is:Islândia', 'it:Itália', 'jm:Jamaica', 'jo:Jordânia', 'jp:Japão', 'ke:Quênia', 'kg:Quirguistão', 'kh:Camboja', 'kp:Coréia do Norte', 'kr:Coréia do Sul', 'kw:Kuwait',
+                      'kz:Cazaquistão', 'la:Laos', 'lb:Líbano', 'li:Liechtenstein', 'lk:Sri Lanka', 'lr:Libéria', 'ls:Lesoto', 'lt:Lituânia', 'lu:Luxemburgo', 'lv:Letônia', 'ly:Líbia', 'ma:Marrocos', 'mc:Mônaco', 'md:Moldávia', 'me:Montenegro', 'mg:Madagáscar', 'mk:Macedônia', 'ml:Mali', 'mm:Mianmar', 'mn:Mongólia', 'mo:Macau', 'mr:Mauritânia', 'mt:Malta', 'mu:maurício', 'mv:Maldivas', 'mw:Malauí', 'mx:México', 'my:Malásia', 'mz:Moçambique', 'na:Namíbia', 'ne:Níger', 'ng:Nigéria', 'ni:Nicarágua', 'nl:Holanda', 'no:Noruega', 'np:Nepal', 'nz:Nova Zelândia', 'om:Oman', 'pa:Panamá', 'pe:Peru', 'pg:Papua Nova Guiné', 'ph:Filipinas', 'pk:Paquistão', 'pl:Polônia', 'pr:Porto Rico', 'ps:Palestina', 'pt:Portugal', 'py:Paraguai', 're:Reunião', 'ro:Romênia', 'rs:Sérvia', 'ru:Federação Russa', 'rw:Ruanda', 'sa:Arábia Saudita', 'sc:Seychelles', 'sd:Sudão', 'se:Suécia', 'sg:Cingapura', 'sh:Saint Helena', 'si:Eslovênia', 'sk:Eslováquia', 'sl:Serra Leoa', 'sm:San Marino', 'sn:Senegal', 'so:Somália', 'sr:Suriname', 'st:São Tomé e Príncipe', 'sv:El Salvador', 'sy:Síria', 'sz:Suazilândia', 'td:Chade', 'tg:Togo', 'th:tailândia', 'tj:Tadjiquistão', 'tl:Timor-Leste', 'tm:Turquemenistão', 'tn:Tunísia', 'tr:Peru', 'tw:Taiwan', 'tz:Tanzânia', 'ua:Ucrânia', 'ug:Uganda', 'us:Estados Unidos', 'uy:Uruguai', 'uz:Uzbequistão', 'va:Vaticano', 've:Venezuela', 'vn:Vietnã', 'ye:Iémen', 'yt:Maiote', 'za:África do Sul', 'zm:Zâmbia', 'zw:Zimbábue']
+
+        # pega a lista de pais unicos
+        listapais = []
+        listapaismoeda = []
+        listapaisnota = []
+        listagem = []
+        sql_pais = 'Select distinct pais as quantidade FROM colecao order by pais'
+        self.cursor.execute(sql_pais)
+        for pais in self.cursor.fetchall():
+            listapais.append(pais[0])
+            print(pais[0])
+            for x in paisesmapa:
+                if pais[0] in x:
+                    print(f'--> {x}')
+
+        # print(listapais)
+
 
 if __name__ == '__main__':
     a = Colecao('db_colecao.db')
     # print(a.buscar('KM# 68'))
     # print(a.buscar_id(2))
     # print(a.exibir_resumo_paises())
-    print(a.exibir_resumo())
-    a.exportarTXT()
+    a.todosPaises()
+    # a.exportarTXT()
