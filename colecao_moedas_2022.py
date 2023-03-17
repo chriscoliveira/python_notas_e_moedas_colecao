@@ -289,6 +289,7 @@ class Novo(QMainWindow, Ui_MainWindow):
         self.exibecadastro()
 
         linha = colecao.buscar_id(id)
+        print(linha)
         self.lbl_id.setText(str(linha[0]))
         self.ed_pais.setText(str(linha[1]))
         self.ed_ano.setText(str(linha[2]))
@@ -395,7 +396,7 @@ class Novo(QMainWindow, Ui_MainWindow):
                 self.exibe_moeda(id, 'atualizar')
 
             except Exception as e:
-                print(e)
+                print("erro "+str(e))
                 self.exibelista()
                 self.ed_localizar.setText(id)
 

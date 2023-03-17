@@ -11,3 +11,4 @@ colecao.db
 /user_data/
 /build/
 /.vscode/
+.qt_for_python
