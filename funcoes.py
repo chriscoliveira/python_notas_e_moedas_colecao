@@ -493,24 +493,40 @@ class Colecao:
                 VENDA, CUNHAGEM, FOTO1, FOTO2, CADASTRO, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO, CONSERVACAO = '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
 
     def todosPaises(self):
-        paisesmapa = ['ad:Andorra', 'ae:Emirados Árabes Unidos', 'af:Afeganistão', 'al:Albânia', 'am:Armênia', 'ao:Angola', 'aq:Antártica', 'ar:Argentina', 'at:Áustria', 'au:Austrália', 'az:Azerbaijão', 'ba:Bósnia e Herzegovina', 'bd:Bangladesh', 'be:Bélgica', 'bf:Burkina Faso', 'bg:Bulgária', 'bh:Bahrein', 'bi:Burundi', 'bj:Benim', 'bn:Brunei Darussalam', 'bo:Bolívia', 'br:Brasil', 'bt:Butão', 'bw:Botsuana', 'by:Bielorrússia', 'bz:Belize', 'ca:Canadá', 'cd:Congo', 'cf:Africa Central', 'cg:Congo', 'ch:Suíça', 'ci:Costa do Marfim', 'cl:Chile', 'cm:Camarões', 'cn:China', 'co:Colômbia', 'cr:Costa Rica', 'cu:Cuba', 'cv:Cape Verde', 'cy:Chipre', 'cz:República Checa', 'de:Alemanha', 'dj:Djibuti', 'dk:Dinamarca', 'do:República Dominicana', 'dz:Argélia', 'ec:Equador', 'ee:Estônia', 'eg:Egito', 'eh:Saara Ocidental', 'er:Eritreia', 'es:Espanha', 'et:Etiópia', 'fi:Finlândia', 'fr:França', 'ga:Gabão', 'gb:Reino Unido', 'ge:Geórgia', 'gf:Guiana Francesa', 'gh:Gana', 'gl:Groenlândia', 'gm:Gâmbia', 'gn:Guiné', 'gq:Guiné Equatorial', 'gr:Grécia', 'gt:Guatemala', 'gu:Guam', 'gw:Guinea-Bissau', 'gy:Guiana', 'hk:Hong Kong', 'hn:Honduras', 'hr:Croácia', 'ht:Haiti', 'hu:Hungria', 'id:Indonésia', 'ie:Irlanda', 'il:Israel', 'in:Índia', 'iq:Iraque', 'ir:Irã', 'is:Islândia', 'it:Itália', 'jm:Jamaica', 'jo:Jordânia', 'jp:Japão', 'ke:Quênia', 'kg:Quirguistão', 'kh:Camboja', 'kp:Coréia do Norte', 'kr:Coréia do Sul', 'kw:Kuwait',
-                      'kz:Cazaquistão', 'la:Laos', 'lb:Líbano', 'li:Liechtenstein', 'lk:Sri Lanka', 'lr:Libéria', 'ls:Lesoto', 'lt:Lituânia', 'lu:Luxemburgo', 'lv:Letônia', 'ly:Líbia', 'ma:Marrocos', 'mc:Mônaco', 'md:Moldávia', 'me:Montenegro', 'mg:Madagáscar', 'mk:Macedônia', 'ml:Mali', 'mm:Mianmar', 'mn:Mongólia', 'mo:Macau', 'mr:Mauritânia', 'mt:Malta', 'mu:maurício', 'mv:Maldivas', 'mw:Malauí', 'mx:México', 'my:Malásia', 'mz:Moçambique', 'na:Namíbia', 'ne:Níger', 'ng:Nigéria', 'ni:Nicarágua', 'nl:Holanda', 'no:Noruega', 'np:Nepal', 'nz:Nova Zelândia', 'om:Oman', 'pa:Panamá', 'pe:Peru', 'pg:Papua Nova Guiné', 'ph:Filipinas', 'pk:Paquistão', 'pl:Polônia', 'pr:Porto Rico', 'ps:Palestina', 'pt:Portugal', 'py:Paraguai', 're:Reunião', 'ro:Romênia', 'rs:Sérvia', 'ru:Federação Russa', 'rw:Ruanda', 'sa:Arábia Saudita', 'sc:Seychelles', 'sd:Sudão', 'se:Suécia', 'sg:Cingapura', 'sh:Saint Helena', 'si:Eslovênia', 'sk:Eslováquia', 'sl:Serra Leoa', 'sm:San Marino', 'sn:Senegal', 'so:Somália', 'sr:Suriname', 'st:São Tomé e Príncipe', 'sv:El Salvador', 'sy:Síria', 'sz:Suazilândia', 'td:Chade', 'tg:Togo', 'th:tailândia', 'tj:Tadjiquistão', 'tl:Timor-Leste', 'tm:Turquemenistão', 'tn:Tunísia', 'tr:Peru', 'tw:Taiwan', 'tz:Tanzânia', 'ua:Ucrânia', 'ug:Uganda', 'us:Estados Unidos', 'uy:Uruguai', 'uz:Uzbequistão', 'va:Vaticano', 've:Venezuela', 'vn:Vietnã', 'ye:Iémen', 'yt:Maiote', 'za:África do Sul', 'zm:Zâmbia', 'zw:Zimbábue']
+        import pygal
+        worldmap_chart = pygal.maps.world.World()
+        from pygal.style import Style
+        custom_style = Style(colors=('#FF0000', '#0000FF',
+                                     '#00FF00', '#000000',
+                                     '#FFD700'))
+
+        worldmap = pygal.maps.world.World(style=custom_style)
+        worldmap.title = 'Coleção de Notas e Moedas'
+
+        paisesmapa = ['ad:Andorra', 'ae:Emirados Árabes Unidos', 'af:Afeganistão', 'al:Albânia', 'am:Armênia', 'ao:Angola', 'aq:Antártica', 'ar:Argentina', 'at:Austria', 'au:Austrália', 'az:Azerbaijão', 'ba:Bosnia e Herzegovina', 'bd:Bangladesh', 'be:Bélgica', 'bf:Burkina Faso', 'bg:Bulgária', 'bh:Bahrein', 'bi:Burundi', 'bj:Benim', 'bn:Brunei Darussalam', 'bo:Bolívia', 'br:Brasil', 'bt:Butão', 'bw:Botsuana', 'by:Bielorrússia', 'bz:Belize', 'ca:Canadá', 'cd:Congo', 'cf:África Ocidental', 'cg:Congo', 'ch:Suíça', 'ci:Costa do Marfim', 'cl:Chile', 'cm:Camarões', 'cn:China', 'co:Colômbia', 'cr:Costa Rica', 'cu:Cuba', 'cv:Cabo Verde', 'cy:Chipre', 'cz:República Checa', 'de:Alemanha', 'dj:Djibuti', 'dk:Dinamarca', 'do:República Dominicana', 'dz:Argélia', 'ec:Equador', 'ee:Estônia', 'eg:Egito', 'eh:Saara Ocidental', 'er:Eritreia', 'es:Espanha', 'et:Etiópia', 'fi:Finlândia', 'fr:França', 'ga:Gabão', 'gb:Reino Unido', 'ge:Geórgia', 'gf:Guiana Francesa', 'gh:Gana', 'gl:Groenlândia', 'gm:Gâmbia', 'gn:Guiné', 'gq:Guiné Equatorial', 'gr:Grécia', 'gt:Guatemala', 'gu:Guam', 'gw:Guiné-Bissau', 'gy:Guiana', 'hk:Hong Kong', 'hn:Honduras', 'hr:Croácia', 'ht:Haiti', 'hu:Hungria', 'id:Indonésia', 'ie:Irlanda', 'il:Israel', 'in:Índia', 'iq:Iraque', 'ir:Irã', 'is:Islândia', 'it:Itália', 'jm:Jamaica', 'jo:Jordânia', 'jp:Japão', 'ke:Quênia', 'kg:Quirquistao', 'kh:Camboja', 'kp:Coreia do Norte', 'kr:Coreia do Sul', 'kw:Kuwait',
+                      'kz:Cazaquistão', 'la:Laos', 'lb:Líbano', 'li:Liechtenstein', 'lk:Sri Lanka', 'lr:Libéria', 'ls:Lesoto', 'lt:Lituânia', 'lu:Luxemburgo', 'lv:Letônia', 'ly:Libia', 'ma:Marrocos', 'mc:Mônaco', 'md:Moldávia', 'me:Montenegro', 'mg:Madagáscar', 'mk:Macedonia', 'ml:Mali', 'mm:Myanmar', 'mn:Mongolia', 'mo:Macau', 'mr:Mauritânia', 'mt:Malta', 'mu:maurício', 'mv:Maldivas', 'mw:Malauí', 'mx:México', 'my:Malásia', 'mz:Moçambique', 'na:Namíbia', 'ne:Níger', 'ng:Nigéria', 'ni:Nicarágua', 'nl:Holanda', 'no:Noruega', 'np:Nepal', 'nz:Nova Zelândia', 'om:Omã', 'pa:Panamá', 'pe:Peru', 'pg:Papua Nova Guiné', 'ph:Filipinas', 'pk:Paquistão', 'pl:Polônia', 'pr:Porto Rico', 'ps:Palestina', 'pt:Portugal', 'py:Paraguai', 're:Reunião', 'ro:Romania', 'rs:Serbia', 'ru:Rússia', 'rw:Ruanda', 'sa:Arábia Saudita', 'sc:Seychelles', 'sd:Sudão', 'se:Suécia', 'sg:Cingapura', 'sh:Santa Helena, Ascensão e Tristão da Cunha', 'si:Eslovênia', 'sk:Eslováquia', 'sl:Serra Leoa', 'sm:San Marino', 'sn:Senegal', 'so:Somália', 'sr:Suriname', 'st:São Tomé e Príncipe', 'sv:El Salvador', 'sy:Síria', 'sz:Suazilândia', 'td:Chade', 'tg:Togo', 'th:Tailândia', 'tj:Tajiquistão', 'tl:Timor-Leste', 'tm:Turcomenistão', 'tn:Tunísia', 'tr:Peru', 'tw:Taiwan', 'tz:Tanzânia', 'ua:Ucrânia', 'ug:Uganda', 'us:Estados Unidos da América', 'uy:Uruguai', 'uz:Uzbequistão', 'va:Vaticano', 've:Venezuela', 'vn:Vietnam', 'ye:Iémen', 'yt:Maiote', 'za:África do Sul', 'zm:Zâmbia', 'zw:Zimbábue']
 
         # pega a lista de pais unicos
         listapais = []
         listapaismoeda = []
         listapaisnota = []
         listagem = []
-        sql_pais = 'Select distinct pais as quantidade FROM colecao order by pais'
-        self.cursor.execute(sql_pais)
-        for pais in self.cursor.fetchall():
-            listapais.append(pais[0])
-            print(pais[0])
-            for x in paisesmapa:
-                if pais[0] in x:
-                    print(f'--> {x}')
 
-        # print(listapais)
+        sql_pais = 'Select  pais, count(pais) from colecao group by pais'
+        self.cursor.execute(sql_pais)
+        with open('pais.txt', 'w', encoding='utf-8') as f:
+            for pais in self.cursor.fetchall():
+                # f.write(str(pais)+'\n')
+                for x in paisesmapa:
+                    if str(pais[0]).lower().strip() in x.lower():
+                        listapais.append([x.split(":")[0], pais[1]])
+        print(listapais)
+        # worldmap.add('teste', 'kz')
+        # worldmap.add(
+        #     'Paises Cadastrados', listapais)
+        worldmap = pygal.maps.world.SupranationalWorld()
+        worldmap.add('Africa', [('africa')])
+        worldmap.render_to_file('abc.svg')
 
 
 if __name__ == '__main__':
