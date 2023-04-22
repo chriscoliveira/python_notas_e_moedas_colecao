@@ -6,6 +6,7 @@ from os import link
 from pprint import pprint
 import sys
 from threading import Thread
+import unicodedata
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5 import uic
@@ -96,13 +97,14 @@ class Novo(QMainWindow, Ui_MainWindow):
         super().setupUi(self)
 
         colecao.criartabela()
+
         # inicio da aplicacao
         try:
             os.mkdir('backupDB')
         except:
             pass
         pixmap = QPixmap('screenshot.png')
-        scaled = pixmap.scaled(600, 400, QtCore.Qt.KeepAspectRatio)
+        scaled = pixmap.scaled(1000, 600, QtCore.Qt.KeepAspectRatio)
         self.mapa.setPixmap(scaled)
 
         self.label_ucoin.setVisible(False)
@@ -115,6 +117,8 @@ class Novo(QMainWindow, Ui_MainWindow):
         # menu de cadastro de moedas
         self.adicionaMoeda.triggered.connect(
             partial(self.exibe_frame_de_cadastro, tipo='Moeda'))
+        self.bt_add.clicked.connect(
+            partial(self.exibe_frame_de_cadastro, tipo='Moeda'))
         # menu de cadastro de notas
         self.adicionaNota.triggered.connect(
             partial(self.exibe_frame_de_cadastro, tipo='Nota'))
@@ -124,20 +128,32 @@ class Novo(QMainWindow, Ui_MainWindow):
         # menu que exibe a colecao completa
         self.ColecaoCompleta.triggered.connect(
             partial(self.exibe_frame_de_pesquisa, tipo='Colecao Completa'))
+        self.bt_colecao.clicked.connect(
+            partial(self.exibe_frame_de_pesquisa, tipo='Colecao Completa'))
         # menu moedas internacionais
         self.MoedasInternacional.triggered.connect(
+            partial(self.exibe_frame_de_pesquisa, tipo='Moeda Internacional'))
+        self.bt_moedaint.clicked.connect(
             partial(self.exibe_frame_de_pesquisa, tipo='Moeda Internacional'))
         # menu notas internacionais
         self.NotasInternacional.triggered.connect(
             partial(self.exibe_frame_de_pesquisa, tipo='Nota Internacional'))
+        self.bt_notaint.clicked.connect(
+            partial(self.exibe_frame_de_pesquisa, tipo='Nota Internacional'))
         # menu moedas nacionais
         self.MoedasNacional.triggered.connect(
+            partial(self.exibe_frame_de_pesquisa, tipo='Moeda Nacional'))
+        self.bt_moedabr.clicked.connect(
             partial(self.exibe_frame_de_pesquisa, tipo='Moeda Nacional'))
         # menu notas nacionais
         self.NotasNacional.triggered.connect(
             partial(self.exibe_frame_de_pesquisa, tipo='Nota Nacional'))
+        self.bt_notabr.clicked.connect(
+            partial(self.exibe_frame_de_pesquisa, tipo='Nota Nacional'))
         # menu resumo por pais
         self.listar_por_pais.triggered.connect(
+            partial(self.exibe_frame_de_pesquisa, tipo='Resumo Por Pais'))
+        self.bt_pais.clicked.connect(
             partial(self.exibe_frame_de_pesquisa, tipo='Resumo Por Pais'))
         # menu atualiza imagem do mapa
         self.Atualizar_Imagem.triggered.connect(partial(self.scrap_img))
@@ -152,6 +168,8 @@ class Novo(QMainWindow, Ui_MainWindow):
         # menu ultimos registros
         self.ultimos_adicionados.triggered.connect(
             partial(self.exibe_frame_de_pesquisa, tipo='Ultimos Adicionados'))
+        self.bt_novidade.clicked.connect(
+            partial(self.exibe_frame_de_pesquisa, tipo='Ultimos Adicionados'))
 
         # botoes
         # botão cadastrar
@@ -159,6 +177,7 @@ class Novo(QMainWindow, Ui_MainWindow):
         # botão pesquisar
         self.bt_localizar.clicked.connect(
             partial(self.exibe_frame_de_pesquisa, tipo='pesquisa'))
+        self.ed_localizar.textChanged.connect(self.onChanged)
         # botao mostrar fotos no frame de cadastro
         self.bt_mostrar_foto.clicked.connect(self.exibeafoto)
         # botao cancelar cadastro
@@ -172,6 +191,9 @@ class Novo(QMainWindow, Ui_MainWindow):
             lambda: self.envia_info_cadastro(self.ed_link_ucoin.text()))
 
         self.exiberesumo()
+
+    def onChanged(self, text):
+        self.exibe_frame_de_pesquisa(tipo='pesquisa')
 
     def exibeafoto(self):
         t = th(imagem1=self.foto_anverso, imagem2=self.foto_reverso,
@@ -195,7 +217,12 @@ class Novo(QMainWindow, Ui_MainWindow):
 
         txt_resumo = colecao.exibir_resumo()
         # print(txt_resumo)
-        self.resumo.setText(txt_resumo)
+
+        ultimo_registro = str(colecao.ultimoRegistro()
+                              ).replace('\\xa0', ' ').replace("'", "").upper().split(',')
+
+        self.resumo.setText(
+            txt_resumo+f'\n\nUltimo Cadastro: {ultimo_registro[2]} {ultimo_registro[4]} em {ultimo_registro[23]}')
 
     def fcadastrar(self):
         '''funcao para cadastrar um item'''
@@ -389,21 +416,27 @@ class Novo(QMainWindow, Ui_MainWindow):
 
         def abre_item_selecionado(item):
             '''duplo clique para abrir o item'''
-            id = str(item.text()).split(':')[0].strip()
-            self.lbl_titulo.setText(f'Atualizar Registro: {id}')
 
             try:
+                id = str(item.text()).split(':')[0].strip()
+                self.lbl_titulo.setText(f'Atualizar Registro: {id}')
+
                 self.exibe_moeda(id, 'atualizar')
 
             except Exception as e:
                 print("erro "+str(e))
                 self.exibelista()
-                self.ed_localizar.setText(id)
+                try:
+                    self.ed_localizar.setText(id)
 
-                self.bt_localizar.animateClick(10)
-
-        self.list_item.itemDoubleClicked.connect(
-            lambda: abre_item_selecionado(item=self.list_item.currentItem()))
+                    self.bt_localizar.animateClick(10)
+                except Exception as e:
+                    print(f'Deu Ruim outra vez! {e}')
+        try:
+            self.list_item.itemDoubleClicked.connect(
+                lambda: abre_item_selecionado(item=self.list_item.currentItem()))
+        except Exception as e:
+            print(f'Deu ruim: {e}')
 
     def exibe_frame_de_cadastro(self, tipo):
         '''Exibe o frame de cadastro'''
@@ -542,6 +575,10 @@ class Novo(QMainWindow, Ui_MainWindow):
         except Exception as e:
             QMessageBox.about(
                 self, 'Backup', f'Ocorreu um erro ao gerar o backup\n{e}')
+
+    def buscaUltimaAtualizacao(self):
+        ultimo = colecao.ultimoRegistro()
+        print(ultimo)
 
 
 qt = QApplication(sys.argv)

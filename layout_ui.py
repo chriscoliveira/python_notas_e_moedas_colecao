@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '.\layout.ui'
+# Form implementation generated from reading ui file 'd:\Python Projects\Github\python_notas_e_moedas_colecao\layout.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.7
 #
@@ -548,13 +548,3 @@ class Ui_MainWindow(object):
         self.Atualizar_Imagem.setText(_translate("MainWindow", "Atualizar Imagem"))
         self.actionResumo.setText(_translate("MainWindow", "Resumo"))
         self.actionGerar_Backup.setText(_translate("MainWindow", "Gerar Backup"))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec_())

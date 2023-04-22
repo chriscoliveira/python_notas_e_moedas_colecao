@@ -312,52 +312,11 @@ class Colecao:
         self.conn.close()
         self.cursor.close()
 
-    # def deletemapa(self, caminho, arquivo):
-    #     try:
-    #         '''
-    #         screenshot = 'minha-colecao-a01d5.appspot.com'
-    #         banco='minha-colecao-a01d5.appspot.com/Y2hyaXN0aWFuLmNvbGl2ZWlyYUBnbWFpbC5jb20=/bancodados'
-    #         '''
-    #         # Init firebase with your credentials
-    #         cred = credentials.Certificate(
-    #             "minha-colecao-a01d5-firebase-adminsdk-ehm8b-b1a0aed377.json")
-    #         initialize_app(cred, {'storageBucket': caminho})
-
-    #         # remove image
-    #         bucket = storage.bucket()
-    #         blob = bucket.blob('screenshot.png')
-    #         blob.delete()
-    #     except Exception as e:
-    #         print(e)
-
-    # def upload(self, caminho, arquivo):
-    #     try:
-    #         '''
-    #         screenshot = 'minha-colecao-a01d5.appspot.com'
-    #         banco='minha-colecao-a01d5.appspot.com/Y2hyaXN0aWFuLmNvbGl2ZWlyYUBnbWFpbC5jb20=/bancodados'
-    #         '''
-    #         # Init firebase with your credentials
-    #         try:
-    #             cred = credentials.Certificate(
-    #                 "minha-colecao-a01d5-firebase-adminsdk-ehm8b-b1a0aed377.json")
-    #             initialize_app(cred, {'storageBucket': caminho})
-    #         except:
-    #             pass
-
-    #         # upload image
-    #         fileName = arquivo
-    #         bucket = storage.bucket()
-    #         blob = bucket.blob(fileName)
-    #         blob.upload_from_filename(fileName)
-
-    #         # Opt : if you want to make public access from the URL
-    #         blob.make_public()
-
-    #         print("your file url", blob.public_url)
-
-    #         # /Y2hyaXN0aWFuLmNvbGl2ZWlyYUBnbWFpbC5jb20=/bancodados
-    #     except Exception as e:
-    #         print(e)
+    def ultimoRegistro(self):
+        sql = 'SELECT * FROM colecao ORDER BY id DESC LIMIT 1'
+        self.cursor.execute(sql)
+        for linha in self.cursor.fetchall():
+            return linha
 
     def captura_infos(self, link):
         if link:
@@ -488,4 +447,5 @@ if __name__ == '__main__':
     # print(a.buscar_id(2))
     # print(a.exibir_resumo_paises())
     print(a.exibir_resumo())
+    print(a.ultimoRegistro())
     a.exportarTXT()
