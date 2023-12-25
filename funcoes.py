@@ -57,6 +57,7 @@ class Colecao:
         self.cursor.execute(sql)
         for linha in self.cursor.fetchall():
             print(linha)
+            # print(linha[0], linha[23], linha[24])
 
     def buscar(self, termo):
 

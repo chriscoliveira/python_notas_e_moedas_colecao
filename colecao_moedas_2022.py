@@ -348,8 +348,19 @@ class Novo(QMainWindow, Ui_MainWindow):
         self.bt_mostrar_foto.setVisible(False)
         self.bt_scrap.setVisible(True)
         self.bt_cadastrar.setText('Atualizar')
-
-        self.exibeafoto()
+        self.foto_reverso.setVisible(True)
+        self.foto_anverso.setVisible(True)
+        # self.exibeafoto()
+        try:
+            print(f"fotos\\id_{id}_1.jpg")
+            pixmap = QPixmap(f"fotos\\id_{id}_1.jpg")
+            pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
+            self.foto_anverso.setPixmap(pixmap)
+            pixmap = QPixmap(f"fotos\\id_{id}_2.jpg")
+            pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
+            self.foto_reverso.setPixmap(pixmap)
+        except Exception as e:
+            print(e)
 
     def exibe_frame_de_pesquisa(self, tipo):
         self.limpa_form_cadastro()
