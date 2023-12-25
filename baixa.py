@@ -24,7 +24,7 @@ THREADS
 '''
 
 
-def mostra_fotos(id, link1, link2):
+def baixar_fotos(id, link1, link2):
 
     try:
 
@@ -49,12 +49,12 @@ def mostra_fotos(id, link1, link2):
 
 
 # id, venda, cunhagem, foto1, foto2, cadastro, pais, ano, krause, valor, periodo, circulacao, assunto, serie, soberano, composicao, borda, formato, alinhamento, peso, diametro, espessura, anverso, reverso, conservacao, tipo =
-# for i in range(1700, 1722):
-    # try:
-i = 52
-print(f'item {i=}')
-item = colecao.buscar_id(i)
-mostra_fotos(item[0], item[23], item[24])
-print(item[0], item[23], item[24])
-# except:
-#     print(f'falha {i=}')
+for i in range(1718, 1753):
+    try:
+      
+        print(f'item {i=}')
+        item = colecao.buscar_id(i)
+        baixar_fotos(item[0], item[23], item[24])
+        print(item[0], item[23], item[24])
+    except:
+        print(f'falha {i=}')

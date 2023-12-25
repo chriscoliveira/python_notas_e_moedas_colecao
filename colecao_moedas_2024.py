@@ -19,6 +19,7 @@ from funcoes import Colecao
 from PyQt5.QtWidgets import QMainWindow, QApplication
 import os
 from currency_converter import CurrencyConverter
+from pathlib import Path
 
 colecao = Colecao('db_colecao.db')
 
@@ -63,7 +64,7 @@ class th(Thread):
                         self.img1.setPixmap(pixmap)
 
         except Exception as e:
-            print(e)
+            print(f'Erro: {e}')
 
         try:
             with requests.Session() as session:
@@ -345,22 +346,29 @@ class Novo(QMainWindow, Ui_MainWindow):
         self.ed_tipo.setText(str(linha[25]))
 
         self.bt_deletar_reg.setVisible(True)
-        self.bt_mostrar_foto.setVisible(False)
+        self.bt_mostrar_foto.setVisible(True)
         self.bt_scrap.setVisible(True)
         self.bt_cadastrar.setText('Atualizar')
         self.foto_reverso.setVisible(True)
         self.foto_anverso.setVisible(True)
         # self.exibeafoto()
-        try:
-            print(f"fotos\\id_{id}_1.jpg")
+
+        # try:
+        from pathlib import Path
+
+        arquivo = Path(f"fotos/id_{id}_1.jpg")
+
+        if arquivo.is_file():
             pixmap = QPixmap(f"fotos\\id_{id}_1.jpg")
             pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
             self.foto_anverso.setPixmap(pixmap)
             pixmap = QPixmap(f"fotos\\id_{id}_2.jpg")
             pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
             self.foto_reverso.setPixmap(pixmap)
-        except Exception as e:
-            print(e)
+        else:
+            self.baixar_fotos(id, str(linha[23]), str(linha[24]))
+        # except Exception as e:
+        #     print(f'Erro ao carregar a imagem : {e}')
 
     def exibe_frame_de_pesquisa(self, tipo):
         self.limpa_form_cadastro()
@@ -508,6 +516,11 @@ class Novo(QMainWindow, Ui_MainWindow):
             VENDA = str(VENDA).replace('Preço: €', '')
             VENDA = str("%.2f" % c.convert(VENDA, 'EUR', 'BRL'))
             print(VENDA)
+        if 'Preço: R$' in VENDA:
+            VENDA = str(VENDA).replace('Preço: R$', '')
+            # VENDA = str("%.2f" % c.convert(VENDA, 'EUR', 'BRL'))
+        print(f"venda = {VENDA}")
+        
         self.ed_pais.setText(PAIS)
         self.ed_ano.setText(ANO)
         self.ed_krause.setText(KRAUSE)
@@ -534,6 +547,7 @@ class Novo(QMainWindow, Ui_MainWindow):
         self.ed_link_ucoin.setVisible(False)
         self.bt_buscar_ucoin.setVisible(False)
         self.ed_link_ucoin.setText('')
+        self.exibeafoto()
 
     def scrap_img(self):
         QMessageBox.about(
@@ -590,6 +604,29 @@ class Novo(QMainWindow, Ui_MainWindow):
     def buscaUltimaAtualizacao(self):
         ultimo = colecao.ultimoRegistro()
         print(ultimo)
+
+    def baixar_fotos(self, id, link1, link2):
+
+        try:
+
+            with requests.Session() as session:
+                resp_2 = session.get(link1,
+                                     headers={'User-Agent': 'Mozilla/5.0'})
+                with open(f"fotos/id_{id}_1.jpg", "wb") as f:
+                    f.write(resp_2.content)
+
+        except Exception as e:
+            print(e)
+
+        try:
+            with requests.Session() as session:
+                resp_2 = session.get(link2,
+                                     headers={'User-Agent': 'Mozilla/5.0'})
+                with open(f"fotos/id_{id}_2.jpg", "wb") as f:
+                    f.write(resp_2.content)
+
+        except Exception as e:
+            print(e)
 
 
 qt = QApplication(sys.argv)

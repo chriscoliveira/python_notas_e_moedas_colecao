@@ -332,25 +332,33 @@ class Colecao:
 
                 htm = page.content()
                 soup = BeautifulSoup(htm, 'html.parser', from_encoding='UTF-8')
+                with open('tmp.txt', 'w', encoding='utf-8') as tmp:
+                    tmp.write(soup.prettify())
 
                 try:
-                    VENDA = soup.find('a', class_='pricewj').text
+                    VENDA = soup.find('a', class_='right price-container').text
                     VENDA = VENDA.replace('Preço: R$ ', '')
                 except:
                     VENDA = ''
 
                 try:
-                    CUNHAGEM = soup.find('h4').text
+                    CUNHAGEM = soup.find_all('h4').text
 
                 except:
                     CUNHAGEM = ''
+                print(f'cunhagem: {CUNHAGEM}')
+
                 try:
                     FOTO = soup.find_all('img', id='coin-img1')
                     FOTOS = []
                     for i in FOTO:
                         FOTOS.append(i['src'])
                     FOTO1 = FOTOS[0]
-                    FOTO2 = FOTOS[1]
+                    FOTO = soup.find_all('img', id='coin-img2')
+                    FOTOS = []
+                    for i in FOTO:
+                        FOTOS.append(i['src'])
+                    FOTO2 = FOTOS[0]
                 except:
                     FOTO1 = ''
                     FOTO2 = ''
@@ -363,6 +371,12 @@ class Colecao:
                 soupinfo = BeautifulSoup(
                     str(info), 'html.parser', from_encoding='utf-8')
                 linhasinfo = soupinfo.find_all('tr')
+
+                anv_rev = soup.find_all('table', class_='tbl coin-desc')
+                soupinfo = BeautifulSoup(
+                    str(anv_rev), 'html.parser', from_encoding='utf-8')
+
+                linhas_anvrev = soupinfo.find_all('tr')
 
                 for linha in linhasinfo:
 
@@ -420,7 +434,7 @@ class Colecao:
 
                     if 'Peso' in str(linha):
                         PESO = str(linha).replace(
-                            '<tr><th>Peso (gr)</th><td>', '').replace('</td></tr>', '')
+                            '<tr><th>Peso (g)</th><td>', '').replace('</td></tr>', '')
 
                     if 'Diametro' in str(linha):
                         DIAMETRO = str(linha).replace(
@@ -429,14 +443,17 @@ class Colecao:
                     if 'Espessura' in str(linha):
                         ESPESSURA = str(linha).replace(
                             '<tr><th>Espessura (mm)</th><td>', '').replace('</td></tr>', '')
+                # for lar in linhas_anvrev:
+                #     print(lar.text)
+                    # if 'Anverso' in str(linha):
+                    #     ANVERSO = str(linha).replace(
+                    #         '<tr><th class="nowrap">Anverso</th><td>', '').replace('<span class="lgray-11"> / </span>', ' / ').replace('</td></tr>', '')
+                ANVERSO = linhas_anvrev[0].text.replace('\t', '')
 
-                    if 'Anverso' in str(linha):
-                        ANVERSO = str(linha).replace(
-                            '<tr><th class="nowrap">Anverso</th><td>', '').replace('<span class="lgray-11"> / </span>', ' / ').replace('</td></tr>', '')
-
-                    if 'Reverso' in str(linha):
-                        REVERSO = str(linha).replace(
-                            '<tr><th class="nowrap">Reverso</th><td>', '').replace('<span class="lgray-11"> / </span>', ' / ').replace('</td></tr>', '')
+                REVERSO = linhas_anvrev[1].text.replace('\t', '')
+                # if 'Reverso' in str(linha):
+                #     REVERSO = str(linha).replace(
+                #         '<tr><th class="nowrap">Reverso</th><td>', '').replace('<span class="lgray-11"> / </span>', ' / ').replace('</td></tr>', '')
 
                 return VENDA, CUNHAGEM, FOTO1, FOTO2, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO
                 VENDA, CUNHAGEM, FOTO1, FOTO2, CADASTRO, PAIS, ANO, KRAUSE, VALOR, PERIODO, CIRCULACAO, ASSUNTO, SERIE, SOBERANO, COMPOSICAO, BORDA, FORMATO, ALINHAMENTO, PESO, DIAMETRO, ESPESSURA, ANVERSO, REVERSO, CONSERVACAO = '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
