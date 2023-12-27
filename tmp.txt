@@ -3,11 +3,11 @@
  <head>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
   <title>
-   20 cêntimos de euro 2023, Alemanha - Valor da moeda - uCoin.net
+   5 centavos 1998-2023, Brasil - Valor da moeda - uCoin.net
   </title>
   <meta charset="utf-8"/>
-  <meta content="Valor - Alemanha 20 cêntimos de euro 2023 no catálogo de moedas do uCoin.net - Catálogo Internacional de Moedas do Mundo." name="Description"/>
-  <meta content="Alemanha, 20 cêntimos de euro, 2023, , KM# 255, Moedas, Euro, Catálogo de moedas, Galeria de moedas, Moedas do Mundo, Coleção de Moedas, Catálogo de moedas do Mundo, Numismática, uCoin" name="Keywords"/>
+  <meta content="Valor - Brasil 5 centavos 1998-2023 no catálogo de moedas do uCoin.net - Catálogo Internacional de Moedas do Mundo." name="Description"/>
+  <meta content="Brasil, 5 centavos, 1998-2023, , KM# 648, Moedas, Euro, Catálogo de moedas, Galeria de moedas, Moedas do Mundo, Coleção de Moedas, Catálogo de moedas do Mundo, Numismática, uCoin" name="Keywords"/>
   <meta content="max-image-preview:large" name="robots"/>
   <link href="/favicon.ico" rel="shortcut icon"/>
   <link href="/i/logo/apple-touch-icon-114.png" rel="apple-touch-icon"/>
@@ -20,7 +20,36 @@
   <link href="/manifest.json" rel="manifest"/>
   <meta content="uCoin.net" name="application-name"/>
   <meta content="uCoin.net" name="apple-mobile-web-app-title"/>
-  <link href="https://pt.ucoin.net/coin/germany-20-euro-cent-2007-2023/?tid=225" rel="canonical"/>
+  <link href="https://pt.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" rel="canonical"/>
+  <link href="https://ar.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="ar" rel="alternate" title="العربية"/>
+  <link href="https://bg.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="bg" rel="alternate" title="Български"/>
+  <link href="https://ca.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="ca" rel="alternate" title="Català"/>
+  <link href="https://cs.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="cs" rel="alternate" title="Čeština"/>
+  <link href="https://de.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="de" rel="alternate" title="Deutsch"/>
+  <link href="https://el.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="el" rel="alternate" title="Ελληνικά"/>
+  <link href="https://en.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="en" rel="alternate" title="English"/>
+  <link href="https://es.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="es" rel="alternate" title="Español"/>
+  <link href="https://fa.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="fa" rel="alternate" title="فارسی"/>
+  <link href="https://fr.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="fr" rel="alternate" title="Français"/>
+  <link href="https://he.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="he" rel="alternate" title="עברית"/>
+  <link href="https://hu.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="hu" rel="alternate" title="Magyar"/>
+  <link href="https://it.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="it" rel="alternate" title="Italiano"/>
+  <link href="https://lt.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="lt" rel="alternate" title="Lietuvių"/>
+  <link href="https://lv.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="lv" rel="alternate" title="Latviešu"/>
+  <link href="https://nl.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="nl" rel="alternate" title="Nederlands"/>
+  <link href="https://no.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="no" rel="alternate" title="Norsk"/>
+  <link href="https://pl.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="pl" rel="alternate" title="Polski"/>
+  <link href="https://pt.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="pt" rel="alternate" title="Português"/>
+  <link href="https://ro.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="ro" rel="alternate" title="Română"/>
+  <link href="https://ru.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="ru" rel="alternate" title="Русский"/>
+  <link href="https://sk.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="sk" rel="alternate" title="Slovenčina"/>
+  <link href="https://sl.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="sl" rel="alternate" title="Slovenščina"/>
+  <link href="https://sr.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="sr" rel="alternate" title="Српски / srpski"/>
+  <link href="https://sv.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="sv" rel="alternate" title="Svenska"/>
+  <link href="https://tr.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="tr" rel="alternate" title="Türkçe"/>
+  <link href="https://uk.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="uk" rel="alternate" title="Українська"/>
+  <link href="https://zh-cn.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="zh-cn" rel="alternate" title="中文(简体)"/>
+  <link href="https://zh-tw.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" hreflang="zh-tw" rel="alternate" title="中文(台灣)"/>
   <link href="/css/ucoin.css?219" media="screen,projection" rel="stylesheet" type="text/css"/>
   <script id="google_shimpl" src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202312070101/show_ads_impl.js">
   </script>
@@ -48,38 +77,44 @@
 					"width": 1000,
 					"height": 500
 				},
-				"name": "20 cêntimos de euro 2023, Alemanha",
+				"name": "5 centavos 1998-2023, Brasil",
 				"description": "",
 				"image": [
 					
-						"https://i.ucoin.net/coin/65/687/65687520-1/germany-20-euro-cent-2023.jpg",
-						"https://i.ucoin.net/coin/65/687/65687520-2/germany-20-euro-cent-2023.jpg"
+						"https://i.ucoin.net/coin/51/217/51217408-1/brazil-5-centavos-2007.jpg",
+						"https://i.ucoin.net/coin/51/217/51217408-2/brazil-5-centavos-2007.jpg"
 					
 			    ],
 				"additionalProperty": [
+				
+				{
+					"@type": "PropertyValue",
+					"name": "Taxa de câmbio",
+					"value": "0.05 BRL = 0.009 EUR"
+				},
 								
 				{
 					"@type": "PropertyValue",
 					"name": "Peso",
-					"value": "5.74",
+					"value": "4.06",
 					"unitText": "g"
 				},{
 					"@type": "PropertyValue",
 					"name": "Composição",
-					"value": "Ouro nórdico"
+					"value": "Aço com revestimento de Cobre"
 				}
 				
 				,{
 					"@type": "PropertyValue",
 					"name": "Ano",
-					"value": "2023"
+					"value": "1998-2023"
 				}
 				]
 				
 				,"offers": {
 					"@type": "AggregateOffer",
-					"lowPrice": "0.30",
-					"highPrice": "0.49",
+					"lowPrice": "0.06",
+					"highPrice": "0.11",
 					"priceCurrency": "EUR",
 					"offerCount": "9"
 				}
@@ -91,15 +126,19 @@
   </script>
   <script src="https://www.gstatic.com/charts/loader.js">
   </script>
-  <link href="https://pt.m.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118" media="only screen and (max-width: 520px)" rel="alternate"/>
-  <link href="https://pt.m.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118" media="handheld" rel="alternate"/>
-  <meta content="20 cêntimos de euro 2023, Alemanha - Valor da moeda - uCoin.net" property="og:title"/>
-  <meta content="Valor - Alemanha 20 cêntimos de euro 2023 no catálogo de moedas do uCoin.net - Catálogo Internacional de Moedas do Mundo." property="og:description"/>
-  <meta content="https://i.ucoin.net/coin/65687520/germany-20-euro-cent-2023.jpeg" property="og:image"/>
+  <link href="https://pt.m.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" media="only screen and (max-width: 520px)" rel="alternate"/>
+  <link href="https://pt.m.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" media="handheld" rel="alternate"/>
+  <meta content="5 centavos 1998-2023, Brasil - Valor da moeda - uCoin.net" property="og:title"/>
+  <meta content="Valor - Brasil 5 centavos 1998-2023 no catálogo de moedas do uCoin.net - Catálogo Internacional de Moedas do Mundo." property="og:description"/>
+  <meta content="https://i.ucoin.net/coin/51217408/brazil-5-centavos-2007.jpeg" property="og:image"/>
   <meta content="article" property="og:type"/>
-  <meta content="https://pt.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118" property="og:url"/>
+  <meta content="https://pt.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" property="og:url"/>
   <meta content="summary_large_image" name="twitter:card"/>
-  <meta content="https://i.ucoin.net/coin/65687520/germany-20-euro-cent-2023.jpeg" name="twitter:image"/>
+  <meta content="https://i.ucoin.net/coin/51217408/brazil-5-centavos-2007.jpeg" name="twitter:image"/>
+  <meta content="As0hBNJ8h++fNYlkq8cTye2qDLyom8NddByiVytXGGD0YVE+2CEuTCpqXMDxdhOMILKoaiaYifwEvCRlJ/9GcQ8AAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ==" http-equiv="origin-trial"/>
+  <meta content="AgRYsXo24ypxC89CJanC+JgEmraCCBebKl8ZmG7Tj5oJNx0cmH0NtNRZs3NB5ubhpbX/bIt7l2zJOSyO64NGmwMAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ==" http-equiv="origin-trial"/>
+  <meta content="A/ERL66fN363FkXxgDc6F1+ucRUkAhjEca9W3la6xaLnD2Y1lABsqmdaJmPNaUKPKVBRpyMKEhXYl7rSvrQw+AkAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9" http-equiv="origin-trial"/>
+  <meta content="A6OdGH3fVf4eKRDbXb4thXA4InNqDJDRhZ8U533U/roYjp4Yau0T3YSuc63vmAs/8ga1cD0E3A7LEq6AXk1uXgsAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9" http-equiv="origin-trial"/>
   <meta content="As0hBNJ8h++fNYlkq8cTye2qDLyom8NddByiVytXGGD0YVE+2CEuTCpqXMDxdhOMILKoaiaYifwEvCRlJ/9GcQ8AAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ==" http-equiv="origin-trial"/>
   <meta content="AgRYsXo24ypxC89CJanC+JgEmraCCBebKl8ZmG7Tj5oJNx0cmH0NtNRZs3NB5ubhpbX/bIt7l2zJOSyO64NGmwMAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ==" http-equiv="origin-trial"/>
   <meta content="A/ERL66fN363FkXxgDc6F1+ucRUkAhjEca9W3la6xaLnD2Y1lABsqmdaJmPNaUKPKVBRpyMKEhXYl7rSvrQw+AkAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9" http-equiv="origin-trial"/>
@@ -119,7 +158,7 @@
   <meta content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9" http-equiv="origin-trial"/>
   <script async="" src="https://fundingchoicesmessages.google.com/i/ca-pub-9129354934029752?ers=2">
   </script>
-  <script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxWnbsIdm5oFB-xbayyJefzYuftBfHWn1ZNbyiNQ2JFPEll7HAuMk3HqHnUDdPOP9d_8MrmupMhAQLWdMUdATRbC5DACGyvpHtlGJHvUrKYLBZYFsTe1o7hngGiAW-bt2IauLNwD5Q==?fccs=W1siQUtzUm9sOVY1VXB1MlAtM2JkVVgwNkI4U2dGZVU5UVBTZ1NCaVR5TUtubmJkYUxfOVBsMlo2d1hoNUZUM3RPYlZxX2xGX2lVNldmeUhPQ1FJckdSdTBiai1FR1lhTGxOaS1yTmo2NXpZRTdWbktxaXJ6WjBkN1Q0TTRMWHVhU3VkblJxNTNtenFQN2FMd2o4ZElYTmRYX1lIeXdJbWw5Vkl3PT0iXSxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWzE3MDM1NDMzMTQsNzE5MDAwMDAwXSxudWxsLG51bGwsbnVsbCxbbnVsbCxbN11dLCJodHRwczovL3B0LnVjb2luLm5ldC9jb2luL2dlcm1hbnktMjAtZXVyby1jZW50LTIwMjMvIixudWxsLFtbOCwiVXZGQlFSMzRTNVUiXSxbOSwiZW4tVVMiXSxbMTgsIltbWzBdXV0iXSxbMTksIjIiXV1d">
+  <script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxXF_5GP4Iq_OkcP2jVbx1bWc780e0D3oibGAv5osObFqwR_PhVWrF9d5ZZrCetN1rLgmdtiGk8OvaLEGuHA_JgB-Kw0BA87iKJfizrkXVj7T-VCcUPnZ0z1cihC84zxPMG61XktBw==?fccs=W1siQUtzUm9sOFhLd0tTOXZNUFJyNVVLRGZBZ3VGdGd1dko4d09qTmdMdXNnYTBUZ0tFMElNTTRoeTY3Rm9IVmpEM0hQbXF5U3dEbU4tWk9XTExvcDY3TTM4d251MWotdmdhOWhaZjFYNUwtekhrWGttRTl2eVZqZEMtVjF3c3cwUUR5TWNubWVsaWdfT25vb09yY04wXzNVYUhLVm5qNXFsOE13PT0iXSxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWzE3MDM2MTI3NjcsNjM4MDAwMDAwXSxudWxsLG51bGwsbnVsbCxbbnVsbCxbN11dLCJodHRwczovL3B0LnVjb2luLm5ldC9jb2luL2JyYXppbC01LWNlbnRhdm9zLTE5OTgtMjAyMy8iLG51bGwsW1s4LCJVdkZCUVIzNFM1VSJdLFs5LCJlbi1VUyJdLFsxOCwiW1tbMF1dXSJdLFsxOSwiMiJdXV0">
   </script>
  </head>
  <body id="coin">
@@ -303,14 +342,14 @@
        </div>
       </div>
      </div>
-     <div data-country="germany" data-period="1" data-region="5" id="tree" src="lid=9">
+     <div data-country="brazil" data-period="81" data-region="5" id="tree" src="lid=9">
       <!--?xml version="1.0"?-->
-      <div data-extime="0.005486127 sec" data-lang="9" data-uid="1" id="catalog-tree">
+      <div data-extime="0.00712149 sec" data-lang="9" data-uid="1" id="catalog-tree">
        <div class="reg">
-        <div class="open region" id="reg1" onclick="CatalogTreeRegion('region1');">
+        <div class="region" id="reg1" onclick="CatalogTreeRegion('region1');">
          Europa
         </div>
-        <div class="countries hide" id="region1" style="display: block;">
+        <div class="countries hide" id="region1" style="display: none;">
          <div class="country" data-code="abkhazia" data-id="478" data-region-id="1" id="">
           <img id="plus-country1478" onclick="CatalogTreeCountry('1478',this);" src="/i/bg/plus.gif"/>
           <a class="country-name" href="/catalog/?country=abkhazia" id="country1478" title="Abecásia">
@@ -384,16 +423,16 @@
           </div>
          </div>
          <div class="country" data-code="germany" data-id="3" data-region-id="1" id="country-germany">
-          <img id="plus-country13" onclick="CatalogTreeCountry('13',this);" src="/i/bg/minus.gif"/>
-          <a class="country-name" href="/catalog/?country=germany" id="country13" style="font-weight: bold;" title="Alemanha">
+          <img id="plus-country13" onclick="CatalogTreeCountry('13',this);" src="/i/bg/plus.gif"/>
+          <a class="country-name" href="/catalog/?country=germany" id="country13" title="Alemanha">
            <span class="left flag sprite-germany">
            </span>
            <div class="wrap nopad">
             Alemanha
            </div>
           </a>
-          <div class="periods" id="periods13" style="display: block;">
-           <a class="period selected" href="/table/?country=germany&amp;period=1" pid="1" title="União Europeia (Euro)">
+          <div class="periods" id="periods13">
+           <a class="period" href="/table/?country=germany&amp;period=1" pid="1" title="União Europeia (Euro)">
             União Europeia (Euro)
             <div>
              2002 - 2023
@@ -3570,10 +3609,10 @@
         </div>
        </div>
        <div class="reg">
-        <div class="region" id="reg5" onclick="CatalogTreeRegion('region5');">
+        <div class="open region" id="reg5" onclick="CatalogTreeRegion('region5');">
          Américas
         </div>
-        <div class="countries hide" id="region5" style="display: none;">
+        <div class="countries hide" id="region5" style="display: block;">
          <div class="country" data-code="anguilla" data-id="45" data-region-id="5" id="country-anguilla">
           <img id="plus-country545" onclick="CatalogTreeCountry('545',this);" src="/i/bg/plus.gif"/>
           <a class="country-name" href="/catalog/?country=anguilla" id="country545" title="Anguilla">
@@ -3887,16 +3926,16 @@
           </div>
          </div>
          <div class="country" data-code="brazil" data-id="62" data-region-id="5" id="country-brazil">
-          <img id="plus-country562" onclick="CatalogTreeCountry('562',this);" src="/i/bg/plus.gif"/>
-          <a class="country-name" href="/catalog/?country=brazil" id="country562" title="Brasil">
+          <img id="plus-country562" onclick="CatalogTreeCountry('562',this);" src="/i/bg/minus.gif"/>
+          <a class="country-name" href="/catalog/?country=brazil" id="country562" style="font-weight: bold;" title="Brasil">
            <span class="left flag sprite-brazil">
            </span>
            <div class="wrap nopad">
             Brasil
            </div>
           </a>
-          <div class="periods" id="periods562">
-           <a class="period" href="/table/?country=brazil&amp;period=81" pid="81" title="Real">
+          <div class="periods" id="periods562" style="display: block;">
+           <a class="period selected" href="/table/?country=brazil&amp;period=81" pid="81" title="Real">
             Real
             <div>
              1994 - 2023
@@ -17540,7 +17579,7 @@ Império Maratha">
       <span class="hide">
        •
       </span>
-      <load nkey="CoinTreeHTML-desktop:LID[9]" time="0.006952319">
+      <load nkey="CoinTreeHTML-desktop:LID[9]" time="0.006500631">
       </load>
      </div>
      <script>
@@ -17558,53 +17597,45 @@ Império Maratha">
        <meta content="1" itemprop="position"/>
       </li>
       <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-       <a href="/catalog/?country=germany" itemprop="item">
+       <a href="/catalog/?country=brazil" itemprop="item">
         <span itemprop="name">
-         Alemanha
+         Brasil
         </span>
        </a>
        <meta content="2" itemprop="position"/>
       </li>
       <li class="hide">
-       <a href="/catalog/?country=germany&amp;period=1">
+       <a href="/catalog/?country=brazil&amp;period=81">
         <span>
-         União Europeia (Euro)
+         Real
         </span>
        </a>
       </li>
       <li>
-       <a href="/table/?country=germany&amp;period=1">
+       <a href="/table/?country=brazil&amp;period=81">
         <span>
-         2002 - 2023
+         1994 - 2023
         </span>
        </a>
-      </li>
-      <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-       <a href="/coin/germany-20-euro-cent-2007-2023/?tid=225" itemprop="item">
-        <b itemprop="name">
-         20 cêntimos de euro
-        </b>
-       </a>
-       <meta content="3" itemprop="position"/>
       </li>
       <li>
        <span class="breadcrumb-item">
         <span>
-         2023
+         5 centavos
         </span>
        </span>
       </li>
      </ul>
      <div style="clear: both; height: auto !important;">
       <h1>
-       Alemanha 20 cêntimos de euro, 2023
+       Brasil 5 centavos, 1998-2023
       </h1>
       <table class="coin-img">
        <tbody>
         <tr>
          <td class="i">
-          <a href="https://i.ucoin.net/coin/65/687/65687520-1/germany-20-euro-cent-2023.jpg" onclick="showZoomImage($('#coin-img1').attr('data-num'));return false;" target="_blank" title="20 cêntimos de euro 2023, Alemanha - Anverso">
-           <img alt="" data-num="0" id="coin-img1" src="https://i.ucoin.net/coin/65/687/65687520-1/germany-20-euro-cent-2023.jpg" title="20 cêntimos de euro 2023, Alemanha - Anverso"/>
+          <a href="https://i.ucoin.net/coin/51/217/51217408-1/brazil-5-centavos-2007.jpg" onclick="showZoomImage($('#coin-img1').attr('data-num'));return false;" target="_blank" title="5 centavos 1998-2023, Brasil - Anverso">
+           <img alt="BRASIL TIRADENTES " data-num="0" id="coin-img1" src="https://i.ucoin.net/coin/51/217/51217408-1/brazil-5-centavos-2007.jpg" title="5 centavos 1998-2023, Brasil - Anverso"/>
           </a>
           <div onclick="showPrevImage();" style="left: 0;">
            <svg height="48" width="36" xmlns="http://www.w3.org/2000/svg">
@@ -17616,8 +17647,8 @@ Império Maratha">
          <td>
          </td>
          <td class="i">
-          <a href="https://i.ucoin.net/coin/65/687/65687520-2/germany-20-euro-cent-2023.jpg" onclick="showZoomImage($('#coin-img2').attr('data-num'));return false;" target="_blank" title="20 cêntimos de euro 2023, Alemanha - Reverso">
-           <img alt="20 EURO CENT LL " data-num="1" id="coin-img2" src="https://i.ucoin.net/coin/65/687/65687520-2/germany-20-euro-cent-2023.jpg" title="20 cêntimos de euro 2023, Alemanha - Reverso"/>
+          <a href="https://i.ucoin.net/coin/51/217/51217408-2/brazil-5-centavos-2007.jpg" onclick="showZoomImage($('#coin-img2').attr('data-num'));return false;" target="_blank" title="5 centavos 1998-2023, Brasil - Reverso">
+           <img alt="5 CENTAVOS " data-num="1" id="coin-img2" src="https://i.ucoin.net/coin/51/217/51217408-2/brazil-5-centavos-2007.jpg" title="5 centavos 1998-2023, Brasil - Reverso"/>
           </a>
           <div onclick="showNextImage();" style="left: 180px;">
            <svg height="48" width="36" xmlns="http://www.w3.org/2000/svg">
@@ -17701,6 +17732,126 @@ Império Maratha">
             </path>
            </svg>
           </span>
+          <span class="img-pointer" data-position="7" onclick="showImage(Number($(this).attr('data-position'))*2-2)">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417ZM10 10Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer-active hide" data-position="7">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417Zm0 .021q-2.667 0-4.552-1.886Q3.562 12.667 3.562 10t1.886-4.552Q7.333 3.562 10 3.562t4.552 1.886Q16.438 7.333 16.438 10t-1.886 4.552Q12.667 16.438 10 16.438Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer" data-position="8" onclick="showImage(Number($(this).attr('data-position'))*2-2)">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417ZM10 10Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer-active hide" data-position="8">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417Zm0 .021q-2.667 0-4.552-1.886Q3.562 12.667 3.562 10t1.886-4.552Q7.333 3.562 10 3.562t4.552 1.886Q16.438 7.333 16.438 10t-1.886 4.552Q12.667 16.438 10 16.438Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer" data-position="9" onclick="showImage(Number($(this).attr('data-position'))*2-2)">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417ZM10 10Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer-active hide" data-position="9">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417Zm0 .021q-2.667 0-4.552-1.886Q3.562 12.667 3.562 10t1.886-4.552Q7.333 3.562 10 3.562t4.552 1.886Q16.438 7.333 16.438 10t-1.886 4.552Q12.667 16.438 10 16.438Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer" data-position="10" onclick="showImage(Number($(this).attr('data-position'))*2-2)">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417ZM10 10Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer-active hide" data-position="10">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417Zm0 .021q-2.667 0-4.552-1.886Q3.562 12.667 3.562 10t1.886-4.552Q7.333 3.562 10 3.562t4.552 1.886Q16.438 7.333 16.438 10t-1.886 4.552Q12.667 16.438 10 16.438Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer" data-position="11" onclick="showImage(Number($(this).attr('data-position'))*2-2)">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417ZM10 10Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer-active hide" data-position="11">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417Zm0 .021q-2.667 0-4.552-1.886Q3.562 12.667 3.562 10t1.886-4.552Q7.333 3.562 10 3.562t4.552 1.886Q16.438 7.333 16.438 10t-1.886 4.552Q12.667 16.438 10 16.438Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer" data-position="12" onclick="showImage(Number($(this).attr('data-position'))*2-2)">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417ZM10 10Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer-active hide" data-position="12">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417Zm0 .021q-2.667 0-4.552-1.886Q3.562 12.667 3.562 10t1.886-4.552Q7.333 3.562 10 3.562t4.552 1.886Q16.438 7.333 16.438 10t-1.886 4.552Q12.667 16.438 10 16.438Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer" data-position="13" onclick="showImage(Number($(this).attr('data-position'))*2-2)">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417ZM10 10Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer-active hide" data-position="13">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417Zm0 .021q-2.667 0-4.552-1.886Q3.562 12.667 3.562 10t1.886-4.552Q7.333 3.562 10 3.562t4.552 1.886Q16.438 7.333 16.438 10t-1.886 4.552Q12.667 16.438 10 16.438Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer" data-position="14" onclick="showImage(Number($(this).attr('data-position'))*2-2)">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417ZM10 10Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer-active hide" data-position="14">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417Zm0 .021q-2.667 0-4.552-1.886Q3.562 12.667 3.562 10t1.886-4.552Q7.333 3.562 10 3.562t4.552 1.886Q16.438 7.333 16.438 10t-1.886 4.552Q12.667 16.438 10 16.438Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer" data-position="15" onclick="showImage(Number($(this).attr('data-position'))*2-2)">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417ZM10 10Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer-active hide" data-position="15">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417Zm0 .021q-2.667 0-4.552-1.886Q3.562 12.667 3.562 10t1.886-4.552Q7.333 3.562 10 3.562t4.552 1.886Q16.438 7.333 16.438 10t-1.886 4.552Q12.667 16.438 10 16.438Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer" data-position="16" onclick="showImage(Number($(this).attr('data-position'))*2-2)">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417ZM10 10Z">
+            </path>
+           </svg>
+          </span>
+          <span class="img-pointer-active hide" data-position="16">
+           <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 17.417q-1.521 0-2.875-.584-1.354-.583-2.365-1.593-1.01-1.011-1.593-2.365-.584-1.354-.584-2.875 0-1.542.584-2.885Q3.75 5.771 4.76 4.76q1.011-1.01 2.365-1.593Q8.479 2.583 10 2.583q1.542 0 2.885.584 1.344.583 2.355 1.593 1.01 1.011 1.593 2.355.584 1.343.584 2.885 0 1.521-.584 2.875-.583 1.354-1.593 2.365-1.011 1.01-2.355 1.593-1.343.584-2.885.584Zm0-1q2.667 0 4.542-1.875T16.417 10q0-2.667-1.875-4.542T10 3.583q-2.667 0-4.542 1.875T3.583 10q0 2.667 1.875 4.542T10 16.417Zm0 .021q-2.667 0-4.552-1.886Q3.562 12.667 3.562 10t1.886-4.552Q7.333 3.562 10 3.562t4.552 1.886Q16.438 7.333 16.438 10t-1.886 4.552Q12.667 16.438 10 16.438Z">
+            </path>
+           </svg>
+          </span>
          </td>
         </tr>
        </tbody>
@@ -17714,7 +17865,7 @@ Império Maratha">
           ×
          </button>
          <h2 id="sample-header">
-          Alemanha 20 cêntimos de euro 2023
+          Brasil 5 centavos 1998-2023
          </h2>
         </div>
         <div class="left-modal-img-container">
@@ -17741,113 +17892,131 @@ Império Maratha">
            </div>
           </a>
          </div>
-         <div class="coin-list">
-          <table class="dgray-11">
-           <tbody>
-            <tr class="sample-variety-preview" id="sample-variety-preview-25" onclick="showZoomImageVariety('25');return false;">
-             <td style="padding: 8px;">
-              <b>
-               A
-              </b>
-             </td>
-             <td style="text-align: left;padding: 8px 4px">
-              Cunhagem "A" - Berlin
-             </td>
-            </tr>
-            <tr class="sample-variety-preview" id="sample-variety-preview-26" onclick="showZoomImageVariety('26');return false;">
-             <td style="padding: 8px;">
-              <b>
-               D
-              </b>
-             </td>
-             <td style="text-align: left;padding: 8px 4px">
-              Cunhagem "D" - Munique
-             </td>
-            </tr>
-            <tr class="sample-variety-preview" id="sample-variety-preview-27" onclick="showZoomImageVariety('27');return false;">
-             <td style="padding: 8px;">
-              <b>
-               F
-              </b>
-             </td>
-             <td style="text-align: left;padding: 8px 4px">
-              Cunhagem "F" - Estugarda
-             </td>
-            </tr>
-            <tr class="sample-variety-preview" id="sample-variety-preview-28" onclick="showZoomImageVariety('28');return false;">
-             <td style="padding: 8px;">
-              <b>
-               G
-              </b>
-             </td>
-             <td style="text-align: left;padding: 8px 4px">
-              Cunhagem "G" - Karlsruhe
-             </td>
-            </tr>
-            <tr class="sample-variety-preview" id="sample-variety-preview-29" onclick="showZoomImageVariety('29');return false;">
-             <td style="padding: 8px;">
-              <b>
-               J
-              </b>
-             </td>
-             <td style="text-align: left;padding: 8px 4px">
-              Cunhagem: "J" - Hamburgo
-             </td>
-            </tr>
-           </tbody>
-          </table>
-         </div>
+         <center>
+          <script async="async" crossorigin="anonymous" data-checked-head="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9129354934029752">
+          </script>
+          <!-- ucoin.net 200x200 [COIN] -->
+          <ins class="adsbygoogle" data-ad-client="ca-pub-9129354934029752" data-ad-slot="6210727774" data-adsbygoogle-status="done" style="display: inline-block; width: 200px; height: 0px;">
+           <div aria-label="Advertisement" id="aswift_1_host" style="border: none; height: 0px; width: 200px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;" tabindex="0" title="Advertisement">
+            <iframe allowtransparency="true" data-google-container-id="a!2" data-google-query-id="CKyMi4DUrYMDFX_O_QUdpEQLmA" data-load-complete="true" frameborder="0" height="200" hspace="0" id="aswift_1" marginheight="0" marginwidth="0" name="aswift_1" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9129354934029752&amp;output=html&amp;h=200&amp;slotname=6210727774&amp;adk=2163182217&amp;adf=2258448860&amp;pi=t.ma~as.6210727774&amp;w=200&amp;lmt=1703612766&amp;format=200x200&amp;url=https%3A%2F%2Fpt.ucoin.net%2Fcoin%2Fbrazil-5-centavos-1998-2023%2F%3Ftid%3D10571&amp;ea=0&amp;wgl=1&amp;uach=WyJMaW51eCIsIjUuMTUuMCIsIng4NiIsIiIsIjEyMC4wLjYwOTkuNzEiLG51bGwsMCxudWxsLCI2NCIsW1siTm90X0EgQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyMC4wLjYwOTkuNzEiXSxbIkhlYWRsZXNzQ2hyb21lIiwiMTIwLjAuNjA5OS43MSJdXSwwXQ..&amp;dt=1703612766956&amp;bpp=1&amp;bdt=127&amp;idt=33&amp;shv=r20231207&amp;mjsv=m202312070101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D8b15a687cd51adde%3AT%3D1703604462%3ART%3D1703612662%3AS%3DALNI_MZuQD27teQU_svjUH__-TStEzKOpw&amp;gpic=UID%3D00000a04dde207e7%3AT%3D1703604462%3ART%3D1703612662%3AS%3DALNI_MaOQs6tpLMasiOg-x2GaT2x_1Ygxg&amp;prev_fmts=0x0&amp;nras=1&amp;correlator=3518700514801&amp;frm=20&amp;pv=1&amp;ga_vid=1746338249.1703604493&amp;ga_sid=1703612767&amp;ga_hid=1457734392&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C31079759%2C44809003%2C95320885&amp;oid=2&amp;pvsid=3112829388202351&amp;tmod=994490729&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7CaneEr%7C&amp;abl=CA&amp;pfx=0&amp;fu=32768&amp;bc=31&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=2&amp;uci=a!2&amp;fsb=1&amp;dtd=36" style="left:0;position:absolute;top:0;border:0;width:200px;height:200px;" vspace="0" width="200">
+            </iframe>
+           </div>
+          </ins>
+          <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+         </center>
          <div id="gal-img">
-          <a class="gal-img-coin" href="https://i.ucoin.net/coin/65/772/65772163-1/germany-20-euro-cent-2023.jpg" id="sample-img-preview-0" onclick="showZoomImage(0);return false;" target="_blank">
-           <img src="https://i.ucoin.net/coin/65/772/65772163-1s/germany-20-euro-cent-2023.jpg"/>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/51/217/51217408-1/brazil-5-centavos-2007.jpg" id="sample-img-preview-0" onclick="showZoomImage(0);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/51/217/51217408-1s/brazil-5-centavos-2007.jpg"/>
           </a>
-          <a class="gal-img-coin" href="https://i.ucoin.net/coin/65/772/65772163-2/germany-20-euro-cent-2023.jpg" id="sample-img-preview-1" onclick="showZoomImage(1);return false;" target="_blank">
-           <img src="https://i.ucoin.net/coin/65/772/65772163-2s/germany-20-euro-cent-2023.jpg"/>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/51/217/51217408-2/brazil-5-centavos-2007.jpg" id="sample-img-preview-1" onclick="showZoomImage(1);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/51/217/51217408-2s/brazil-5-centavos-2007.jpg"/>
           </a>
-          <a class="gal-img-coin" href="https://i.ucoin.net/coin/65/687/65687520-1/germany-20-euro-cent-2023.jpg" id="sample-img-preview-2" onclick="showZoomImage(2);return false;" target="_blank">
-           <img src="https://i.ucoin.net/coin/65/687/65687520-1s/germany-20-euro-cent-2023.jpg"/>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/51/217/51217162-1/brazil-5-centavos-2009.jpg" id="sample-img-preview-2" onclick="showZoomImage(2);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/51/217/51217162-1s/brazil-5-centavos-2009.jpg"/>
           </a>
-          <a class="gal-img-coin" href="https://i.ucoin.net/coin/65/687/65687520-2/germany-20-euro-cent-2023.jpg" id="sample-img-preview-3" onclick="showZoomImage(3);return false;" target="_blank">
-           <img src="https://i.ucoin.net/coin/65/687/65687520-2s/germany-20-euro-cent-2023.jpg"/>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/51/217/51217162-2/brazil-5-centavos-2009.jpg" id="sample-img-preview-3" onclick="showZoomImage(3);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/51/217/51217162-2s/brazil-5-centavos-2009.jpg"/>
           </a>
-          <a class="gal-img-coin" href="https://i.ucoin.net/coin/59/979/59979821-1/germany-20-euro-cent-2023.jpg" id="sample-img-preview-4" onclick="showZoomImage(4);return false;" target="_blank">
-           <img src="https://i.ucoin.net/coin/59/979/59979821-1s/germany-20-euro-cent-2023.jpg"/>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/51/219/51219461-1/brazil-5-centavos-2001.jpg" id="sample-img-preview-4" onclick="showZoomImage(4);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/51/219/51219461-1s/brazil-5-centavos-2001.jpg"/>
           </a>
-          <a class="gal-img-coin" href="https://i.ucoin.net/coin/59/979/59979821-2/germany-20-euro-cent-2023.jpg" id="sample-img-preview-5" onclick="showZoomImage(5);return false;" target="_blank">
-           <img src="https://i.ucoin.net/coin/59/979/59979821-2s/germany-20-euro-cent-2023.jpg"/>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/51/219/51219461-2/brazil-5-centavos-2001.jpg" id="sample-img-preview-5" onclick="showZoomImage(5);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/51/219/51219461-2s/brazil-5-centavos-2001.jpg"/>
           </a>
-          <a class="gal-img-coin" href="https://i.ucoin.net/coin/60/170/60170068-1/germany-20-euro-cent-2023.jpg" id="sample-img-preview-6" onclick="showZoomImage(6);return false;" target="_blank">
-           <img src="https://i.ucoin.net/coin/60/170/60170068-1s/germany-20-euro-cent-2023.jpg"/>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/0/79/79830-1/brazil-5-centavos-2008.jpg" id="sample-img-preview-6" onclick="showZoomImage(6);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/0/79/79830-1s/brazil-5-centavos-2008.jpg"/>
           </a>
-          <a class="gal-img-coin" href="https://i.ucoin.net/coin/60/170/60170068-2/germany-20-euro-cent-2023.jpg" id="sample-img-preview-7" onclick="showZoomImage(7);return false;" target="_blank">
-           <img src="https://i.ucoin.net/coin/60/170/60170068-2s/germany-20-euro-cent-2023.jpg"/>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/0/79/79830-2/brazil-5-centavos-2008.jpg" id="sample-img-preview-7" onclick="showZoomImage(7);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/0/79/79830-2s/brazil-5-centavos-2008.jpg"/>
           </a>
-          <a class="gal-img-coin" href="https://i.ucoin.net/coin/62/230/62230984-1/germany-20-euro-cent-2023.jpg" id="sample-img-preview-8" onclick="showZoomImage(8);return false;" target="_blank">
-           <img src="https://i.ucoin.net/coin/62/230/62230984-1s/germany-20-euro-cent-2023.jpg"/>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/17/614/17614052-1/brazil-5-centavos-2005.jpg" id="sample-img-preview-8" onclick="showZoomImage(8);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/17/614/17614052-1s/brazil-5-centavos-2005.jpg"/>
           </a>
-          <a class="gal-img-coin" href="https://i.ucoin.net/coin/62/230/62230984-2/germany-20-euro-cent-2023.jpg" id="sample-img-preview-9" onclick="showZoomImage(9);return false;" target="_blank">
-           <img src="https://i.ucoin.net/coin/62/230/62230984-2s/germany-20-euro-cent-2023.jpg"/>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/17/614/17614052-2/brazil-5-centavos-2005.jpg" id="sample-img-preview-9" onclick="showZoomImage(9);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/17/614/17614052-2s/brazil-5-centavos-2005.jpg"/>
           </a>
-          <a class="gal-img-coin" href="https://i.ucoin.net/coin/63/474/63474241-1/germany-20-euro-cent-2023.jpg" id="sample-img-preview-10" onclick="showZoomImage(10);return false;" target="_blank">
-           <img src="https://i.ucoin.net/coin/63/474/63474241-1s/germany-20-euro-cent-2023.jpg"/>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/17/616/17616608-1/brazil-5-centavos-2000.jpg" id="sample-img-preview-10" onclick="showZoomImage(10);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/17/616/17616608-1s/brazil-5-centavos-2000.jpg"/>
           </a>
-          <a class="gal-img-coin" href="https://i.ucoin.net/coin/63/474/63474241-2/germany-20-euro-cent-2023.jpg" id="sample-img-preview-11" onclick="showZoomImage(11);return false;" target="_blank">
-           <img src="https://i.ucoin.net/coin/63/474/63474241-2s/germany-20-euro-cent-2023.jpg"/>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/17/616/17616608-2/brazil-5-centavos-2000.jpg" id="sample-img-preview-11" onclick="showZoomImage(11);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/17/616/17616608-2s/brazil-5-centavos-2000.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/45/268/45268240-1/brazil-5-centavos-2015.jpg" id="sample-img-preview-12" onclick="showZoomImage(12);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/45/268/45268240-1s/brazil-5-centavos-2015.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/45/268/45268240-2/brazil-5-centavos-2015.jpg" id="sample-img-preview-13" onclick="showZoomImage(13);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/45/268/45268240-2s/brazil-5-centavos-2015.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/0/864/864975-1/brazil-5-centavos-2010.jpg" id="sample-img-preview-14" onclick="showZoomImage(14);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/0/864/864975-1s/brazil-5-centavos-2010.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/0/864/864975-2/brazil-5-centavos-2010.jpg" id="sample-img-preview-15" onclick="showZoomImage(15);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/0/864/864975-2s/brazil-5-centavos-2010.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/17/612/17612814-1/brazil-5-centavos-2011.jpg" id="sample-img-preview-16" onclick="showZoomImage(16);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/17/612/17612814-1s/brazil-5-centavos-2011.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/17/612/17612814-2/brazil-5-centavos-2011.jpg" id="sample-img-preview-17" onclick="showZoomImage(17);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/17/612/17612814-2s/brazil-5-centavos-2011.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/17/611/17611161-1/brazil-5-centavos-2013.jpg" id="sample-img-preview-18" onclick="showZoomImage(18);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/17/611/17611161-1s/brazil-5-centavos-2013.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/17/611/17611161-2/brazil-5-centavos-2013.jpg" id="sample-img-preview-19" onclick="showZoomImage(19);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/17/611/17611161-2s/brazil-5-centavos-2013.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/17/611/17611141-1/brazil-5-centavos-2014.jpg" id="sample-img-preview-20" onclick="showZoomImage(20);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/17/611/17611141-1s/brazil-5-centavos-2014.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/17/611/17611141-2/brazil-5-centavos-2014.jpg" id="sample-img-preview-21" onclick="showZoomImage(21);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/17/611/17611141-2s/brazil-5-centavos-2014.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/6/148/6148039-1/brazil-5-centavos-2015.jpg" id="sample-img-preview-22" onclick="showZoomImage(22);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/6/148/6148039-1s/brazil-5-centavos-2015.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/6/148/6148039-2/brazil-5-centavos-2015.jpg" id="sample-img-preview-23" onclick="showZoomImage(23);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/6/148/6148039-2s/brazil-5-centavos-2015.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/17/616/17616398-1/brazil-5-centavos-2004.jpg" id="sample-img-preview-24" onclick="showZoomImage(24);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/17/616/17616398-1s/brazil-5-centavos-2004.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/17/616/17616398-2/brazil-5-centavos-2004.jpg" id="sample-img-preview-25" onclick="showZoomImage(25);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/17/616/17616398-2s/brazil-5-centavos-2004.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/3/763/3763591-1/brazil-5-centavos-2006.jpg" id="sample-img-preview-26" onclick="showZoomImage(26);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/3/763/3763591-1s/brazil-5-centavos-2006.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/3/763/3763591-2/brazil-5-centavos-2006.jpg" id="sample-img-preview-27" onclick="showZoomImage(27);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/3/763/3763591-2s/brazil-5-centavos-2006.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/17/611/17611035-1/brazil-5-centavos-2016.jpg" id="sample-img-preview-28" onclick="showZoomImage(28);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/17/611/17611035-1s/brazil-5-centavos-2016.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/17/611/17611035-2/brazil-5-centavos-2016.jpg" id="sample-img-preview-29" onclick="showZoomImage(29);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/17/611/17611035-2s/brazil-5-centavos-2016.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/51/217/51217321-1/brazil-5-centavos-2008.jpg" id="sample-img-preview-30" onclick="showZoomImage(30);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/51/217/51217321-1s/brazil-5-centavos-2008.jpg"/>
+          </a>
+          <a class="gal-img-coin" href="https://i.ucoin.net/coin/51/217/51217321-2/brazil-5-centavos-2008.jpg" id="sample-img-preview-31" onclick="showZoomImage(31);return false;" target="_blank">
+           <img src="https://i.ucoin.net/coin/51/217/51217321-2s/brazil-5-centavos-2008.jpg"/>
           </a>
          </div>
         </div>
        </div>
       </div>
       <script>
-       var imgset = [['65772163', 'https://i.ucoin.net/coin/65/772/65772163-1/germany-20-euro-cent-2023.jpg', 'https://i.ucoin.net/coin/65/772/65772163-1s/germany-20-euro-cent-2023.jpg', 'foxtime', 'https://i.ucoin.net/avatar/no-avatar.jpg', 'December  25, 2023', 'germany-20-euro-cent-2023'],['65772163', 'https://i.ucoin.net/coin/65/772/65772163-2/germany-20-euro-cent-2023.jpg', 'https://i.ucoin.net/coin/65/772/65772163-2s/germany-20-euro-cent-2023.jpg', 'foxtime', 'https://i.ucoin.net/avatar/no-avatar.jpg', 'December  25, 2023', 'germany-20-euro-cent-2023'],['65687520', 'https://i.ucoin.net/coin/65/687/65687520-1/germany-20-euro-cent-2023.jpg', 'https://i.ucoin.net/coin/65/687/65687520-1s/germany-20-euro-cent-2023.jpg', 'Nikolai_Bondarchuk', 'https://i.ucoin.net/avatar/c7/c725ba0d23d46179.jpg', 'December  20, 2023', 'germany-20-euro-cent-2023'],['65687520', 'https://i.ucoin.net/coin/65/687/65687520-2/germany-20-euro-cent-2023.jpg', 'https://i.ucoin.net/coin/65/687/65687520-2s/germany-20-euro-cent-2023.jpg', 'Nikolai_Bondarchuk', 'https://i.ucoin.net/avatar/c7/c725ba0d23d46179.jpg', 'December  20, 2023', 'germany-20-euro-cent-2023'],['59979821', 'https://i.ucoin.net/coin/59/979/59979821-1/germany-20-euro-cent-2023.jpg', 'https://i.ucoin.net/coin/59/979/59979821-1s/germany-20-euro-cent-2023.jpg', 'Ynfe', 'https://i.ucoin.net/avatar/4a/4a6dc941a4dcf61e.jpg', 'April     1, 2023', 'germany-20-euro-cent-2023'],['59979821', 'https://i.ucoin.net/coin/59/979/59979821-2/germany-20-euro-cent-2023.jpg', 'https://i.ucoin.net/coin/59/979/59979821-2s/germany-20-euro-cent-2023.jpg', 'Ynfe', 'https://i.ucoin.net/avatar/4a/4a6dc941a4dcf61e.jpg', 'April     1, 2023', 'germany-20-euro-cent-2023'],['60170068', 'https://i.ucoin.net/coin/60/170/60170068-1/germany-20-euro-cent-2023.jpg', 'https://i.ucoin.net/coin/60/170/60170068-1s/germany-20-euro-cent-2023.jpg', 'vipdmx', 'https://i.ucoin.net/avatar/c3/c3695cf829623a50.jpg', 'April     9, 2023', 'germany-20-euro-cent-2023'],['60170068', 'https://i.ucoin.net/coin/60/170/60170068-2/germany-20-euro-cent-2023.jpg', 'https://i.ucoin.net/coin/60/170/60170068-2s/germany-20-euro-cent-2023.jpg', 'vipdmx', 'https://i.ucoin.net/avatar/c3/c3695cf829623a50.jpg', 'April     9, 2023', 'germany-20-euro-cent-2023'],['62230984', 'https://i.ucoin.net/coin/62/230/62230984-1/germany-20-euro-cent-2023.jpg', 'https://i.ucoin.net/coin/62/230/62230984-1s/germany-20-euro-cent-2023.jpg', 'Grawer', 'https://i.ucoin.net/avatar/35/359faee33e56b17d.jpg', 'July      16, 2023', 'germany-20-euro-cent-2023'],['62230984', 'https://i.ucoin.net/coin/62/230/62230984-2/germany-20-euro-cent-2023.jpg', 'https://i.ucoin.net/coin/62/230/62230984-2s/germany-20-euro-cent-2023.jpg', 'Grawer', 'https://i.ucoin.net/avatar/35/359faee33e56b17d.jpg', 'July      16, 2023', 'germany-20-euro-cent-2023'],['63474241', 'https://i.ucoin.net/coin/63/474/63474241-1/germany-20-euro-cent-2023.jpg', 'https://i.ucoin.net/coin/63/474/63474241-1s/germany-20-euro-cent-2023.jpg', 'HGD', 'https://i.ucoin.net/avatar/no-avatar.jpg', 'September 14, 2023', 'germany-20-euro-cent-2023'],['63474241', 'https://i.ucoin.net/coin/63/474/63474241-2/germany-20-euro-cent-2023.jpg', 'https://i.ucoin.net/coin/63/474/63474241-2s/germany-20-euro-cent-2023.jpg', 'HGD', 'https://i.ucoin.net/avatar/no-avatar.jpg', 'September 14, 2023', 'germany-20-euro-cent-2023']];
+       var imgset = [['51217408', 'https://i.ucoin.net/coin/51/217/51217408-1/brazil-5-centavos-2007.jpg', 'https://i.ucoin.net/coin/51/217/51217408-1s/brazil-5-centavos-2007.jpg', 'Фанис 67', 'https://i.ucoin.net/avatar/93/93cfe4a379e23a7f.jpg', 'January   11, 2020', 'brazil-5-centavos-2007'],['51217408', 'https://i.ucoin.net/coin/51/217/51217408-2/brazil-5-centavos-2007.jpg', 'https://i.ucoin.net/coin/51/217/51217408-2s/brazil-5-centavos-2007.jpg', 'Фанис 67', 'https://i.ucoin.net/avatar/93/93cfe4a379e23a7f.jpg', 'January   11, 2020', 'brazil-5-centavos-2007'],['51217162', 'https://i.ucoin.net/coin/51/217/51217162-1/brazil-5-centavos-2009.jpg', 'https://i.ucoin.net/coin/51/217/51217162-1s/brazil-5-centavos-2009.jpg', 'Фанис 67', 'https://i.ucoin.net/avatar/93/93cfe4a379e23a7f.jpg', 'January   11, 2020', 'brazil-5-centavos-2009'],['51217162', 'https://i.ucoin.net/coin/51/217/51217162-2/brazil-5-centavos-2009.jpg', 'https://i.ucoin.net/coin/51/217/51217162-2s/brazil-5-centavos-2009.jpg', 'Фанис 67', 'https://i.ucoin.net/avatar/93/93cfe4a379e23a7f.jpg', 'January   11, 2020', 'brazil-5-centavos-2009'],['51219461', 'https://i.ucoin.net/coin/51/219/51219461-1/brazil-5-centavos-2001.jpg', 'https://i.ucoin.net/coin/51/219/51219461-1s/brazil-5-centavos-2001.jpg', 'Фанис 67', 'https://i.ucoin.net/avatar/93/93cfe4a379e23a7f.jpg', 'January   11, 2020', 'brazil-5-centavos-2001'],['51219461', 'https://i.ucoin.net/coin/51/219/51219461-2/brazil-5-centavos-2001.jpg', 'https://i.ucoin.net/coin/51/219/51219461-2s/brazil-5-centavos-2001.jpg', 'Фанис 67', 'https://i.ucoin.net/avatar/93/93cfe4a379e23a7f.jpg', 'January   11, 2020', 'brazil-5-centavos-2001'],['79830', 'https://i.ucoin.net/coin/0/79/79830-1/brazil-5-centavos-2008.jpg', 'https://i.ucoin.net/coin/0/79/79830-1s/brazil-5-centavos-2008.jpg', 'Someone', 'https://i.ucoin.net/avatar/15/15dade120b4921d4.jpg', 'October   28, 2012', 'brazil-5-centavos-2008'],['79830', 'https://i.ucoin.net/coin/0/79/79830-2/brazil-5-centavos-2008.jpg', 'https://i.ucoin.net/coin/0/79/79830-2s/brazil-5-centavos-2008.jpg', 'Someone', 'https://i.ucoin.net/avatar/15/15dade120b4921d4.jpg', 'October   28, 2012', 'brazil-5-centavos-2008'],['17614052', 'https://i.ucoin.net/coin/17/614/17614052-1/brazil-5-centavos-2005.jpg', 'https://i.ucoin.net/coin/17/614/17614052-1s/brazil-5-centavos-2005.jpg', 'Mladen', 'https://i.ucoin.net/avatar/bb/bb8e8cce3dfcf563.jpg', 'May       8, 2018', 'brazil-5-centavos-2005'],['17614052', 'https://i.ucoin.net/coin/17/614/17614052-2/brazil-5-centavos-2005.jpg', 'https://i.ucoin.net/coin/17/614/17614052-2s/brazil-5-centavos-2005.jpg', 'Mladen', 'https://i.ucoin.net/avatar/bb/bb8e8cce3dfcf563.jpg', 'May       8, 2018', 'brazil-5-centavos-2005'],['17616608', 'https://i.ucoin.net/coin/17/616/17616608-1/brazil-5-centavos-2000.jpg', 'https://i.ucoin.net/coin/17/616/17616608-1s/brazil-5-centavos-2000.jpg', 'Mladen', 'https://i.ucoin.net/avatar/bb/bb8e8cce3dfcf563.jpg', 'May       9, 2018', 'brazil-5-centavos-2000'],['17616608', 'https://i.ucoin.net/coin/17/616/17616608-2/brazil-5-centavos-2000.jpg', 'https://i.ucoin.net/coin/17/616/17616608-2s/brazil-5-centavos-2000.jpg', 'Mladen', 'https://i.ucoin.net/avatar/bb/bb8e8cce3dfcf563.jpg', 'May       9, 2018', 'brazil-5-centavos-2000'],['45268240', 'https://i.ucoin.net/coin/45/268/45268240-1/brazil-5-centavos-2015.jpg', 'https://i.ucoin.net/coin/45/268/45268240-1s/brazil-5-centavos-2015.jpg', 'Khufu', 'https://i.ucoin.net/avatar/fa/fa5e054e4a8410a9.jpg', 'June      27, 2021', 'brazil-5-centavos-2015'],['45268240', 'https://i.ucoin.net/coin/45/268/45268240-2/brazil-5-centavos-2015.jpg', 'https://i.ucoin.net/coin/45/268/45268240-2s/brazil-5-centavos-2015.jpg', 'Khufu', 'https://i.ucoin.net/avatar/fa/fa5e054e4a8410a9.jpg', 'June      27, 2021', 'brazil-5-centavos-2015'],['864975', 'https://i.ucoin.net/coin/0/864/864975-1/brazil-5-centavos-2010.jpg', 'https://i.ucoin.net/coin/0/864/864975-1s/brazil-5-centavos-2010.jpg', 'ashmedai82', 'https://i.ucoin.net/avatar/2a/2a9f406857e511a8.jpg', 'September 21, 2013', 'brazil-5-centavos-2010'],['864975', 'https://i.ucoin.net/coin/0/864/864975-2/brazil-5-centavos-2010.jpg', 'https://i.ucoin.net/coin/0/864/864975-2s/brazil-5-centavos-2010.jpg', 'ashmedai82', 'https://i.ucoin.net/avatar/2a/2a9f406857e511a8.jpg', 'September 21, 2013', 'brazil-5-centavos-2010'],['17612814', 'https://i.ucoin.net/coin/17/612/17612814-1/brazil-5-centavos-2011.jpg', 'https://i.ucoin.net/coin/17/612/17612814-1s/brazil-5-centavos-2011.jpg', 'Mladen', 'https://i.ucoin.net/avatar/bb/bb8e8cce3dfcf563.jpg', 'May       8, 2018', 'brazil-5-centavos-2011'],['17612814', 'https://i.ucoin.net/coin/17/612/17612814-2/brazil-5-centavos-2011.jpg', 'https://i.ucoin.net/coin/17/612/17612814-2s/brazil-5-centavos-2011.jpg', 'Mladen', 'https://i.ucoin.net/avatar/bb/bb8e8cce3dfcf563.jpg', 'May       8, 2018', 'brazil-5-centavos-2011'],['17611161', 'https://i.ucoin.net/coin/17/611/17611161-1/brazil-5-centavos-2013.jpg', 'https://i.ucoin.net/coin/17/611/17611161-1s/brazil-5-centavos-2013.jpg', 'Mladen', 'https://i.ucoin.net/avatar/bb/bb8e8cce3dfcf563.jpg', 'May       8, 2018', 'brazil-5-centavos-2013'],['17611161', 'https://i.ucoin.net/coin/17/611/17611161-2/brazil-5-centavos-2013.jpg', 'https://i.ucoin.net/coin/17/611/17611161-2s/brazil-5-centavos-2013.jpg', 'Mladen', 'https://i.ucoin.net/avatar/bb/bb8e8cce3dfcf563.jpg', 'May       8, 2018', 'brazil-5-centavos-2013'],['17611141', 'https://i.ucoin.net/coin/17/611/17611141-1/brazil-5-centavos-2014.jpg', 'https://i.ucoin.net/coin/17/611/17611141-1s/brazil-5-centavos-2014.jpg', 'Mladen', 'https://i.ucoin.net/avatar/bb/bb8e8cce3dfcf563.jpg', 'May       8, 2018', 'brazil-5-centavos-2014'],['17611141', 'https://i.ucoin.net/coin/17/611/17611141-2/brazil-5-centavos-2014.jpg', 'https://i.ucoin.net/coin/17/611/17611141-2s/brazil-5-centavos-2014.jpg', 'Mladen', 'https://i.ucoin.net/avatar/bb/bb8e8cce3dfcf563.jpg', 'May       8, 2018', 'brazil-5-centavos-2014'],['6148039', 'https://i.ucoin.net/coin/6/148/6148039-1/brazil-5-centavos-2015.jpg', 'https://i.ucoin.net/coin/6/148/6148039-1s/brazil-5-centavos-2015.jpg', 'Someone', 'https://i.ucoin.net/avatar/15/15dade120b4921d4.jpg', 'April     16, 2016', 'brazil-5-centavos-2015'],['6148039', 'https://i.ucoin.net/coin/6/148/6148039-2/brazil-5-centavos-2015.jpg', 'https://i.ucoin.net/coin/6/148/6148039-2s/brazil-5-centavos-2015.jpg', 'Someone', 'https://i.ucoin.net/avatar/15/15dade120b4921d4.jpg', 'April     16, 2016', 'brazil-5-centavos-2015'],['17616398', 'https://i.ucoin.net/coin/17/616/17616398-1/brazil-5-centavos-2004.jpg', 'https://i.ucoin.net/coin/17/616/17616398-1s/brazil-5-centavos-2004.jpg', 'Mladen', 'https://i.ucoin.net/avatar/bb/bb8e8cce3dfcf563.jpg', 'May       8, 2018', 'brazil-5-centavos-2004'],['17616398', 'https://i.ucoin.net/coin/17/616/17616398-2/brazil-5-centavos-2004.jpg', 'https://i.ucoin.net/coin/17/616/17616398-2s/brazil-5-centavos-2004.jpg', 'Mladen', 'https://i.ucoin.net/avatar/bb/bb8e8cce3dfcf563.jpg', 'May       8, 2018', 'brazil-5-centavos-2004'],['3763591', 'https://i.ucoin.net/coin/3/763/3763591-1/brazil-5-centavos-2006.jpg', 'https://i.ucoin.net/coin/3/763/3763591-1s/brazil-5-centavos-2006.jpg', 'Руслан Николаевич', 'https://i.ucoin.net/avatar/93/93adb95529a50cdf.jpg', 'September 8, 2015', 'brazil-5-centavos-2006'],['3763591', 'https://i.ucoin.net/coin/3/763/3763591-2/brazil-5-centavos-2006.jpg', 'https://i.ucoin.net/coin/3/763/3763591-2s/brazil-5-centavos-2006.jpg', 'Руслан Николаевич', 'https://i.ucoin.net/avatar/93/93adb95529a50cdf.jpg', 'September 8, 2015', 'brazil-5-centavos-2006'],['17611035', 'https://i.ucoin.net/coin/17/611/17611035-1/brazil-5-centavos-2016.jpg', 'https://i.ucoin.net/coin/17/611/17611035-1s/brazil-5-centavos-2016.jpg', 'Mladen', 'https://i.ucoin.net/avatar/bb/bb8e8cce3dfcf563.jpg', 'May       8, 2018', 'brazil-5-centavos-2016'],['17611035', 'https://i.ucoin.net/coin/17/611/17611035-2/brazil-5-centavos-2016.jpg', 'https://i.ucoin.net/coin/17/611/17611035-2s/brazil-5-centavos-2016.jpg', 'Mladen', 'https://i.ucoin.net/avatar/bb/bb8e8cce3dfcf563.jpg', 'May       8, 2018', 'brazil-5-centavos-2016'],['51217321', 'https://i.ucoin.net/coin/51/217/51217321-1/brazil-5-centavos-2008.jpg', 'https://i.ucoin.net/coin/51/217/51217321-1s/brazil-5-centavos-2008.jpg', 'Фанис 67', 'https://i.ucoin.net/avatar/93/93cfe4a379e23a7f.jpg', 'October   27, 2020', 'brazil-5-centavos-2008'],['51217321', 'https://i.ucoin.net/coin/51/217/51217321-2/brazil-5-centavos-2008.jpg', 'https://i.ucoin.net/coin/51/217/51217321-2s/brazil-5-centavos-2008.jpg', 'Фанис 67', 'https://i.ucoin.net/avatar/93/93cfe4a379e23a7f.jpg', 'October   27, 2020', 'brazil-5-centavos-2008']];
       </script>
       <center style="margin: 30px 0 20px;width:500px;">
        <script async="async" crossorigin="anonymous" data-checked-head="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9129354934029752">
        </script>
        <!-- ucoin.net TOP [COIN] -->
        <ins class="adsbygoogle" data-ad-client="ca-pub-9129354934029752" data-ad-format="auto" data-ad-slot="4504328938" data-adsbygoogle-status="done" data-full-width-responsive="true" style="display: block; height: 280px;">
-        <div aria-label="Advertisement" id="aswift_1_host" style="border: none; height: 280px; width: 500px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;" tabindex="0" title="Advertisement">
-         <iframe allowtransparency="true" data-google-container-id="a!2" data-google-query-id="CPz72bDRq4MDFa7M_QUd7DQGKA" data-load-complete="true" frameborder="0" height="280" hspace="0" id="aswift_1" marginheight="0" marginwidth="0" name="aswift_1" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9129354934029752&amp;output=html&amp;h=280&amp;slotname=4504328938&amp;adk=3548628427&amp;adf=1852683821&amp;pi=t.ma~as.4504328938&amp;w=500&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1703543313&amp;rafmt=1&amp;format=500x280&amp;url=https%3A%2F%2Fpt.ucoin.net%2Fcoin%2Fgermany-20-euro-cent-2023%2F%3Fcid%3D218118&amp;ea=0&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTIwLjAuNjA5OS4xMjkiLG51bGwsMCxudWxsLCI2NCIsW1siTm90X0EgQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyMC4wLjYwOTkuMTI5Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjEyMC4wLjYwOTkuMTI5Il1dLDBd&amp;dt=1703543313689&amp;bpp=2&amp;bdt=181&amp;idt=81&amp;shv=r20231207&amp;mjsv=m202312070101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D893c761110d1db58%3AT%3D1703455312%3ART%3D1703543242%3AS%3DALNI_MbZy6iZPsgWDpZ9BxdIix7mr0_OmA&amp;gpic=UID%3D00000a04a4fa70bc%3AT%3D1703455312%3ART%3D1703543242%3AS%3DALNI_Mb-IZklI2kxOGakXLJKAPQffu8iOg&amp;prev_fmts=0x0&amp;nras=1&amp;correlator=297348711520&amp;frm=20&amp;pv=1&amp;ga_vid=313048086.1667772421&amp;ga_sid=1703543314&amp;ga_hid=1304732824&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=360&amp;ady=431&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C31079437%2C95320885&amp;oid=2&amp;pvsid=3544232324215566&amp;tmod=1400011664&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7CpeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=2&amp;uci=a!2&amp;fsb=1&amp;dtd=86" style="left:0;position:absolute;top:0;border:0;width:500px;height:280px;" vspace="0" width="500">
+        <div aria-label="Advertisement" id="aswift_2_host" style="border: none; height: 280px; width: 500px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;" tabindex="0" title="Advertisement">
+         <iframe allowtransparency="true" data-google-container-id="a!3" data-google-query-id="CITCjoDUrYMDFbD4_QUd8tcMtA" data-load-complete="true" frameborder="0" height="280" hspace="0" id="aswift_2" marginheight="0" marginwidth="0" name="aswift_2" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9129354934029752&amp;output=html&amp;h=280&amp;slotname=4504328938&amp;adk=3548628427&amp;adf=1852683821&amp;pi=t.ma~as.4504328938&amp;w=500&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1703612766&amp;rafmt=1&amp;format=500x280&amp;url=https%3A%2F%2Fpt.ucoin.net%2Fcoin%2Fbrazil-5-centavos-1998-2023%2F%3Ftid%3D10571&amp;ea=0&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyJMaW51eCIsIjUuMTUuMCIsIng4NiIsIiIsIjEyMC4wLjYwOTkuNzEiLG51bGwsMCxudWxsLCI2NCIsW1siTm90X0EgQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyMC4wLjYwOTkuNzEiXSxbIkhlYWRsZXNzQ2hyb21lIiwiMTIwLjAuNjA5OS43MSJdXSwwXQ..&amp;dt=1703612766957&amp;bpp=1&amp;bdt=128&amp;idt=36&amp;shv=r20231207&amp;mjsv=m202312070101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D8b15a687cd51adde%3AT%3D1703604462%3ART%3D1703612662%3AS%3DALNI_MZuQD27teQU_svjUH__-TStEzKOpw&amp;gpic=UID%3D00000a04dde207e7%3AT%3D1703604462%3ART%3D1703612662%3AS%3DALNI_MaOQs6tpLMasiOg-x2GaT2x_1Ygxg&amp;prev_fmts=0x0%2C200x200&amp;nras=1&amp;correlator=3518700514801&amp;frm=20&amp;pv=1&amp;ga_vid=1746338249.1703604493&amp;ga_sid=1703612767&amp;ga_hid=1457734392&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=360&amp;ady=430&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C31079759%2C44809003%2C95320885&amp;oid=2&amp;pvsid=3112829388202351&amp;tmod=994490729&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7CpeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=3&amp;uci=a!3&amp;fsb=1&amp;dtd=38" style="left:0;position:absolute;top:0;border:0;width:500px;height:280px;" vspace="0" width="500">
          </iframe>
         </div>
        </ins>
@@ -17865,7 +18034,7 @@ Império Maratha">
           Número Krause
          </th>
          <td>
-          KM# 255
+          KM# 648
          </td>
         </tr>
         <tr>
@@ -17873,7 +18042,7 @@ Império Maratha">
           País
          </th>
          <td>
-          Alemanha
+          Brasil
          </td>
         </tr>
         <tr>
@@ -17881,7 +18050,7 @@ Império Maratha">
           Periodo
          </th>
          <td>
-          União Europeia (Euro) (2002 - 2023)
+          Real (1994 - 2023)
          </td>
         </tr>
         <tr>
@@ -17897,7 +18066,22 @@ Império Maratha">
           Denominação
          </th>
          <td>
-          20 cêntimos de euro
+          5 centavos
+         </td>
+        </tr>
+        <tr>
+         <th>
+          Taxa de câmbio
+         </th>
+         <td class="gray-11" style="text-align:right">
+          <b>
+           0.05
+          </b>
+          BRL =
+          <b class="blue-11">
+           0.009
+          </b>
+          EUR
          </td>
         </tr>
         <tr>
@@ -17905,7 +18089,7 @@ Império Maratha">
           Ano
          </th>
          <td>
-          2023
+          1998-2023
          </td>
         </tr>
         <tr>
@@ -17913,7 +18097,7 @@ Império Maratha">
           Composição
          </th>
          <td>
-          Ouro nórdico
+          Aço com revestimento de Cobre
          </td>
         </tr>
         <tr>
@@ -17921,7 +18105,7 @@ Império Maratha">
           Tipo de bordo
          </th>
          <td>
-          Lisa com um entalhe
+          Lisa
          </td>
         </tr>
         <tr>
@@ -17929,7 +18113,7 @@ Império Maratha">
           Formato
          </th>
          <td>
-          Flor de Espanha (Rebordo com sete travessões)
+          Redonda
          </td>
         </tr>
         <tr>
@@ -17937,7 +18121,7 @@ Império Maratha">
           Alinhamento
          </th>
          <td>
-          Medalha (0°)
+          Moeda (180°)
          </td>
         </tr>
         <tr>
@@ -17945,7 +18129,7 @@ Império Maratha">
           Peso (g)
          </th>
          <td>
-          5.74
+          4.06
          </td>
         </tr>
         <tr>
@@ -17953,7 +18137,7 @@ Império Maratha">
           Diametro (mm)
          </th>
          <td>
-          22.25
+          21.9
          </td>
         </tr>
         <tr>
@@ -17961,7 +18145,7 @@ Império Maratha">
           Espessura (mm)
          </th>
          <td>
-          2.14
+          1.6
          </td>
         </tr>
        </tbody>
@@ -17973,17 +18157,17 @@ Império Maratha">
        <tbody>
         <tr>
          <th>
-          <a href="https://i.ucoin.net/coin/65/687/65687520-1/germany-20-euro-cent-2023.jpg" onclick="showImg(0);return false;">
-           <img id="coin-img1" src="https://i.ucoin.net/coin/65/687/65687520-1s/germany-20-euro-cent-2023.jpg"/>
+          <a href="https://i.ucoin.net/coin/51/217/51217408-1/brazil-5-centavos-2007.jpg" onclick="showImg(0);return false;">
+           <img id="coin-img1" src="https://i.ucoin.net/coin/51/217/51217408-1s/brazil-5-centavos-2007.jpg"/>
           </a>
          </th>
          <td>
           <p>
            <span class="theme">
-            Construções
+            Grande povo
            </span>
            <span class="theme">
-            Estrela
+            Pássaro
            </span>
           </p>
           <p class="dgray-12">
@@ -17991,17 +18175,13 @@ Império Maratha">
             Descrição:
            </span>
            <br/>
-           <a href="/catalog/?theme=Brandenburg-Gate">
-            Portão de Brandenburg
-           </a>
-           (Berlin, Alemanha)
+           Joaquim José da Silva Xavier (Tiradentes, revolucionário brasileiro)
            <br/>
           </p>
-          <p class="dgray-11">
-           <span class="mgray-11">
-            Criador:
-           </span>
-           Reinhart Heinsdorff
+          <p>
+           BRASIL
+           <br/>
+           TIRADENTES
           </p>
          </td>
         </tr>
@@ -18014,37 +18194,18 @@ Império Maratha">
        <tbody>
         <tr>
          <th>
-          <a href="https://i.ucoin.net/coin/65/687/65687520-2/germany-20-euro-cent-2023.jpg" onclick="showImg(1);return false;">
-           <img id="coin-img1" src="https://i.ucoin.net/coin/65/687/65687520-2s/germany-20-euro-cent-2023.jpg"/>
+          <a href="https://i.ucoin.net/coin/51/217/51217408-2/brazil-5-centavos-2007.jpg" onclick="showImg(1);return false;">
+           <img id="coin-img1" src="https://i.ucoin.net/coin/51/217/51217408-2s/brazil-5-centavos-2007.jpg"/>
           </a>
          </th>
          <td>
           <p>
            <span class="theme">
-            Geografia
-           </span>
-          </p>
-          <p class="dgray-12">
-           <span class="mgray-11">
-            Descrição:
-           </span>
-           <br/>
-           Mapa
-           <br/>
-          </p>
-          <p class="dgray-11">
-           <span class="mgray-11">
-            Criador:
-           </span>
-           Luc Luycx
-           <span class="mgray-11">
-            (LL)
+            Estrela
            </span>
           </p>
           <p>
-           20 EURO CENT
-           <br/>
-           LL
+           5 CENTAVOS
           </p>
          </td>
         </tr>
@@ -18057,8 +18218,8 @@ Império Maratha">
        </script>
        <!-- ucoin.net center [COIN] -->
        <ins class="adsbygoogle" data-ad-client="ca-pub-9129354934029752" data-ad-format="auto" data-ad-slot="4889388034" data-adsbygoogle-status="done" data-full-width-responsive="true" style="display: block; height: 0px;">
-        <div aria-label="Advertisement" id="aswift_2_host" style="border: none; height: 0px; width: 500px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;" tabindex="0" title="Advertisement">
-         <iframe allowtransparency="true" data-google-container-id="a!3" data-google-query-id="CInZ2bDRq4MDFT3g_QUdVckPwg" data-load-complete="true" frameborder="0" height="0" hspace="0" id="aswift_2" marginheight="0" marginwidth="0" name="aswift_2" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9129354934029752&amp;output=html&amp;h=280&amp;slotname=4889388034&amp;adk=349801760&amp;adf=2783592043&amp;pi=t.ma~as.4889388034&amp;w=500&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1703543313&amp;rafmt=1&amp;format=500x280&amp;url=https%3A%2F%2Fpt.ucoin.net%2Fcoin%2Fgermany-20-euro-cent-2023%2F%3Fcid%3D218118&amp;ea=0&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTIwLjAuNjA5OS4xMjkiLG51bGwsMCxudWxsLCI2NCIsW1siTm90X0EgQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyMC4wLjYwOTkuMTI5Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjEyMC4wLjYwOTkuMTI5Il1dLDBd&amp;dt=1703543313691&amp;bpp=1&amp;bdt=184&amp;idt=91&amp;shv=r20231207&amp;mjsv=m202312070101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D893c761110d1db58%3AT%3D1703455312%3ART%3D1703543242%3AS%3DALNI_MbZy6iZPsgWDpZ9BxdIix7mr0_OmA&amp;gpic=UID%3D00000a04a4fa70bc%3AT%3D1703455312%3ART%3D1703543242%3AS%3DALNI_Mb-IZklI2kxOGakXLJKAPQffu8iOg&amp;prev_fmts=0x0%2C500x280&amp;nras=1&amp;correlator=297348711520&amp;frm=20&amp;pv=1&amp;ga_vid=313048086.1667772421&amp;ga_sid=1703543314&amp;ga_hid=1304732824&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=360&amp;ady=1436&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C31079437%2C95320885&amp;oid=2&amp;pvsid=3544232324215566&amp;tmod=1400011664&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7CpeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=3&amp;uci=a!3&amp;btvi=1&amp;fsb=1&amp;dtd=95" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 500px; height: 0px;" vspace="0" width="500">
+        <div aria-label="Advertisement" id="aswift_3_host" style="border: none; height: 0px; width: 500px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;" tabindex="0" title="Advertisement">
+         <iframe allowtransparency="true" data-google-container-id="a!4" data-google-query-id="CNy9i4DUrYMDFazo_QUdo3kN0w" data-load-complete="true" frameborder="0" height="0" hspace="0" id="aswift_3" marginheight="0" marginwidth="0" name="aswift_3" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9129354934029752&amp;output=html&amp;h=280&amp;slotname=4889388034&amp;adk=349801760&amp;adf=2783592043&amp;pi=t.ma~as.4889388034&amp;w=500&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1703612766&amp;rafmt=1&amp;format=500x280&amp;url=https%3A%2F%2Fpt.ucoin.net%2Fcoin%2Fbrazil-5-centavos-1998-2023%2F%3Ftid%3D10571&amp;ea=0&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyJMaW51eCIsIjUuMTUuMCIsIng4NiIsIiIsIjEyMC4wLjYwOTkuNzEiLG51bGwsMCxudWxsLCI2NCIsW1siTm90X0EgQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyMC4wLjYwOTkuNzEiXSxbIkhlYWRsZXNzQ2hyb21lIiwiMTIwLjAuNjA5OS43MSJdXSwwXQ..&amp;dt=1703612766957&amp;bpp=1&amp;bdt=127&amp;idt=40&amp;shv=r20231207&amp;mjsv=m202312070101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D8b15a687cd51adde%3AT%3D1703604462%3ART%3D1703612662%3AS%3DALNI_MZuQD27teQU_svjUH__-TStEzKOpw&amp;gpic=UID%3D00000a04dde207e7%3AT%3D1703604462%3ART%3D1703612662%3AS%3DALNI_MaOQs6tpLMasiOg-x2GaT2x_1Ygxg&amp;prev_fmts=0x0%2C200x200%2C500x280&amp;nras=1&amp;correlator=3518700514801&amp;frm=20&amp;pv=1&amp;ga_vid=1746338249.1703604493&amp;ga_sid=1703612767&amp;ga_hid=1457734392&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=360&amp;ady=1430&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C31079759%2C44809003%2C95320885&amp;oid=2&amp;pvsid=3112829388202351&amp;tmod=994490729&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7CpeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=4&amp;uci=a!4&amp;btvi=1&amp;fsb=1&amp;dtd=42" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 500px; height: 0px;" vspace="0" width="500">
          </iframe>
         </div>
        </ins>
@@ -18066,169 +18227,22 @@ Império Maratha">
         (adsbygoogle = window.adsbygoogle || []).push({});
        </script>
       </center>
-      <a id="variety" name="variety">
-      </a>
-      <h3 class="th">
-       Variedades:
-      </h3>
-      <table class="tbl">
-       <thead>
-        <tr class="odd">
-         <th>
-          Marca
-         </th>
-         <th>
-          Descrição
-         </th>
-         <th>
-          Preço, EUR
-         </th>
-        </tr>
-       </thead>
-       <tbody>
-        <tr>
-         <td>
-          <b>
-           A
-          </b>
-         </td>
-         <th style="padding: 8px 10px;color: #3B3B3B;">
-          <a href="https://i.ucoin.net/variety/25.jpg" onclick="showZoomImageVariety('25');scrollToTop();return false;" title='Cunhagem "A" - Berlin'>
-           <img class="left" src="https://i.ucoin.net/variety/25p.jpg" style="margin-right:10px;max-width: 95px;max-height: 95px;"/>
-          </a>
-          <a href="?cid=218118&amp;vid=25">
-           Cunhagem "A" - Berlin
-          </a>
-         </th>
-         <td style="width:70px;">
-          <a href="?cid=218118&amp;vid=25#price">
-           <span class="gray-11">
-            €
-           </span>
-           0.43
-           <span class="gray-11">
-           </span>
-          </a>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <b>
-           D
-          </b>
-         </td>
-         <th style="padding: 8px 10px;color: #3B3B3B;">
-          <a href="https://i.ucoin.net/variety/26.jpg" onclick="showZoomImageVariety('26');scrollToTop();return false;" title='Cunhagem "D" - Munique'>
-           <img class="left" src="https://i.ucoin.net/variety/26p.jpg" style="margin-right:10px;max-width: 95px;max-height: 95px;"/>
-          </a>
-          <a href="?cid=218118&amp;vid=26">
-           Cunhagem "D" - Munique
-          </a>
-         </th>
-         <td style="width:70px;">
-          <a href="?cid=218118&amp;vid=26#price">
-           <span class="gray-11">
-            €
-           </span>
-           0.56
-           <span class="gray-11">
-           </span>
-          </a>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <b>
-           F
-          </b>
-         </td>
-         <th style="padding: 8px 10px;color: #3B3B3B;">
-          <a href="https://i.ucoin.net/variety/27.jpg" onclick="showZoomImageVariety('27');scrollToTop();return false;" title='Cunhagem "F" - Estugarda'>
-           <img class="left" src="https://i.ucoin.net/variety/27p.jpg" style="margin-right:10px;max-width: 95px;max-height: 95px;"/>
-          </a>
-          <a href="?cid=218118&amp;vid=27">
-           Cunhagem "F" - Estugarda
-          </a>
-         </th>
-         <td style="width:70px;">
-          <a href="?cid=218118&amp;vid=27#price">
-           <span class="gray-11">
-            €
-           </span>
-           0.49
-           <span class="gray-11">
-           </span>
-          </a>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <b>
-           G
-          </b>
-         </td>
-         <th style="padding: 8px 10px;color: #3B3B3B;">
-          <a href="https://i.ucoin.net/variety/28.jpg" onclick="showZoomImageVariety('28');scrollToTop();return false;" title='Cunhagem "G" - Karlsruhe'>
-           <img class="left" src="https://i.ucoin.net/variety/28p.jpg" style="margin-right:10px;max-width: 95px;max-height: 95px;"/>
-          </a>
-          <a href="?cid=218118&amp;vid=28">
-           Cunhagem "G" - Karlsruhe
-          </a>
-         </th>
-         <td style="width:70px;">
-          <a href="?cid=218118&amp;vid=28#price">
-           <span class="gray-11">
-            €
-           </span>
-           0.59
-           <span class="gray-11">
-           </span>
-          </a>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <b>
-           J
-          </b>
-         </td>
-         <th style="padding: 8px 10px;color: #3B3B3B;">
-          <a href="https://i.ucoin.net/variety/29.jpg" onclick="showZoomImageVariety('29');scrollToTop();return false;" title='Cunhagem: "J" - Hamburgo'>
-           <img class="left" src="https://i.ucoin.net/variety/29p.jpg" style="margin-right:10px;max-width: 95px;max-height: 95px;"/>
-          </a>
-          <a href="?cid=218118&amp;vid=29">
-           Cunhagem: "J" - Hamburgo
-          </a>
-         </th>
-         <td style="width:70px;">
-          <a href="?cid=218118&amp;vid=29#price">
-           <span class="gray-11">
-            €
-           </span>
-           0.40
-           <span class="gray-11">
-           </span>
-          </a>
-         </td>
-        </tr>
-       </tbody>
-      </table>
       <a id="mintage" name="mintage">
       </a>
       <h3 class="th">
-       Cunhagem:
+       Cunhagem, Valor:
       </h3>
       <table class="tbl">
        <thead>
         <tr class="odd">
          <th rowspan="2">
-          Casa Moeda
-         </th>
-         <th rowspan="2">
-          Marca
+          Ano
          </th>
          <th colspan="3" style="text-align:center;">
           Cunhagem
+         </th>
+         <th rowspan="2">
+          Preço, EUR
          </th>
         </tr>
         <tr>
@@ -18244,107 +18258,617 @@ Império Maratha">
         </tr>
        </thead>
        <tbody>
-        <tr>
-         <th>
-          Alemanha, Berlin
-         </th>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2023/?cid=229442">
          <td>
-          A
+          <strong>
+           2023
+          </strong>
          </td>
          <td>
-          11.000.000
+          +
          </td>
          <td>
-          63.000
+          +
          </td>
          <td>
-          56.000
-         </td>
-        </tr>
-        <tr class="odd">
-         <th>
-          Alemanha, Munique
-         </th>
-         <td>
-          D
+          -
          </td>
          <td>
-          11.550.000
-         </td>
-         <td>
-          63.000
-         </td>
-         <td>
-          56.000
+          €
+          <span class="blue-11">
+           0.36
+          </span>
          </td>
         </tr>
-        <tr>
-         <th>
-          Alemanha, Stuttgart
-         </th>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2022/?cid=198452">
          <td>
-          F
+          <strong>
+           2022
+          </strong>
          </td>
          <td>
-          13.200.000
+          283.200.000
          </td>
          <td>
-          63.000
+          +
          </td>
          <td>
-          56.000
-         </td>
-        </tr>
-        <tr class="odd">
-         <th>
-          Alemanha, Karlsruhe
-         </th>
-         <td>
-          G
+          -
          </td>
          <td>
-          7.700.000
-         </td>
-         <td>
-          63.000
-         </td>
-         <td>
-          56.000
+          €
+          <span class="blue-11">
+           0.20
+          </span>
          </td>
         </tr>
-        <tr>
-         <th>
-          Alemanha, Hamburgo
-         </th>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2021/?cid=175971">
          <td>
-          J
+          <strong>
+           2021
+          </strong>
          </td>
          <td>
-          11.550
+          111.104.000
          </td>
          <td>
-          63.000
+          -
          </td>
          <td>
-          56.000
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.21
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2020/?cid=139090">
+         <td>
+          <strong>
+           2020
+          </strong>
+         </td>
+         <td>
+          170.240.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.22
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2019/?cid=108595&amp;vid=32182">
+         <td>
+          <strong>
+           2019
+          </strong>
+         </td>
+         <td>
+          137.216.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.34
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2019/?cid=108595&amp;vid=32181">
+         <td>
+          <strong>
+           2019
+          </strong>
+         </td>
+         <td>
+          97.280.000
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.35
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2018/?cid=86980">
+         <td>
+          <strong>
+           2018
+          </strong>
+         </td>
+         <td>
+          118.736.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.30
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2017/?cid=71888">
+         <td>
+          <strong>
+           2017
+          </strong>
+         </td>
+         <td>
+          149.760.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.21
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2016/?cid=62971">
+         <td>
+          <strong>
+           2016
+          </strong>
+         </td>
+         <td>
+          220.160.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.48
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2015/?cid=51822">
+         <td>
+          <strong>
+           2015
+          </strong>
+         </td>
+         <td>
+          280.000.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.18
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2014/?cid=39067">
+         <td>
+          <strong>
+           2014
+          </strong>
+         </td>
+         <td>
+          166.400.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.22
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2013/?cid=34333">
+         <td>
+          <strong>
+           2013
+          </strong>
+         </td>
+         <td>
+          600.064.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.14
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2012/?cid=16847">
+         <td>
+          <strong>
+           2012
+          </strong>
+         </td>
+         <td>
+          400.128.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.11
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2011/?cid=10899">
+         <td>
+          <strong>
+           2011
+          </strong>
+         </td>
+         <td>
+          437.504.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.11
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2010/?cid=10583">
+         <td>
+          <strong>
+           2010
+          </strong>
+         </td>
+         <td>
+          550.144.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.13
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2009/?cid=10582">
+         <td>
+          <strong>
+           2009
+          </strong>
+         </td>
+         <td>
+          400.128.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.18
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2008/?cid=10581">
+         <td>
+          <strong>
+           2008
+          </strong>
+         </td>
+         <td>
+          28.672.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           1.05
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2007/?cid=10580">
+         <td>
+          <strong>
+           2007
+          </strong>
+         </td>
+         <td>
+          242.432.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.15
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2006/?cid=10579">
+         <td>
+          <strong>
+           2006
+          </strong>
+         </td>
+         <td>
+          255.488.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.17
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2005/?cid=10578">
+         <td>
+          <strong>
+           2005
+          </strong>
+         </td>
+         <td>
+          230.144.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.12
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2004/?cid=10577">
+         <td>
+          <strong>
+           2004
+          </strong>
+         </td>
+         <td>
+          262.656.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.16
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2003/?cid=10576">
+         <td>
+          <strong>
+           2003
+          </strong>
+         </td>
+         <td>
+          260.000.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.14
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2002/?cid=10575">
+         <td>
+          <strong>
+           2002
+          </strong>
+         </td>
+         <td>
+          153.088.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.16
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2001/?cid=10574">
+         <td>
+          <strong>
+           2001
+          </strong>
+         </td>
+         <td>
+          175.940.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.25
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-2000/?cid=10573">
+         <td>
+          <strong>
+           2000
+          </strong>
+         </td>
+         <td>
+          28.416.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.21
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-1999/?cid=10572">
+         <td>
+          <strong>
+           1999
+          </strong>
+         </td>
+         <td>
+          11.264.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.83
+          </span>
+         </td>
+        </tr>
+        <tr class="tr-hr" data-href="/coin/brazil-5-centavos-1998/?cid=10571">
+         <td>
+          <strong>
+           1998
+          </strong>
+         </td>
+         <td>
+          116.324.000
+         </td>
+         <td>
+          +
+         </td>
+         <td>
+          -
+         </td>
+         <td>
+          €
+          <span class="blue-11">
+           0.20
+          </span>
          </td>
         </tr>
        </tbody>
       </table>
+      <script>
+       <!--
+						$('.tr-hr > td').on('click touchstart', function () {
+							$(location).attr('href', $(this).parent().attr('data-href'));
+						});
+					-->
+      </script>
       <a id="tags" name="tags">
       </a>
       <h3 class="th">
        Etiquetas:
       </h3>
       <div class="tags">
-       <a href="/catalog/?value=20-euro-cent">
-        20 cêntimos de euro
-       </a>
-       <a href="/catalog/?composition=101">
-        Ouro nórdico
-       </a>
-       <a href="/catalog/?year=2023">
-        2023
+       <a href="/catalog/?value=5-centavos">
+        5 centavos
        </a>
       </div>
      </div>
@@ -18373,11 +18897,136 @@ Império Maratha">
        <div style="overflow-x: hidden;max-height: 352px;">
         <table>
          <tbody>
-          <tr class="gray-11 str" data-href="/coin/germany-20-euro-cent-2023/?cid=218118&amp;vid=25" data-vid="25" title='Cunhagem "A" - Berlin'>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2023/?cid=229442" data-vid="">
            <td>
-            <span class="dgray-13">
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2023/?cid=229442" title="Brasil 5 centavos, 2023">
              2023
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
             </span>
+            0.36
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2022/?cid=198452" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2022/?cid=198452" title="Brasil 5 centavos, 2022">
+             2022
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.20
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2021/?cid=175971" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2021/?cid=175971" title="Brasil 5 centavos, 2021">
+             2021
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.21
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2020/?cid=139090" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2020/?cid=139090" title="Brasil 5 centavos, 2020">
+             2020
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.22
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2019/?cid=108595&amp;vid=32182" data-vid="32182" title="S/Marca de Cunhagem">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2019/?cid=108595" title="Brasil 5 centavos, 2019">
+             2019
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.34
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2019/?cid=108595&amp;vid=32181" data-vid="32181" title='Com letra monetária "A" - "Royal Dutch Mint"'>
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2019/?cid=108595" title="Brasil 5 centavos, 2019">
+             2019
+            </a>
            </td>
            <td style="width:5%;">
             <span class="gray-11">
@@ -18390,7 +19039,7 @@ Império Maratha">
             <span class="lgray-11">
              €
             </span>
-            0.43
+            0.35
             <span class="lgray-11">
             </span>
            </td>
@@ -18401,16 +19050,13 @@ Império Maratha">
             </div>
            </td>
           </tr>
-          <tr class="gray-11 str" data-href="/coin/germany-20-euro-cent-2023/?cid=218118&amp;vid=26" data-vid="26" title='Cunhagem "D" - Munique'>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2018/?cid=86980" data-vid="">
            <td>
-            <span class="dgray-13">
-             2023
-            </span>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2018/?cid=86980" title="Brasil 5 centavos, 2018">
+             2018
+            </a>
            </td>
            <td style="width:5%;">
-            <span class="gray-11">
-             D
-            </span>
            </td>
            <td style="width:30%;">
            </td>
@@ -18418,7 +19064,7 @@ Império Maratha">
             <span class="lgray-11">
              €
             </span>
-            0.56
+            0.30
             <span class="lgray-11">
             </span>
            </td>
@@ -18429,16 +19075,13 @@ Império Maratha">
             </div>
            </td>
           </tr>
-          <tr class="gray-11 str" data-href="/coin/germany-20-euro-cent-2023/?cid=218118&amp;vid=27" data-vid="27" title='Cunhagem "F" - Estugarda'>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2017/?cid=71888" data-vid="">
            <td>
-            <span class="dgray-13">
-             2023
-            </span>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2017/?cid=71888" title="Brasil 5 centavos, 2017">
+             2017
+            </a>
            </td>
            <td style="width:5%;">
-            <span class="gray-11">
-             F
-            </span>
            </td>
            <td style="width:30%;">
            </td>
@@ -18446,7 +19089,7 @@ Império Maratha">
             <span class="lgray-11">
              €
             </span>
-            0.49
+            0.21
             <span class="lgray-11">
             </span>
            </td>
@@ -18457,16 +19100,13 @@ Império Maratha">
             </div>
            </td>
           </tr>
-          <tr class="gray-11 str" data-href="/coin/germany-20-euro-cent-2023/?cid=218118&amp;vid=28" data-vid="28" title='Cunhagem "G" - Karlsruhe'>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2016/?cid=62971" data-vid="">
            <td>
-            <span class="dgray-13">
-             2023
-            </span>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2016/?cid=62971" title="Brasil 5 centavos, 2016">
+             2016
+            </a>
            </td>
            <td style="width:5%;">
-            <span class="gray-11">
-             G
-            </span>
            </td>
            <td style="width:30%;">
            </td>
@@ -18474,7 +19114,7 @@ Império Maratha">
             <span class="lgray-11">
              €
             </span>
-            0.59
+            0.48
             <span class="lgray-11">
             </span>
            </td>
@@ -18485,16 +19125,13 @@ Império Maratha">
             </div>
            </td>
           </tr>
-          <tr class="gray-11 str" data-href="/coin/germany-20-euro-cent-2023/?cid=218118&amp;vid=29" data-vid="29" title='Cunhagem: "J" - Hamburgo'>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2015/?cid=51822" data-vid="">
            <td>
-            <span class="dgray-13">
-             2023
-            </span>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2015/?cid=51822" title="Brasil 5 centavos, 2015">
+             2015
+            </a>
            </td>
            <td style="width:5%;">
-            <span class="gray-11">
-             J
-            </span>
            </td>
            <td style="width:30%;">
            </td>
@@ -18502,7 +19139,432 @@ Império Maratha">
             <span class="lgray-11">
              €
             </span>
-            0.40
+            0.18
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2014/?cid=39067" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2014/?cid=39067" title="Brasil 5 centavos, 2014">
+             2014
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.22
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2013/?cid=34333" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2013/?cid=34333" title="Brasil 5 centavos, 2013">
+             2013
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.14
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2012/?cid=16847" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2012/?cid=16847" title="Brasil 5 centavos, 2012">
+             2012
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.11
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2011/?cid=10899" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2011/?cid=10899" title="Brasil 5 centavos, 2011">
+             2011
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.11
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2010/?cid=10583" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2010/?cid=10583" title="Brasil 5 centavos, 2010">
+             2010
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.13
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2009/?cid=10582" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2009/?cid=10582" title="Brasil 5 centavos, 2009">
+             2009
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.18
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2008/?cid=10581" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2008/?cid=10581" title="Brasil 5 centavos, 2008">
+             2008
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            1.05
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2007/?cid=10580" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2007/?cid=10580" title="Brasil 5 centavos, 2007">
+             2007
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.15
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2006/?cid=10579" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2006/?cid=10579" title="Brasil 5 centavos, 2006">
+             2006
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.17
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2005/?cid=10578" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2005/?cid=10578" title="Brasil 5 centavos, 2005">
+             2005
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.12
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2004/?cid=10577" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2004/?cid=10577" title="Brasil 5 centavos, 2004">
+             2004
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.16
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2003/?cid=10576" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2003/?cid=10576" title="Brasil 5 centavos, 2003">
+             2003
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.14
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2002/?cid=10575" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2002/?cid=10575" title="Brasil 5 centavos, 2002">
+             2002
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.16
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2001/?cid=10574" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2001/?cid=10574" title="Brasil 5 centavos, 2001">
+             2001
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.25
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-2000/?cid=10573" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-2000/?cid=10573" title="Brasil 5 centavos, 2000">
+             2000
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.21
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-1999/?cid=10572" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-1999/?cid=10572" title="Brasil 5 centavos, 1999">
+             1999
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.83
+            <span class="lgray-11">
+            </span>
+           </td>
+           <td class="action" style="width:20px;">
+            <div class="btn-s btn-gray" onclick="LayerOn('login');return false;" style="padding: 4px;margin:0;" title="Adicionar à Coleção">
+             <div class="ico-16 ico-16-add0">
+             </div>
+            </div>
+           </td>
+          </tr>
+          <tr class="gray-11 str" data-href="/coin/brazil-5-centavos-1998/?cid=10571" data-vid="">
+           <td>
+            <a class="dgray-13" href="/coin/brazil-5-centavos-1998/?cid=10571" title="Brasil 5 centavos, 1998">
+             1998
+            </a>
+           </td>
+           <td style="width:5%;">
+           </td>
+           <td style="width:30%;">
+           </td>
+           <td class="blue-13" style="width:40%;text-align:right;white-space: nowrap;">
+            <span class="lgray-11">
+             €
+            </span>
+            0.20
             <span class="lgray-11">
             </span>
            </td>
@@ -18535,11 +19597,6 @@ Império Maratha">
 					}
 				});
        </script>
-       <center style="text-align:center;">
-        <button class="btn-l btn-blue" onclick="LayerOn('login');return false;" style="margin:20px 0 0;width:95%;" type="button">
-         Adicionar à Coleção
-        </button>
-       </center>
       </div>
      </div>
      <div class="widget hide" id="my-wish-block" style="margin-top: -20px;">
@@ -18560,179 +19617,175 @@ Império Maratha">
      <div class="widget" style="margin:30px 0;">
       <div class="widget-header" id="swap" name="swap">
        Trocas
-       <a class="right" href="/swap-offer/germany-20-euro-cent-2023/?cid=218118&amp;vid=0" target="_blank">
-        <div class="ico-16" style="background-position: -16px -112px;margin-top: 1px;">
-        </div>
-       </a>
       </div>
       <div id="swap-block" style="overflow-x: hidden;max-height: 300px;">
-       <a class="list-link colorbox-" data-usid="19823300" href="/swap-list/?uid=230855" title="Astig | Alemanha (Landsberg am Lech)">
+       <a class="list-link colorbox-" data-usid="19445352" href="/swap-list/?uid=67574" title="Sedoy | Bielorrússia (Salihorsk)">
         <span class="left dgray-11">
          UNC
         </span>
         <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
-         <img src="https://i.ucoin.net/avatar/92/92bd785f8e1f0da6.jpg"/>
+         <img src="https://i.ucoin.net/avatar/fb/fb4cfa420b02cc60.jpg"/>
         </span>
         <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
-         2023 F
+         2004
         </span>
         <span class="right blue-13" style="color:green;">
          <span class="lgray-11">
           €
          </span>
-         0.30
+         0.06
          <span class="lgray-11">
          </span>
         </span>
        </a>
-       <a class="list-link colorbox-" data-usid="17825334" href="/swap-list/?uid=83042" title="У бобра | Rússia (Smolensk)">
+       <a class="list-link colorbox-" data-usid="16418831" href="/swap-list/?uid=50603" title="Gilberto Viola | Brasil (Porto Alegre)">
         <span class="left dgray-11">
          UNC
         </span>
         <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
-         <img src="https://i.ucoin.net/avatar/8a/8abcaadd6c4e7355.jpg"/>
+         <img src="https://i.ucoin.net/avatar/dc/dca7144347757d6a.jpg"/>
         </span>
         <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
-         2023 J
+         2022
+        </span>
+        <span class="right blue-13" style="color:green;">
+         <span class="lgray-11">
+          €
+         </span>
+         0.09
+         <span class="lgray-11">
+         </span>
+        </span>
+       </a>
+       <a class="list-link colorbox-" data-usid="16902074" href="/swap-list/?uid=56084" title="MAKVV | Rússia (Balashov)">
+        <span class="left dgray-11">
+         UNC
+        </span>
+        <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
+         <img src="https://i.ucoin.net/avatar/f7/f72fd81013d56cb4.jpg"/>
+        </span>
+        <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
+         2010
+        </span>
+        <span class="right blue-13" style="color:green;">
+         <span class="lgray-11">
+          €
+         </span>
+         0.09
+         <span class="lgray-11">
+         </span>
+        </span>
+       </a>
+       <a class="list-link colorbox-" data-usid="8791320" href="/swap-list/?uid=50603" title="Gilberto Viola | Brasil (Porto Alegre)">
+        <span class="left dgray-11">
+         UNC
+        </span>
+        <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
+         <img src="https://i.ucoin.net/avatar/dc/dca7144347757d6a.jpg"/>
+        </span>
+        <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
+         2012
+        </span>
+        <span class="right blue-13" style="color:green;">
+         <span class="lgray-11">
+          €
+         </span>
+         0.09
+         <span class="lgray-11">
+         </span>
+        </span>
+       </a>
+       <a class="list-link colorbox-" data-usid="19430891" href="/swap-list/?uid=32313" title="bira | Rússia (Saint Petersburg)">
+        <span class="left dgray-11">
+         UNC
+        </span>
+        <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
+         <img src="https://i.ucoin.net/avatar/03/03e51d4ff1fc88a4.jpg"/>
+        </span>
+        <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
+         2010
+        </span>
+        <span class="right blue-13" style="color:green;">
+         <span class="lgray-11">
+          €
+         </span>
+         0.10
+         <span class="lgray-11">
+         </span>
+        </span>
+       </a>
+       <a class="list-link colorbox-" data-usid="17280405" href="/swap-list/?uid=32313" title="bira | Rússia (Saint Petersburg)">
+        <span class="left dgray-11">
+         UNC
+        </span>
+        <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
+         <img src="https://i.ucoin.net/avatar/03/03e51d4ff1fc88a4.jpg"/>
+        </span>
+        <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
+         2011
+        </span>
+        <span class="right blue-13" style="color:green;">
+         <span class="lgray-11">
+          €
+         </span>
+         0.10
+         <span class="lgray-11">
+         </span>
+        </span>
+       </a>
+       <a class="list-link colorbox-" data-usid="16810105" href="/swap-list/?uid=42003" title="💯Сергей_89💯 | Rússia (Saint Petersburg)">
+        <span class="left dgray-11">
+         UNC
+        </span>
+        <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
+         <img src="https://i.ucoin.net/avatar/06/06ef9a6c90bb679d.jpg"/>
+        </span>
+        <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
+         2011
+        </span>
+        <span class="right blue-13" style="color:green;">
+         <span class="lgray-11">
+          €
+         </span>
+         0.10
+         <span class="lgray-11">
+         </span>
+        </span>
+       </a>
+       <a class="list-link colorbox-" data-usid="19771296" href="/swap-list/?uid=20270" title="Hammerfall | Rússia (Moscow)">
+        <span class="left dgray-11">
+         UNC
+        </span>
+        <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
+         <img src="https://i.ucoin.net/avatar/c2/c2de0cddd53fe527.jpg"/>
+        </span>
+        <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
+         2010
+        </span>
+        <span class="right blue-13" style="color:green;">
+         <span class="lgray-11">
+          €
+         </span>
+         0.10
+         <span class="lgray-11">
+         </span>
+        </span>
+       </a>
+       <a class="list-link colorbox-" data-usid="12872941" href="/swap-list/?uid=124593" title="krai | Rússia (Moscow)">
+        <span class="left dgray-11">
+         UNC
+        </span>
+        <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
+         <img src="https://i.ucoin.net/avatar/25/25d10d75bc4a6244.jpg"/>
+        </span>
+        <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
+         2011
         </span>
         <span class="right blue-13">
          <span class="lgray-11">
           €
          </span>
-         0.40
-         <span class="lgray-11">
-         </span>
-        </span>
-       </a>
-       <a class="list-link colorbox-" data-usid="19536151" href="/swap-list/?uid=54461" title="Sonja-Rainer | Alemanha (Wunstorf)">
-        <span class="left dgray-11">
-         UNC
-        </span>
-        <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
-         <img src="https://i.ucoin.net/avatar/e3/e3d5a00f5a17303d.jpg"/>
-        </span>
-        <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
-         2023 J
-        </span>
-        <span class="right blue-13">
-         <span class="lgray-11">
-          €
-         </span>
-         0.40
-         <span class="lgray-11">
-         </span>
-        </span>
-       </a>
-       <a class="list-link colorbox-" data-usid="19855238" href="/swap-list/?uid=143129" title="petervoss | Alemanha (Berlin)">
-        <span class="left dgray-11">
-         UNC
-        </span>
-        <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
-         <img src="https://i.ucoin.net/avatar/no-avatar.jpg"/>
-        </span>
-        <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
-         2023 A
-        </span>
-        <span class="right blue-13">
-         <span class="lgray-11">
-          €
-         </span>
-         0.43
-         <span class="lgray-11">
-         </span>
-        </span>
-       </a>
-       <a class="list-link colorbox-" data-usid="19333824" href="/swap-list/?uid=157481" title="LEONID | Moldávia (Balti)">
-        <span class="left dgray-11">
-         UNC
-        </span>
-        <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
-         <img src="https://i.ucoin.net/avatar/25/2582ed844a27ca0e.jpg"/>
-        </span>
-        <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
-         2023 F
-        </span>
-        <span class="right blue-13">
-         <span class="lgray-11">
-          €
-         </span>
-         0.49
-         <span class="lgray-11">
-         </span>
-        </span>
-       </a>
-       <a class="list-link colorbox-" data-usid="19605043" href="/swap-list/?uid=145352" title="Nickel | Alemanha">
-        <span class="left dgray-11">
-         UNC
-        </span>
-        <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
-         <img src="https://i.ucoin.net/avatar/08/0830000f6b2ae920.jpg"/>
-        </span>
-        <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
-         2023 F
-        </span>
-        <span class="right blue-13">
-         <span class="lgray-11">
-          €
-         </span>
-         0.49
-         <span class="lgray-11">
-         </span>
-        </span>
-       </a>
-       <a class="list-link colorbox-" data-usid="19758677" href="/swap-list/?uid=47890" title="Daro1974 | Polónia  (Bydgoszcz)">
-        <span class="left dgray-11">
-         UNC
-        </span>
-        <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
-         <img src="https://i.ucoin.net/avatar/1b/1bfa8013561e95d6.jpg"/>
-        </span>
-        <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
-         2023 F
-        </span>
-        <span class="right blue-13">
-         <span class="lgray-11">
-          €
-         </span>
-         0.49
-         <span class="lgray-11">
-         </span>
-        </span>
-       </a>
-       <a class="list-link colorbox-" data-usid="19720619" href="/swap-list/?uid=241979" title="intsi_rex | Alemanha">
-        <span class="left dgray-11">
-         UNC
-        </span>
-        <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
-         <img src="https://i.ucoin.net/avatar/no-avatar.jpg"/>
-        </span>
-        <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
-         2023 F
-        </span>
-        <span class="right blue-13">
-         <span class="lgray-11">
-          €
-         </span>
-         0.49
-         <span class="lgray-11">
-         </span>
-        </span>
-       </a>
-       <a class="list-link colorbox-" data-usid="19829680" href="/swap-list/?uid=145352" title="Nickel | Alemanha">
-        <span class="left dgray-11">
-         UNC
-        </span>
-        <span class="left" style="line-height: 20px;text-align: center;width: 29px;">
-         <img src="https://i.ucoin.net/avatar/08/0830000f6b2ae920.jpg"/>
-        </span>
-        <span class="left gray-13 wrap" style="padding: 1px 4px 1px 8px;max-width: 64px;">
-         2023 F
-        </span>
-        <span class="right blue-13">
-         <span class="lgray-11">
-          €
-         </span>
-         0.49
+         0.11
          <span class="lgray-11">
          </span>
         </span>
@@ -18770,9 +19823,9 @@ Império Maratha">
       <script async="async" crossorigin="anonymous" data-checked-head="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9129354934029752">
       </script>
       <!-- ucoin.net 240x400 [COIN] -->
-      <ins class="adsbygoogle" data-ad-client="ca-pub-9129354934029752" data-ad-slot="1188734606" data-adsbygoogle-status="done" style="display:inline-block;width:240px;height:400px">
-       <div aria-label="Advertisement" id="aswift_3_host" style="border: none; height: 400px; width: 240px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;" tabindex="0" title="Advertisement">
-        <iframe allowtransparency="true" data-google-container-id="a!4" data-google-query-id="CLPP2bDRq4MDFV38_QUdtNwLjw" data-load-complete="true" frameborder="0" height="400" hspace="0" id="aswift_3" marginheight="0" marginwidth="0" name="aswift_3" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9129354934029752&amp;output=html&amp;h=400&amp;slotname=1188734606&amp;adk=1443489070&amp;adf=1403504762&amp;pi=t.ma~as.1188734606&amp;w=240&amp;lmt=1703543313&amp;format=240x400&amp;url=https%3A%2F%2Fpt.ucoin.net%2Fcoin%2Fgermany-20-euro-cent-2023%2F%3Fcid%3D218118&amp;ea=0&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTIwLjAuNjA5OS4xMjkiLG51bGwsMCxudWxsLCI2NCIsW1siTm90X0EgQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyMC4wLjYwOTkuMTI5Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjEyMC4wLjYwOTkuMTI5Il1dLDBd&amp;dt=1703543313692&amp;bpp=1&amp;bdt=184&amp;idt=98&amp;shv=r20231207&amp;mjsv=m202312070101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D893c761110d1db58%3AT%3D1703455312%3ART%3D1703543242%3AS%3DALNI_MbZy6iZPsgWDpZ9BxdIix7mr0_OmA&amp;gpic=UID%3D00000a04a4fa70bc%3AT%3D1703455312%3ART%3D1703543242%3AS%3DALNI_Mb-IZklI2kxOGakXLJKAPQffu8iOg&amp;prev_fmts=0x0%2C500x280%2C500x280&amp;nras=1&amp;correlator=297348711520&amp;frm=20&amp;pv=1&amp;ga_vid=313048086.1667772421&amp;ga_sid=1703543314&amp;ga_hid=1304732824&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=880&amp;ady=686&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C31079437%2C95320885&amp;oid=2&amp;pvsid=3544232324215566&amp;tmod=1400011664&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7CpeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=31&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=4&amp;uci=a!4&amp;fsb=1&amp;dtd=101" style="left:0;position:absolute;top:0;border:0;width:240px;height:400px;" vspace="0" width="240">
+      <ins class="adsbygoogle" data-ad-client="ca-pub-9129354934029752" data-ad-slot="1188734606" data-adsbygoogle-status="done" style="display: inline-block; width: 240px; height: 0px;">
+       <div aria-label="Advertisement" id="aswift_4_host" style="border: none; height: 0px; width: 240px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;" tabindex="0" title="Advertisement">
+        <iframe allowtransparency="true" data-google-container-id="a!5" data-google-query-id="COH7i4DUrYMDFR_8_QUdLnYFyA" data-load-complete="true" frameborder="0" height="0" hspace="0" id="aswift_4" marginheight="0" marginwidth="0" name="aswift_4" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9129354934029752&amp;output=html&amp;h=400&amp;slotname=1188734606&amp;adk=1443489070&amp;adf=1403504762&amp;pi=t.ma~as.1188734606&amp;w=240&amp;lmt=1703612767&amp;format=240x400&amp;url=https%3A%2F%2Fpt.ucoin.net%2Fcoin%2Fbrazil-5-centavos-1998-2023%2F%3Ftid%3D10571&amp;ea=0&amp;wgl=1&amp;uach=WyJMaW51eCIsIjUuMTUuMCIsIng4NiIsIiIsIjEyMC4wLjYwOTkuNzEiLG51bGwsMCxudWxsLCI2NCIsW1siTm90X0EgQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyMC4wLjYwOTkuNzEiXSxbIkhlYWRsZXNzQ2hyb21lIiwiMTIwLjAuNjA5OS43MSJdXSwwXQ..&amp;dt=1703612766957&amp;bpp=1&amp;bdt=128&amp;idt=46&amp;shv=r20231207&amp;mjsv=m202312070101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D8b15a687cd51adde%3AT%3D1703604462%3ART%3D1703612662%3AS%3DALNI_MZuQD27teQU_svjUH__-TStEzKOpw&amp;gpic=UID%3D00000a04dde207e7%3AT%3D1703604462%3ART%3D1703612662%3AS%3DALNI_MaOQs6tpLMasiOg-x2GaT2x_1Ygxg&amp;prev_fmts=0x0%2C200x200%2C500x280%2C500x280&amp;nras=1&amp;correlator=3518700514801&amp;frm=20&amp;pv=1&amp;ga_vid=1746338249.1703604493&amp;ga_sid=1703612767&amp;ga_hid=1457734392&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=880&amp;ady=826&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C31079759%2C44809003%2C95320885&amp;oid=2&amp;pvsid=3112829388202351&amp;tmod=994490729&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7CpeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=31&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=5&amp;uci=a!5&amp;btvi=2&amp;fsb=1&amp;dtd=48" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 240px; height: 0px;" vspace="0" width="240">
         </iframe>
        </div>
       </ins>
@@ -18799,8 +19852,8 @@ Império Maratha">
     </script>
     <!-- ucoin.net 730x200 [COIN] -->
     <ins class="adsbygoogle" data-ad-client="ca-pub-9129354934029752" data-ad-slot="5089217791" data-adsbygoogle-status="done" style="display: inline-block; width: 730px; height: 0px;">
-     <div aria-label="Advertisement" id="aswift_4_host" style="border: none; height: 0px; width: 730px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;" tabindex="0" title="Advertisement">
-      <iframe allowtransparency="true" data-google-container-id="a!5" data-google-query-id="CNyB2rDRq4MDFZ7l_QUdxnQBLA" data-load-complete="true" frameborder="0" height="0" hspace="0" id="aswift_4" marginheight="0" marginwidth="0" name="aswift_4" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9129354934029752&amp;output=html&amp;h=200&amp;slotname=5089217791&amp;adk=885538659&amp;adf=3959443137&amp;pi=t.ma~as.5089217791&amp;w=730&amp;lmt=1703543313&amp;format=730x200&amp;url=https%3A%2F%2Fpt.ucoin.net%2Fcoin%2Fgermany-20-euro-cent-2023%2F%3Fcid%3D218118&amp;ea=0&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTIwLjAuNjA5OS4xMjkiLG51bGwsMCxudWxsLCI2NCIsW1siTm90X0EgQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyMC4wLjYwOTkuMTI5Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjEyMC4wLjYwOTkuMTI5Il1dLDBd&amp;dt=1703543313693&amp;bpp=1&amp;bdt=186&amp;idt=103&amp;shv=r20231207&amp;mjsv=m202312070101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D893c761110d1db58%3AT%3D1703455312%3ART%3D1703543242%3AS%3DALNI_MbZy6iZPsgWDpZ9BxdIix7mr0_OmA&amp;gpic=UID%3D00000a04a4fa70bc%3AT%3D1703455312%3ART%3D1703543242%3AS%3DALNI_Mb-IZklI2kxOGakXLJKAPQffu8iOg&amp;prev_fmts=0x0%2C500x280%2C500x280%2C240x400&amp;nras=1&amp;correlator=297348711520&amp;frm=20&amp;pv=1&amp;ga_vid=313048086.1667772421&amp;ga_sid=1703543314&amp;ga_hid=1304732824&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=275&amp;ady=2690&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C31079437%2C95320885&amp;oid=2&amp;pvsid=3544232324215566&amp;tmod=1400011664&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7CeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=31&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=5&amp;uci=a!5&amp;btvi=2&amp;fsb=1&amp;dtd=107" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 730px; height: 0px;" vspace="0" width="730">
+     <div aria-label="Advertisement" id="aswift_5_host" style="border: none; height: 0px; width: 730px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;" tabindex="0" title="Advertisement">
+      <iframe allowtransparency="true" data-google-container-id="a!6" data-google-query-id="CIari4DUrYMDFSHh_QUddr8Mkw" data-load-complete="true" frameborder="0" height="0" hspace="0" id="aswift_5" marginheight="0" marginwidth="0" name="aswift_5" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9129354934029752&amp;output=html&amp;h=200&amp;slotname=5089217791&amp;adk=885538659&amp;adf=3959443137&amp;pi=t.ma~as.5089217791&amp;w=730&amp;lmt=1703612767&amp;format=730x200&amp;url=https%3A%2F%2Fpt.ucoin.net%2Fcoin%2Fbrazil-5-centavos-1998-2023%2F%3Ftid%3D10571&amp;ea=0&amp;wgl=1&amp;uach=WyJMaW51eCIsIjUuMTUuMCIsIng4NiIsIiIsIjEyMC4wLjYwOTkuNzEiLG51bGwsMCxudWxsLCI2NCIsW1siTm90X0EgQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyMC4wLjYwOTkuNzEiXSxbIkhlYWRsZXNzQ2hyb21lIiwiMTIwLjAuNjA5OS43MSJdXSwwXQ..&amp;dt=1703612766957&amp;bpp=1&amp;bdt=127&amp;idt=51&amp;shv=r20231207&amp;mjsv=m202312070101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D8b15a687cd51adde%3AT%3D1703604462%3ART%3D1703612662%3AS%3DALNI_MZuQD27teQU_svjUH__-TStEzKOpw&amp;gpic=UID%3D00000a04dde207e7%3AT%3D1703604462%3ART%3D1703612662%3AS%3DALNI_MaOQs6tpLMasiOg-x2GaT2x_1Ygxg&amp;prev_fmts=0x0%2C200x200%2C500x280%2C500x280%2C240x400&amp;nras=1&amp;correlator=3518700514801&amp;frm=20&amp;pv=1&amp;ga_vid=1746338249.1703604493&amp;ga_sid=1703612767&amp;ga_hid=1457734392&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=275&amp;ady=2512&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C31079759%2C44809003%2C95320885&amp;oid=2&amp;pvsid=3112829388202351&amp;tmod=994490729&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7CeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=31&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=6&amp;uci=a!6&amp;btvi=3&amp;fsb=1&amp;dtd=53" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 730px; height: 0px;" vspace="0" width="730">
       </iframe>
      </div>
     </ins>
@@ -18812,7 +19865,7 @@ Império Maratha">
     <div class="partition">
      <ul class="bottom-lang">
       <li>
-       <a href="https://de.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://de.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Deutsch
        </a>
       </li>
@@ -18822,7 +19875,7 @@ Império Maratha">
        </span>
       </li>
       <li>
-       <a href="https://en.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://en.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         English
        </a>
       </li>
@@ -18832,7 +19885,7 @@ Império Maratha">
        </span>
       </li>
       <li>
-       <a href="https://es.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://es.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Español
        </a>
       </li>
@@ -18842,7 +19895,7 @@ Império Maratha">
        </span>
       </li>
       <li>
-       <a href="https://fr.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://fr.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Français
        </a>
       </li>
@@ -18852,7 +19905,7 @@ Império Maratha">
        </span>
       </li>
       <li>
-       <a href="https://it.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://it.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Italiano
        </a>
       </li>
@@ -18862,7 +19915,7 @@ Império Maratha">
        </span>
       </li>
       <li>
-       <a href="https://pl.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://pl.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Polski
        </a>
       </li>
@@ -18872,7 +19925,7 @@ Império Maratha">
        </span>
       </li>
       <li>
-       <a class="active" href="https://pt.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118" style="padding-top: 4px;">
+       <a class="active" href="https://pt.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" style="padding-top: 4px;">
         Português
        </a>
       </li>
@@ -18882,7 +19935,7 @@ Império Maratha">
        </span>
       </li>
       <li>
-       <a href="https://ru.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://ru.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Русский
        </a>
       </li>
@@ -18892,7 +19945,7 @@ Império Maratha">
        </span>
       </li>
       <li>
-       <a href="https://zh-tw.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://zh-tw.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         中文(台灣)
        </a>
       </li>
@@ -18932,93 +19985,93 @@ Império Maratha">
      </div>
      <div class="modal-body">
       <div class="lang-container" style="margin-bottom: 16px;">
-       <a href="https://pt.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118" style="color:#3B7BEA;background-color: #E3EAF6;border-left: 3px solid #3b7bea;padding-left: 17px;">
+       <a href="https://pt.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" style="color:#3B7BEA;background-color: #E3EAF6;border-left: 3px solid #3b7bea;padding-left: 17px;">
         Português
        </a>
-       <a href="https://en.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://en.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         English
        </a>
       </div>
       <div class="lang-container">
-       <a href="https://ar.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://ar.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         العربية
        </a>
-       <a href="https://bg.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://bg.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Български
        </a>
-       <a href="https://ca.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://ca.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Català
        </a>
-       <a href="https://cs.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://cs.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Čeština
        </a>
-       <a href="https://de.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://de.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Deutsch
        </a>
-       <a href="https://el.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://el.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Ελληνικά
        </a>
-       <a href="https://es.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://es.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Español
        </a>
-       <a href="https://fa.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://fa.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         فارسی
        </a>
-       <a href="https://fr.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://fr.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Français
        </a>
-       <a href="https://he.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://he.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         עברית
        </a>
-       <a href="https://hu.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://hu.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Magyar
        </a>
-       <a href="https://it.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://it.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Italiano
        </a>
-       <a href="https://lt.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://lt.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Lietuvių
        </a>
-       <a href="https://lv.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://lv.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Latviešu
        </a>
-       <a href="https://nl.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://nl.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Nederlands
        </a>
-       <a href="https://no.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://no.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Norsk
        </a>
-       <a href="https://pl.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://pl.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Polski
        </a>
-       <a href="https://ro.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://ro.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Română
        </a>
-       <a href="https://ru.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://ru.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Русский
        </a>
-       <a href="https://sk.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://sk.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Slovenčina
        </a>
-       <a href="https://sl.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://sl.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Slovenščina
        </a>
-       <a href="https://sr.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://sr.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Српски / srpski
        </a>
-       <a href="https://sv.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://sv.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Svenska
        </a>
-       <a href="https://tr.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://tr.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Türkçe
        </a>
-       <a href="https://uk.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://uk.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         Українська
        </a>
-       <a href="https://zh-cn.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://zh-cn.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         中文(简体)
        </a>
-       <a href="https://zh-tw.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118">
+       <a href="https://zh-tw.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571">
         中文(台灣)
        </a>
       </div>
@@ -19113,7 +20166,7 @@ localização para fornecer informações mais precisas sobre o seu pedido. Cont
        </span>
       </li>
       <li>
-       <a href="https://pt.m.ucoin.net/coin/germany-20-euro-cent-2023/?cid=218118" id="mobile-view">
+       <a href="https://pt.m.ucoin.net/coin/brazil-5-centavos-1998-2023/?tid=10571" id="mobile-view">
         <svg height="22" viewbox="0 -960 960 960" width="22" xmlns="http://www.w3.org/2000/svg">
          <path d="M292.309-60.002q-30.308 0-51.308-21-21-20.999-21-51.307v-695.382q0-30.308 21-51.308t51.308-21h375.382q30.308 0 51.308 21t21 51.308v695.382q0 30.308-21 51.308t-51.308 21H292.309ZM280-170v37.692q0 4.616 3.846 8.463 3.847 3.846 8.463 3.846h375.382q4.616 0 8.463-3.846 3.846-3.847 3.846-8.463v-37.692H280Zm0-59.998h400v-500.002H280v500.002Zm0-560h400v-37.692q0-4.616-3.846-8.463-3.847-3.846-8.463-3.846H292.309q-4.616 0-8.463 3.846-3.846 3.847-3.846 8.463v37.692Zm0 0V-840v50.001Zm0 619.998V-120v-50.001Z">
          </path>
@@ -19179,7 +20232,7 @@ localização para fornecer informações mais precisas sobre o seu pedido. Cont
   </script>
   <ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;">
    <div aria-label="Advertisement" id="aswift_0_host" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;" tabindex="0" title="Advertisement">
-    <iframe allowtransparency="true" data-google-container-id="a!1" data-load-complete="true" frameborder="0" hspace="0" id="aswift_0" marginheight="0" marginwidth="0" name="aswift_0" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9129354934029752&amp;output=html&amp;adk=2942671398&amp;adf=1597227921&amp;lmt=1703543313&amp;plaf=1%3A2%2C7%3A2&amp;plat=1%3A128%2C2%3A128%2C3%3A128%2C4%3A128%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fpt.ucoin.net%2Fcoin%2Fgermany-20-euro-cent-2023%2F%3Fcid%3D218118&amp;ea=0&amp;pra=5&amp;wgl=1&amp;easpi=0&amp;asro=0&amp;asiscm=1&amp;aslmt=0.4&amp;asamt=-1&amp;asedf=0&amp;asefa=1&amp;aseiel=1~2~4~6&amp;aslcwct=150&amp;asacwct=25&amp;uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTIwLjAuNjA5OS4xMjkiLG51bGwsMCxudWxsLCI2NCIsW1siTm90X0EgQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyMC4wLjYwOTkuMTI5Il0sWyJIZWFkbGVzc0Nocm9tZSIsIjEyMC4wLjYwOTkuMTI5Il1dLDBd&amp;dt=1703543313688&amp;bpp=1&amp;bdt=180&amp;idt=65&amp;shv=r20231207&amp;mjsv=m202312070101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D893c761110d1db58%3AT%3D1703455312%3ART%3D1703543242%3AS%3DALNI_MbZy6iZPsgWDpZ9BxdIix7mr0_OmA&amp;gpic=UID%3D00000a04a4fa70bc%3AT%3D1703455312%3ART%3D1703543242%3AS%3DALNI_Mb-IZklI2kxOGakXLJKAPQffu8iOg&amp;nras=1&amp;correlator=297348711520&amp;frm=20&amp;pv=2&amp;ga_vid=313048086.1667772421&amp;ga_sid=1703543314&amp;ga_hid=1304732824&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C31079437%2C95320885&amp;oid=2&amp;pvsid=3544232324215566&amp;tmod=1400011664&amp;uas=0&amp;nvt=1&amp;fsapi=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=77" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" vspace="0">
+    <iframe allowtransparency="true" data-google-container-id="a!1" data-load-complete="true" frameborder="0" hspace="0" id="aswift_0" marginheight="0" marginwidth="0" name="aswift_0" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9129354934029752&amp;output=html&amp;adk=2942671398&amp;adf=1597227921&amp;lmt=1703612766&amp;plaf=1%3A2%2C7%3A2&amp;plat=1%3A128%2C2%3A128%2C3%3A128%2C4%3A128%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fpt.ucoin.net%2Fcoin%2Fbrazil-5-centavos-1998-2023%2F%3Ftid%3D10571&amp;ea=0&amp;pra=5&amp;wgl=1&amp;easpi=0&amp;asro=0&amp;asiscm=1&amp;aslmt=0.4&amp;asamt=-1&amp;asedf=0&amp;asefa=1&amp;aseiel=1~2~4~6&amp;aslcwct=150&amp;asacwct=25&amp;uach=WyJMaW51eCIsIjUuMTUuMCIsIng4NiIsIiIsIjEyMC4wLjYwOTkuNzEiLG51bGwsMCxudWxsLCI2NCIsW1siTm90X0EgQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyMC4wLjYwOTkuNzEiXSxbIkhlYWRsZXNzQ2hyb21lIiwiMTIwLjAuNjA5OS43MSJdXSwwXQ..&amp;dt=1703612766955&amp;bpp=1&amp;bdt=126&amp;idt=26&amp;shv=r20231207&amp;mjsv=m202312070101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D8b15a687cd51adde%3AT%3D1703604462%3ART%3D1703612662%3AS%3DALNI_MZuQD27teQU_svjUH__-TStEzKOpw&amp;gpic=UID%3D00000a04dde207e7%3AT%3D1703604462%3ART%3D1703612662%3AS%3DALNI_MaOQs6tpLMasiOg-x2GaT2x_1Ygxg&amp;nras=1&amp;correlator=3518700514801&amp;frm=20&amp;pv=2&amp;ga_vid=1746338249.1703604493&amp;ga_sid=1703612767&amp;ga_hid=1457734392&amp;ga_fc=1&amp;u_tz=-180&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C31079759%2C44809003%2C95320885&amp;oid=2&amp;pvsid=3112829388202351&amp;tmod=994490729&amp;uas=0&amp;nvt=1&amp;fsapi=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=32" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" vspace="0">
     </iframe>
    </div>
   </ins>
@@ -19196,6 +20249,6 @@ localização para fornecer informações mais precisas sobre o seu pedido. Cont
   <iframe name="googlefcLoaded" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;">
   </iframe>
  </body>
- <iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20231207/r20190131/zrt_lookup.html" style="display: none;">
+ <iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20231207/r20190131/zrt_lookup.html?hello=world" style="display: none;">
  </iframe>
 </html>

@@ -20,7 +20,13 @@ from PyQt5.QtWidgets import QMainWindow, QApplication
 import os
 from currency_converter import CurrencyConverter
 from pathlib import Path
+import platform
 
+sistema = platform.system()
+if sistema == 'Windows':
+    separador = '\\'
+else:
+    separador = '/'
 colecao = Colecao('db_colecao.db')
 
 
@@ -44,7 +50,7 @@ class th(Thread):
         self.img1.setVisible(True)
         self.img2.setVisible(True)
         pixmap = QPixmap('noimage.jpg')
-        pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
+        pixmap = pixmap.scaled(200, 200, QtCore.Qt.KeepAspectRatio)
         self.img1.setPixmap(pixmap)
         self.img2.setPixmap(pixmap)
         try:
@@ -60,7 +66,7 @@ class th(Thread):
                         pixmap = QPixmap('foto1.jpg')
 
                         pixmap = pixmap.scaled(
-                            300, 300, QtCore.Qt.KeepAspectRatio)
+                            200, 200, QtCore.Qt.KeepAspectRatio)
                         self.img1.setPixmap(pixmap)
 
         except Exception as e:
@@ -77,7 +83,7 @@ class th(Thread):
                     # print(self.ed1.text())
                     pixmap = QPixmap('foto2.jpg')
 
-                    pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
+                    pixmap = pixmap.scaled(200, 200, QtCore.Qt.KeepAspectRatio)
                     self.img2.setPixmap(pixmap)
 
         except Exception as e:
@@ -105,7 +111,7 @@ class Novo(QMainWindow, Ui_MainWindow):
         except:
             pass
         pixmap = QPixmap('screenshot.png')
-        scaled = pixmap.scaled(1000, 600, QtCore.Qt.KeepAspectRatio)
+        scaled = pixmap.scaled(1000, 300, QtCore.Qt.KeepAspectRatio)
         self.mapa.setPixmap(scaled)
 
         self.label_ucoin.setVisible(False)
@@ -351,24 +357,21 @@ class Novo(QMainWindow, Ui_MainWindow):
         self.bt_cadastrar.setText('Atualizar')
         self.foto_reverso.setVisible(True)
         self.foto_anverso.setVisible(True)
-        # self.exibeafoto()
-
-        # try:
+        
         from pathlib import Path
 
         arquivo = Path(f"fotos/id_{id}_1.jpg")
 
         if arquivo.is_file():
-            pixmap = QPixmap(f"fotos\\id_{id}_1.jpg")
-            pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
+            pixmap = QPixmap(f"fotos{separador}id_{id}_1.jpg")
+            pixmap = pixmap.scaled(190, 190, QtCore.Qt.KeepAspectRatio)
             self.foto_anverso.setPixmap(pixmap)
-            pixmap = QPixmap(f"fotos\\id_{id}_2.jpg")
-            pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
+            pixmap = QPixmap(f"fotos{separador}id_{id}_2.jpg")
+            pixmap = pixmap.scaled(190, 190, QtCore.Qt.KeepAspectRatio)
             self.foto_reverso.setPixmap(pixmap)
         else:
             self.baixar_fotos(id, str(linha[23]), str(linha[24]))
-        # except Exception as e:
-        #     print(f'Erro ao carregar a imagem : {e}')
+        
 
     def exibe_frame_de_pesquisa(self, tipo):
         self.limpa_form_cadastro()
@@ -593,7 +596,7 @@ class Novo(QMainWindow, Ui_MainWindow):
             hoje = datetime.now().strftime('%d-%m-%Y')
             hoje = str(hoje).replace(':', ' ')
             import shutil
-            shutil.make_archive(f'backupDB\\db_colecao.db_{hoje}', 'zip',
+            shutil.make_archive(f'backupDB{separador}db_colecao.db_{hoje}', 'zip',
                                 './', 'db_colecao.db')
             QMessageBox.about(
                 self, 'Backup', f'O backup foi gerado com sucesso')
@@ -612,7 +615,7 @@ class Novo(QMainWindow, Ui_MainWindow):
             with requests.Session() as session:
                 resp_2 = session.get(link1,
                                      headers={'User-Agent': 'Mozilla/5.0'})
-                with open(f"fotos/id_{id}_1.jpg", "wb") as f:
+                with open(f"fotos{separador}id_{id}_1.jpg", "wb") as f:
                     f.write(resp_2.content)
 
         except Exception as e:
@@ -622,7 +625,7 @@ class Novo(QMainWindow, Ui_MainWindow):
             with requests.Session() as session:
                 resp_2 = session.get(link2,
                                      headers={'User-Agent': 'Mozilla/5.0'})
-                with open(f"fotos/id_{id}_2.jpg", "wb") as f:
+                with open(f"fotos{separador}id_{id}_2.jpg", "wb") as f:
                     f.write(resp_2.content)
 
         except Exception as e:
